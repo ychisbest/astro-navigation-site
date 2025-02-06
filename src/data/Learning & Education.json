@@ -1,0 +1,1837 @@
+{
+  "slug": "learning-&-education",
+  "name": "Learning & Education",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Khan Academy",
+      "description": "Free online courses, lessons, and practice",
+      "url": "https://www.khanacademy.org"
+    },
+    {
+      "name": "Coursera",
+      "description": "Free online courses from top universities",
+      "url": "https://www.coursera.org"
+    },
+    {
+      "name": "edX",
+      "description": "Free online courses from top universities",
+      "url": "https://www.edx.org"
+    },
+    {
+      "name": "Duolingo",
+      "description": "Free language learning platform",
+      "url": "https://www.duolingo.com"
+    },
+    {
+      "name": "Codecademy",
+      "description": "Free coding courses and tutorials",
+      "url": "https://www.codecademy.com"
+    },
+    {
+      "name": "OpenLearn",
+      "description": "Free courses from The Open University",
+      "url": "http://www.open.edu/openlearn/"
+    },
+    {
+      "name": "MIT OpenCourseWare",
+      "description": "Free MIT course materials",
+      "url": "https://ocw.mit.edu/"
+    },
+    {
+      "name": "Stanford Online",
+      "description": "Free courses from Stanford University",
+      "url": "https://online.stanford.edu/"
+    },
+    {
+      "name": "Alison",
+      "description": "Free online courses with certificates",
+      "url": "https://alison.com/"
+    },
+    {
+      "name": "Udemy",
+      "description": "Free courses (some courses are free)",
+      "url": "https://www.udemy.com/"
+    },
+    {
+      "name": "Internet Archive",
+      "description": "Free digital library of websites, books, music, and video",
+      "url": "https://archive.org/"
+    },
+    {
+      "name": "Project Gutenberg",
+      "description": "Free ebooks",
+      "url": "https://www.gutenberg.org/"
+    },
+    {
+      "name": "LibriVox",
+      "description": "Free audiobooks read by volunteers",
+      "url": "https://librivox.org/"
+    },
+    {
+      "name": "Quizlet",
+      "description": "Free learning tools and flashcards",
+      "url": "https://quizlet.com/"
+    },
+    {
+      "name": "Memrise",
+      "description": "Free language learning with spaced repetition",
+      "url": "https://www.memrise.com/"
+    },
+    {
+      "name": "Wolfram Alpha",
+      "description": "Computational knowledge engine",
+      "url": "https://www.wolframalpha.com/"
+    },
+    {
+      "name": "CK-12 Foundation",
+      "description": "Free online textbooks and educational resources",
+      "url": "https://www.ck12.org/"
+    },
+    {
+      "name": "BBC Bitesize",
+      "description": "Free study guides and revision resources",
+      "url": "https://www.bbc.co.uk/bitesize"
+    },
+    {
+      "name": "Khan Academy Kids",
+      "description": "Free educational app for young children",
+      "url": "https://khankids.org/"
+    },
+    {
+      "name": "PBS LearningMedia",
+      "description": "Free videos, interactives, lesson plans",
+      "url": "https://www.pbslearningmedia.org/"
+    },
+    {
+      "name": "National Geographic Kids",
+      "description": "Free educational games and videos for kids",
+      "url": "https://kids.nationalgeographic.com/"
+    },
+    {
+      "name": "Starfall",
+      "description": "Free learn-to-read website for kids",
+      "url": "https://www.starfall.com/"
+    },
+    {
+      "name": "Funbrain",
+      "description": "Free educational games for kids",
+      "url": "https://www.funbrain.com/"
+    },
+    {
+      "name": "ABCya!",
+      "description": "Free educational computer games and mobile apps for kids",
+      "url": "https://www.abcya.com/"
+    },
+    {
+      "name": "TypingClub",
+      "description": "Free typing tutor",
+      "url": "https://www.typingclub.com/"
+    },
+    {
+      "name": "ReadTheory",
+      "description": "Free reading comprehension exercises",
+      "url": "https://readtheory.org/"
+    },
+    {
+      "name": "Vocabulary.com",
+      "description": "Free vocabulary learning platform",
+      "url": "https://www.vocabulary.com/"
+    },
+    {
+      "name": "Grammarly",
+      "description": "Free grammar checker (limited functionality)",
+      "url": "https://www.grammarly.com/"
+    },
+    {
+      "name": "Hemingway Editor",
+      "description": "Free writing tool to improve clarity",
+      "url": "http://www.hemingwayapp.com/"
+    },
+    {
+      "name": "ProWritingAid",
+      "description": "Free online grammar checker and editor (limited functionality)",
+      "url": "https://prowritingaid.com/"
+    },
+    {
+      "name": "NoRedInk",
+      "description": "Free grammar and writing practice",
+      "url": "https://www.noredink.com/"
+    },
+    {
+      "name": "Google Arts & Culture",
+      "description": "Explore art, history and wonders of the world",
+      "url": "https://artsandculture.google.com/"
+    },
+    {
+      "name": "Smithsonian Learning Lab",
+      "description": "Free digital resources from the Smithsonian",
+      "url": "https://learninglab.si.edu/"
+    },
+    {
+      "name": "TED",
+      "description": "Free talks on a variety of topics",
+      "url": "https://www.ted.com/"
+    },
+    {
+      "name": "Big Think",
+      "description": "Free educational videos and articles",
+      "url": "https://bigthink.com/"
+    },
+    {
+      "name": "Crash Course",
+      "description": "Free educational video series",
+      "url": "https://thecrashcourse.com/"
+    },
+    {
+      "name": "FreeCodeCamp",
+      "description": "Free coding courses and certifications",
+      "url": "https://www.freecodecamp.org/"
+    },
+    {
+      "name": "SoloLearn",
+      "description": "Free coding tutorials and courses",
+      "url": "https://www.sololearn.com/"
+    },
+    {
+      "name": "W3Schools",
+      "description": "Free web development tutorials",
+      "url": "https://www.w3schools.com/"
+    },
+    {
+      "name": "MDN Web Docs",
+      "description": "Free documentation for web technologies",
+      "url": "https://developer.mozilla.org/en-US/"
+    },
+    {
+      "name": "Real Python",
+      "description": "Free Python tutorials (some tutorials are free)",
+      "url": "https://realpython.com/"
+    },
+    {
+      "name": "GeeksforGeeks",
+      "description": "Free computer science resources",
+      "url": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "name": "Tutorialspoint",
+      "description": "Free tutorials on various topics",
+      "url": "https://www.tutorialspoint.com/"
+    },
+    {
+      "name": "Open Culture",
+      "description": "Free cultural & educational media",
+      "url": "http://www.openculture.com/"
+    },
+    {
+      "name": "Digital Public Library of America",
+      "description": "Free access to millions of books, images, and more",
+      "url": "https://dp.la/"
+    },
+    {
+      "name": "Europeana",
+      "description": "Explore Europe's cultural heritage",
+      "url": "https://www.europeana.eu/"
+    },
+    {
+      "name": "LibGuides",
+      "description": "Research guides from libraries",
+      "url": "https://libguides.com/"
+    },
+    {
+      "name": "PubMed",
+      "description": "Free access to biomedical literature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/"
+    },
+    {
+      "name": "Science.gov",
+      "description": "Portal to U.S. Federal Science",
+      "url": "https://www.science.gov/"
+    },
+    {
+      "name": "NASA",
+      "description": "Free space exploration resources",
+      "url": "https://www.nasa.gov/"
+    },
+    {
+      "name": "Exploratorium",
+      "description": "Free science experiments and activities",
+      "url": "https://www.exploratorium.edu/"
+    },
+    {
+      "name": "PhET Interactive Simulations",
+      "description": "Free science and math simulations",
+      "url": "https://phet.colorado.edu/"
+    },
+    {
+      "name": "HowStuffWorks",
+      "description": "Learn how everything works",
+      "url": "https://www.howstuffworks.com/"
+    },
+    {
+      "name": "Instructables",
+      "description": "Free DIY projects and tutorials",
+      "url": "https://www.instructables.com/"
+    },
+    {
+      "name": "Allrecipes",
+      "description": "Free recipes and cooking tips",
+      "url": "https://www.allrecipes.com/"
+    },
+    {
+      "name": "Cookpad",
+      "description": "Free recipes from home cooks",
+      "url": "https://cookpad.com/"
+    },
+    {
+      "name": "Wikibooks",
+      "description": "Free collection of open-content textbooks",
+      "url": "https://en.wikibooks.org/wiki/Main_Page"
+    },
+    {
+      "name": "Wikiversity",
+      "description": "Free learning resources",
+      "url": "https://en.wikiversity.org/wiki/Main_Page"
+    },
+    {
+      "name": "Internet Sacred Text Archive",
+      "description": "Free online books about religion, mythology, folklore and the esoteric",
+      "url": "https://www.sacred-texts.com/"
+    },
+    {
+      "name": "Saylor Academy",
+      "description": "Free online courses and certificates",
+      "url": "https://www.saylor.org/"
+    },
+    {
+      "name": "iversity",
+      "description": "Free online courses (some courses are free)",
+      "url": "https://iversity.org/"
+    },
+    {
+      "name": "FutureLearn",
+      "description": "Free online courses (some courses are free)",
+      "url": "https://www.futurelearn.com/"
+    },
+    {
+      "name": "Open Yale Courses",
+      "description": "Free Yale courses",
+      "url": "http://oyc.yale.edu/"
+    },
+    {
+      "name": "Carnegie Mellon Open Learning Initiative",
+      "description": "Free courses from Carnegie Mellon",
+      "url": "https://oli.cmu.edu/"
+    },
+    {
+      "name": "GCF LearnFree.org",
+      "description": "Free computer and internet tutorials",
+      "url": "https://edu.gcfglobal.org/en/"
+    },
+    {
+      "name": "CodeCombat",
+      "description": "Learn to code by playing a game",
+      "url": "https://codecombat.com/"
+    },
+    {
+      "name": "Scratch",
+      "description": "Free programming language for kids",
+      "url": "https://scratch.mit.edu/"
+    },
+    {
+      "name": "Blockly",
+      "description": "Free visual programming language",
+      "url": "https://blockly.games/"
+    },
+    {
+      "name": "Typing.com",
+      "description": "Free typing lessons and practice",
+      "url": "https://www.typing.com/"
+    },
+    {
+      "name": "Ratatype",
+      "description": "Free typing test and certificate",
+      "url": "https://www.ratatype.com/"
+    },
+    {
+      "name": "10FastFingers",
+      "description": "Free typing speed test",
+      "url": "https://10fastfingers.com/typing-test/english"
+    },
+    {
+      "name": "Vocabulary Builder",
+      "description": "Free vocabulary quiz game",
+      "url": "https://www.vocabularybuilder.com/"
+    },
+    {
+      "name": "Free Rice",
+      "description": "Free vocabulary game that donates rice",
+      "url": "https://freerice.com/"
+    },
+    {
+      "name": "EnglishClub",
+      "description": "Free English language learning resources",
+      "url": "https://www.englishclub.com/"
+    },
+    {
+      "name": "BBC Learning English",
+      "description": "Free English language learning resources",
+      "url": "https://www.bbc.co.uk/learningenglish/"
+    },
+    {
+      "name": "VOA Learning English",
+      "description": "Free English language learning resources",
+      "url": "https://learningenglish.voanews.com/"
+    },
+    {
+      "name": "ManyThings.org",
+      "description": "Free English language learning games and quizzes",
+      "url": "https://manythings.org/"
+    },
+    {
+      "name": "TOEFL Go!",
+      "description": "Free TOEFL practice tests",
+      "url": "https://www.ets.org/toefl/test-takers/ibt/prepare/toefl-go.html"
+    },
+    {
+      "name": "ESL Games Plus",
+      "description": "Free ESL games for kids",
+      "url": "https://www.eslgamesplus.com/"
+    },
+    {
+      "name": "ESL Flow",
+      "description": "Free ESL lesson plans and resources",
+      "url": "https://www.eslflow.com/"
+    },
+    {
+      "name": "Breaking News English",
+      "description": "Free English lessons based on current news",
+      "url": "https://breakingnewsenglish.com/"
+    },
+    {
+      "name": "Linguee",
+      "description": "Free dictionary and translation tool",
+      "url": "https://www.linguee.com/"
+    },
+    {
+      "name": "WordReference",
+      "description": "Free dictionary and translation tool",
+      "url": "https://www.wordreference.com/"
+    },
+    {
+      "name": "Google Translate",
+      "description": "Free translation tool",
+      "url": "https://translate.google.com/"
+    },
+    {
+      "name": "DeepL Translate",
+      "description": "Free translation tool",
+      "url": "https://www.deepl.com/translator"
+    },
+    {
+      "name": "Cambridge Dictionary",
+      "description": "Free dictionary",
+      "url": "https://dictionary.cambridge.org/"
+    },
+    {
+      "name": "Merriam-Webster",
+      "description": "Free dictionary",
+      "url": "https://www.merriam-webster.com/"
+    },
+    {
+      "name": "Oxford Learner's Dictionaries",
+      "description": "Free dictionary for English language learners",
+      "url": "https://www.oxfordlearnersdictionaries.com/"
+    },
+    {
+      "name": "Thesaurus.com",
+      "description": "Free thesaurus",
+      "url": "https://www.thesaurus.com/"
+    },
+    {
+      "name": "Visual Thesaurus",
+      "description": "Interactive thesaurus",
+      "url": "https://www.visualthesaurus.com/"
+    },
+    {
+      "name": "BibMe",
+      "description": "Free citation generator",
+      "url": "https://www.bibme.org/"
+    },
+    {
+      "name": "Cite This For Me",
+      "description": "Free citation generator",
+      "url": "https://www.citethisforme.com/"
+    },
+    {
+      "name": "EasyBib",
+      "description": "Free citation generator",
+      "url": "https://www.easybib.com/"
+    },
+    {
+      "name": "Zotero",
+      "description": "Free citation management software",
+      "url": "https://www.zotero.org/"
+    },
+    {
+      "name": "Mendeley",
+      "description": "Free reference manager",
+      "url": "https://www.mendeley.com/"
+    },
+    {
+      "name": "Overleaf",
+      "description": "Free online LaTeX editor",
+      "url": "https://www.overleaf.com/"
+    },
+    {
+      "name": "GeoGebra",
+      "description": "Free math software",
+      "url": "https://www.geogebra.org/"
+    },
+    {
+      "name": "Desmos",
+      "description": "Free graphing calculator",
+      "url": "https://www.desmos.com/"
+    },
+    {
+      "name": "Symbolab",
+      "description": "Free math solver",
+      "url": "https://www.symbolab.com/"
+    },
+    {
+      "name": "Mathway",
+      "description": "Free math problem solver",
+      "url": "https://www.mathway.com/"
+    },
+    {
+      "name": "Khan Academy Math",
+      "description": "Free math courses and tutorials",
+      "url": "https://www.khanacademy.org/math"
+    },
+    {
+      "name": "Cool Math",
+      "description": "Free math lessons and games",
+      "url": "https://www.coolmath.com/"
+    },
+    {
+      "name": "Math is Fun",
+      "description": "Free math resources",
+      "url": "https://www.mathsisfun.com/"
+    },
+    {
+      "name": "Purplemath",
+      "description": "Free algebra lessons",
+      "url": "https://www.purplemath.com/"
+    },
+    {
+      "name": "BetterExplained",
+      "description": "Math and science explanations",
+      "url": "https://betterexplained.com/"
+    },
+    {
+      "name": "HyperPhysics",
+      "description": "Physics and astronomy concepts",
+      "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/hframe.html"
+    },
+    {
+      "name": "Physics Classroom",
+      "description": "Physics tutorials and resources",
+      "url": "https://www.physicsclassroom.com/"
+    },
+    {
+      "name": "Khan Academy Science",
+      "description": "Free science courses and tutorials",
+      "url": "https://www.khanacademy.org/science"
+    },
+    {
+      "name": "ChemCollective",
+      "description": "Chemistry resources",
+      "url": "http://chemcollective.org/"
+    },
+    {
+      "name": "Periodic Table of Elements",
+      "description": "Interactive periodic table",
+      "url": "https://www.ptable.com/"
+    },
+    {
+      "name": "Visible Body",
+      "description": "3D human anatomy models",
+      "url": "https://www.visiblebody.com/"
+    },
+    {
+      "name": "Anatomy Arcade",
+      "description": "Anatomy games",
+      "url": "https://www.anatomyarcade.com/"
+    },
+    {
+      "name": "Earth Observatory",
+      "description": "NASA images of Earth",
+      "url": "https://earthobservatory.nasa.gov/"
+    },
+    {
+      "name": "National Geographic Education",
+      "description": "Educational resources about geography and culture",
+      "url": "https://www.nationalgeographic.org/education/"
+    },
+    {
+      "name": "CIA World Factbook",
+      "description": "Information about countries",
+      "url": "https://www.cia.gov/the-world-factbook/"
+    },
+    {
+      "name": "Google Earth",
+      "description": "Explore the world",
+      "url": "https://www.google.com/earth/"
+    },
+    {
+      "name": "Google Scholar",
+      "description": "Search scholarly literature",
+      "url": "https://scholar.google.com/"
+    },
+    {
+      "name": "CORE",
+      "description": "Access to open access research papers",
+      "url": "https://core.ac.uk/"
+    },
+    {
+      "name": "Directory of Open Access Journals (DOAJ)",
+      "description": "Directory of open access journals",
+      "url": "https://doaj.org/"
+    },
+    {
+      "name": "BASE",
+      "description": "Search engine for academic web resources",
+      "url": "https://www.base-search.net/"
+    },
+    {
+      "name": "Unpaywall",
+      "description": "Find free versions of paywalled research papers",
+      "url": "https://unpaywall.org/"
+    },
+    {
+      "name": "arXiv",
+      "description": "Open access preprints in physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, and electrical engineering and systems science",
+      "url": "https://arxiv.org/"
+    },
+    {
+      "name": "Project MUSE",
+      "description": "Online access to humanities and social sciences journals",
+      "url": "https://muse.jhu.edu/"
+    },
+    {
+      "name": "JSTOR",
+      "description": "Digital library of academic content",
+      "url": "https://www.jstor.org/"
+    },
+    {
+      "name": "Open Textbook Library",
+      "description": "Free open textbooks",
+      "url": "https://open.umn.edu/opentextbooks/"
+    },
+    {
+      "name": "BCcampus OpenEd",
+      "description": "Open textbooks and educational resources",
+      "url": "https://bccampus.ca/open-education/"
+    },
+    {
+      "name": "SkillsCommons",
+      "description": "Open educational resources for workforce development",
+      "url": "https://www.skillscommons.org/"
+    },
+    {
+      "name": "MERLOT",
+      "description": "Multimedia Educational Resource for Learning and Online Teaching",
+      "url": "https://www.merlot.org/merlot/index.htm"
+    },
+    {
+      "name": "OER Commons",
+      "description": "Open educational resources",
+      "url": "https://www.oercommons.org/"
+    },
+    {
+      "name": "Creative Commons Search",
+      "description": "Search for openly licensed content",
+      "url": "https://creativecommons.org/"
+    },
+    {
+      "name": "Wikimedia Commons",
+      "description": "Free media repository",
+      "url": "https://commons.wikimedia.org/wiki/Main_Page"
+    },
+    {
+      "name": "LibriVox",
+      "description": "Free public domain audiobooks",
+      "url": "https://librivox.org/"
+    },
+    {
+      "name": "Internet Archive Audio Archive",
+      "description": "Free audio recordings",
+      "url": "https://archive.org/details/audio"
+    },
+    {
+      "name": "Free Music Archive",
+      "description": "Free music downloads",
+      "url": "https://freemusicarchive.org/"
+    },
+    {
+      "name": "Jamendo",
+      "description": "Free music streaming",
+      "url": "https://www.jamendo.com/"
+    },
+    {
+      "name": "YouTube Learning",
+      "description": "Educational videos on YouTube",
+      "url": "https://www.youtube.com/learning"
+    },
+    {
+      "name": "Vimeo",
+      "description": "Video sharing platform with educational content",
+      "url": "https://vimeo.com/"
+    },
+    {
+      "name": "Dailymotion",
+      "description": "Video sharing platform with educational content",
+      "url": "https://www.dailymotion.com/"
+    },
+    {
+      "name": "Podcasts",
+      "description": "Educational podcasts on various topics",
+      "url": "https://www.podcastindex.org/"
+    },
+    {
+      "name": "Libsyn",
+      "description": "Podcast hosting platform",
+      "url": "https://libsyn.com/"
+    },
+    {
+      "name": "Anchor",
+      "description": "Podcast creation and distribution platform",
+      "url": "https://anchor.fm/"
+    },
+    {
+      "name": "Spreaker",
+      "description": "Podcast hosting and distribution platform",
+      "url": "https://www.spreaker.com/"
+    },
+    {
+      "name": "Audacity",
+      "description": "Free audio editing software (downloadable)",
+      "url": "https://www.audacityteam.org/"
+    },
+    {
+      "name": "GarageBand",
+      "description": "Free audio editing software (Mac only - downloadable)",
+      "url": "https://www.apple.com/garageband/"
+    },
+    {
+      "name": "Inkscape",
+      "description": "Free vector graphics editor (downloadable)",
+      "url": "https://inkscape.org/"
+    },
+    {
+      "name": "GIMP",
+      "description": "Free image editing software (downloadable)",
+      "url": "https://www.gimp.org/"
+    },
+    {
+      "name": "Blender",
+      "description": "Free 3D creation suite (downloadable)",
+      "url": "https://www.blender.org/"
+    },
+    {
+      "name": "Canva",
+      "description": "Free graphic design tool",
+      "url": "https://www.canva.com/"
+    },
+    {
+      "name": "Piktochart",
+      "description": "Free infographic maker",
+      "url": "https://piktochart.com/"
+    },
+    {
+      "name": "Easel.ly",
+      "description": "Free infographic maker",
+      "url": "https://www.easel.ly/"
+    },
+    {
+      "name": "Visme",
+      "description": "Free presentation and infographic tool",
+      "url": "https://www.visme.co/"
+    },
+    {
+      "name": "Prezi",
+      "description": "Free presentation software",
+      "url": "https://prezi.com/"
+    },
+    {
+      "name": "Google Slides",
+      "description": "Free presentation software",
+      "url": "https://www.google.com/slides/about/"
+    },
+    {
+      "name": "Microsoft PowerPoint Online",
+      "description": "Free presentation software",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/free/powerpoint-presentation-maker"
+    },
+    {
+      "name": "Scribus",
+      "description": "Free desktop publishing software (downloadable)",
+      "url": "https://www.scribus.net/"
+    },
+    {
+      "name": "LibreOffice",
+      "description": "Free office suite (downloadable)",
+      "url": "https://www.libreoffice.org/"
+    },
+    {
+      "name": "Google Docs",
+      "description": "Free online document editor",
+      "url": "https://docs.google.com/"
+    },
+    {
+      "name": "Microsoft Word Online",
+      "description": "Free online document editor",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/free/word-documents-online"
+    },
+    {
+      "name": "Google Sheets",
+      "description": "Free online spreadsheet editor",
+      "url": "https://www.google.com/sheets/about/"
+    },
+    {
+      "name": "Microsoft Excel Online",
+      "description": "Free online spreadsheet editor",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/free/excel-spreadsheet-software-online"
+    },
+    {
+      "name": "Google Forms",
+      "description": "Free online form builder",
+      "url": "https://www.google.com/forms/about/"
+    },
+    {
+      "name": "Microsoft Forms",
+      "description": "Free online form builder",
+      "url": "https://forms.microsoft.com/"
+    },
+    {
+      "name": "Typeform",
+      "description": "Free online form builder (limited functionality)",
+      "url": "https://www.typeform.com/"
+    },
+    {
+      "name": "SurveyMonkey",
+      "description": "Free online survey tool (limited functionality)",
+      "url": "https://www.surveymonkey.com/"
+    },
+    {
+      "name": "Mentimeter",
+      "description": "Free interactive presentation tool",
+      "url": "https://www.mentimeter.com/"
+    },
+    {
+      "name": "Poll Everywhere",
+      "description": "Free audience response system",
+      "url": "https://www.polleverywhere.com/"
+    },
+    {
+      "name": "Socrative",
+      "description": "Free student response system",
+      "url": "https://www.socrative.com/"
+    },
+    {
+      "name": "Kahoot!",
+      "description": "Free game-based learning platform",
+      "url": "https://kahoot.com/"
+    },
+    {
+      "name": "Quizizz",
+      "description": "Free game-based learning platform",
+      "url": "https://quizizz.com/"
+    },
+    {
+      "name": "Blooket",
+      "description": "Free game-based learning platform",
+      "url": "https://www.blooket.com/"
+    },
+    {
+      "name": "Nearpod",
+      "description": "Free interactive lesson platform",
+      "url": "https://nearpod.com/"
+    },
+    {
+      "name": "Edpuzzle",
+      "description": "Free video lesson platform",
+      "url": "https://edpuzzle.com/"
+    },
+    {
+      "name": "Flipgrid",
+      "description": "Free video discussion platform",
+      "url": "https://info.flipgrid.com/"
+    },
+    {
+      "name": "Padlet",
+      "description": "Free virtual bulletin board",
+      "url": "https://padlet.com/"
+    },
+    {
+      "name": "Trello",
+      "description": "Free project management tool",
+      "url": "https://trello.com/"
+    },
+    {
+      "name": "Asana",
+      "description": "Free project management tool",
+      "url": "https://asana.com/"
+    },
+    {
+      "name": "Monday.com",
+      "description": "Free project management tool (limited functionality)",
+      "url": "https://monday.com/"
+    },
+    {
+      "name": "Evernote",
+      "description": "Free note-taking app",
+      "url": "https://evernote.com/"
+    },
+    {
+      "name": "OneNote",
+      "description": "Free note-taking app",
+      "url": "https://www.onenote.com/"
+    },
+    {
+      "name": "Google Keep",
+      "description": "Free note-taking app",
+      "url": "https://keep.google.com/"
+    },
+    {
+      "name": "Simplenote",
+      "description": "Free note-taking app",
+      "url": "https://simplenote.com/"
+    },
+    {
+      "name": "Notion",
+      "description": "Free workspace app",
+      "url": "https://www.notion.so/"
+    },
+    {
+      "name": "Pocket",
+      "description": "Save articles to read later",
+      "url": "https://getpocket.com/"
+    },
+    {
+      "name": "Instapaper",
+      "description": "Save articles to read later",
+      "url": "https://www.instapaper.com/"
+    },
+    {
+      "name": "Raindrop.io",
+      "description": "Bookmark manager",
+      "url": "https://raindrop.io/"
+    },
+    {
+      "name": "Diigo",
+      "description": "Social bookmarking tool",
+      "url": "https://www.diigo.com/"
+    },
+    {
+      "name": "Hypothes.is",
+      "description": "Collaborative annotation tool",
+      "url": "https://web.hypothes.is/"
+    },
+    {
+      "name": "Perusall",
+      "description": "Social annotation tool",
+      "url": "https://perusall.com/"
+    },
+    {
+      "name": "Otter.ai",
+      "description": "Free transcription service (limited functionality)",
+      "url": "https://otter.ai/"
+    },
+    {
+      "name": "Descript",
+      "description": "Audio and video editing with transcription (some free features)",
+      "url": "https://www.descript.com/"
+    },
+    {
+      "name": "AssemblyAI",
+      "description": "Speech-to-text API",
+      "url": "https://www.assemblyai.com/"
+    },
+    {
+      "name": "Happy Scribe",
+      "description": "Transcription and translation service",
+      "url": "https://www.happyscribe.com/"
+    },
+    {
+      "name": "Google Meet",
+      "description": "Free video conferencing",
+      "url": "https://meet.google.com/"
+    },
+    {
+      "name": "Zoom",
+      "description": "Free video conferencing (limited functionality)",
+      "url": "https://zoom.us/"
+    },
+    {
+      "name": "Microsoft Teams",
+      "description": "Free video conferencing",
+      "url": "https://www.microsoft.com/en-us/microsoft-teams/free"
+    },
+    {
+      "name": "Skype",
+      "description": "Free video conferencing",
+      "url": "https://www.skype.com/"
+    },
+    {
+      "name": "Discord",
+      "description": "Free communication platform",
+      "url": "https://discord.com/"
+    },
+    {
+      "name": "Slack",
+      "description": "Free communication platform (limited functionality)",
+      "url": "https://slack.com/"
+    },
+    {
+      "name": "Twitch",
+      "description": "Live streaming platform",
+      "url": "https://www.twitch.tv/"
+    },
+    {
+      "name": "YouTube Live",
+      "description": "Live streaming on YouTube",
+      "url": "https://www.youtube.com/live"
+    },
+    {
+      "name": "Facebook Live",
+      "description": "Live streaming on Facebook",
+      "url": "https://www.facebook.com/live/"
+    },
+    {
+      "name": "OBS Studio",
+      "description": "Free open source software for video recording and live streaming (downloadable)",
+      "url": "https://obsproject.com/"
+    },
+    {
+      "name": "Streamlabs OBS",
+      "description": "Free live streaming software (downloadable)",
+      "url": "https://streamlabs.com/"
+    },
+    {
+      "name": "XSplit Broadcaster",
+      "description": "Live streaming software (paid, but has free features)",
+      "url": "https://www.xsplit.com/"
+    },
+    {
+      "name": "FreeMind",
+      "description": "Free mind mapping software (downloadable)",
+      "url": "http://freemind.sourceforge.net/wiki/index.php/Main_Page"
+    },
+    {
+      "name": "XMind",
+      "description": "Free mind mapping software (downloadable)",
+      "url": "https://www.xmind.net/"
+    },
+    {
+      "name": "MindManager",
+      "description": "Mind mapping software (paid, but offers a free trial)",
+      "url": "https://www.mindmanager.com/"
+    },
+    {
+      "name": "Coggle",
+      "description": "Free collaborative mind mapping tool",
+      "url": "https://coggle.it/"
+    },
+    {
+      "name": "MindMeister",
+      "description": "Free online mind mapping tool (limited functionality)",
+      "url": "https://www.mindmeister.com/"
+    },
+    {
+      "name": "Lucidchart",
+      "description": "Free online diagramming tool (limited functionality)",
+      "url": "https://www.lucidchart.com/"
+    },
+    {
+      "name": "Draw.io",
+      "description": "Free online diagramming tool",
+      "url": "https://www.draw.io/"
+    },
+    {
+      "name": "Creately",
+      "description": "Free online diagramming tool (limited functionality)",
+      "url": "https://creately.com/"
+    },
+    {
+      "name": "Gliffy",
+      "description": "Free online diagramming tool (limited functionality)",
+      "url": "https://www.gliffy.com/"
+    },
+    {
+      "name": "yEd Graph Editor",
+      "description": "Free graph editor (downloadable)",
+      "url": "https://www.yworks.com/products/yed"
+    },
+    {
+      "name": "Freeplane",
+      "description": "Free mind mapping software (downloadable)",
+      "url": "https://www.freeplane.org/"
+    },
+    {
+      "name": "VUE",
+      "description": "Visual Understanding Environment",
+      "url": "https://vue.tufts.edu/"
+    },
+    {
+      "name": "Text2MindMap",
+      "description": "Free online mind map generator",
+      "url": "http://www.text2mindmap.com/"
+    },
+    {
+      "name": "Bubbl.us",
+      "description": "Free online brainstorming tool (limited functionality)",
+      "url": "https://bubbl.us/"
+    },
+    {
+      "name": "Stormboard",
+      "description": "Free online brainstorming tool (limited functionality)",
+      "url": "https://www.stormboard.com/"
+    },
+    {
+      "name": "Popplet",
+      "description": "Free online brainstorming tool (limited functionality)",
+      "url": "https://www.popplet.com/"
+    },
+    {
+      "name": "Linoit",
+      "description": "Free virtual sticky note board",
+      "url": "http://linoit.com/"
+    },
+    {
+      "name": "Milanote",
+      "description": "Free creative workspace",
+      "url": "https://milanote.com/"
+    },
+    {
+      "name": "Mural",
+      "description": "Digital workspace for visual collaboration",
+      "url": "https://www.mural.co/"
+    },
+    {
+      "name": "InVision Freehand",
+      "description": "Online whiteboard for collaboration",
+      "url": "https://www.invisionapp.com/freehand"
+    },
+    {
+      "name": "Conceptboard",
+      "description": "Online whiteboard for collaboration",
+      "url": "https://conceptboard.com/"
+    },
+    {
+      "name": "Whiteboard.fi",
+      "description": "Online whiteboard for teachers",
+      "url": "https://whiteboard.fi/"
+    },
+    {
+      "name": "Aww App",
+      "description": "Simple online whiteboard",
+      "url": "https://awwapp.com/"
+    },
+    {
+      "name": "Sketchpad",
+      "description": "Online drawing tool",
+      "url": "https://sketch.io/sketchpad/"
+    },
+    {
+      "name": "Autodraw",
+      "description": "AI powered drawing tool",
+      "url": "https://www.autodraw.com/"
+    },
+    {
+      "name": "Aggie.io",
+      "description": "Collaborative drawing tool",
+      "url": "https://aggie.io/"
+    },
+    {
+      "name": "Kleki",
+      "description": "Online painting tool",
+      "url": "http://www.kleki.com/"
+    },
+    {
+      "name": "Sumopaint",
+      "description": "Online image editor",
+      "url": "https://www.sumopaint.com/"
+    },
+    {
+      "name": "Pixlr",
+      "description": "Online photo editor",
+      "url": "https://pixlr.com/"
+    },
+    {
+      "name": "Photopea",
+      "description": "Online photo editor",
+      "url": "https://www.photopea.com/"
+    },
+    {
+      "name": "BeFunky",
+      "description": "Online photo editor",
+      "url": "https://www.befunky.com/"
+    },
+    {
+      "name": "Fotor",
+      "description": "Online photo editor",
+      "url": "https://www.fotor.com/"
+    },
+    {
+      "name": "iPiccy",
+      "description": "Online photo editor",
+      "url": "https://www.ipiccy.com/"
+    },
+    {
+      "name": "LunaPic",
+      "description": "Online photo editor",
+      "url": "https://www.lunapic.com/editor/"
+    },
+    {
+      "name": "Remove.bg",
+      "description": "Remove image background",
+      "url": "https://www.remove.bg/"
+    },
+    {
+      "name": "TinyPNG",
+      "description": "Compress PNG images",
+      "url": "https://tinypng.com/"
+    },
+    {
+      "name": "JPEG Optimizer",
+      "description": "Compress JPEG images",
+      "url": "https://jpeg-optimizer.com/"
+    },
+    {
+      "name": "Image Resizer",
+      "description": "Resize images online",
+      "url": "https://imageresizer.com/"
+    },
+    {
+      "name": "Online Convert",
+      "description": "Convert files online",
+      "url": "https://www.online-convert.com/"
+    },
+    {
+      "name": "Zamzar",
+      "description": "Convert files online",
+      "url": "https://www.zamzar.com/"
+    },
+    {
+      "name": "CloudConvert",
+      "description": "Convert files online",
+      "url": "https://cloudconvert.com/"
+    },
+    {
+      "name": "Smallpdf",
+      "description": "PDF tools online",
+      "url": "https://smallpdf.com/"
+    },
+    {
+      "name": "iLovePDF",
+      "description": "PDF tools online",
+      "url": "https://www.ilovepdf.com/"
+    },
+    {
+      "name": "PDFescape",
+      "description": "PDF editor online",
+      "url": "https://www.pdfescape.com/"
+    },
+    {
+      "name": "Sejda PDF Editor",
+      "description": "PDF editor online",
+      "url": "https://www.sejda.com/pdf-editor"
+    },
+    {
+      "name": "PDF Candy",
+      "description": "PDF tools online",
+      "url": "https://pdfcandy.com/"
+    },
+    {
+      "name": "OnlineOCR",
+      "description": "Online OCR tool",
+      "url": "https://www.onlineocr.net/"
+    },
+    {
+      "name": "NewOCR",
+      "description": "Online OCR tool",
+      "url": "https://www.newocr.com/"
+    },
+    {
+      "name": "Free OCR",
+      "description": "Online OCR tool",
+      "url": "http://www.free-ocr.com/"
+    },
+    {
+      "name": "Google Drive OCR",
+      "description": "OCR using Google Drive",
+      "url": "https://www.google.com/drive/"
+    },
+    {
+      "name": "ABBYY FineReader Online",
+      "description": "Online OCR tool (paid, but offers a free trial)",
+      "url": "https://finereader.abbyy.com/ocr/"
+    },
+    {
+      "name": "WolframAlpha Computational Intelligence",
+      "description": "Free computational knowledge engine",
+      "url": "https://www.wolframalpha.com/"
+    },
+    {
+      "name": "Symbolab Math Solver",
+      "description": "Free math problem solver",
+      "url": "https://www.symbolab.com/solver"
+    },
+    {
+      "name": "Mathway Algebra Problem Solver",
+      "description": "Free algebra problem solver",
+      "url": "https://www.mathway.com/Algebra"
+    },
+    {
+      "name": "QuickMath Automatic Math Solutions",
+      "description": "Free math problem solver",
+      "url": "https://quickmath.com/"
+    },
+    {
+      "name": "Cymath Math Problem Solver with Steps",
+      "description": "Free math problem solver",
+      "url": "https://www.cymath.com/"
+    },
+    {
+      "name": "Step-by-Step Math Problem Solver",
+      "description": "Free math problem solver",
+      "url": "https://www.webmath.com/"
+    },
+    {
+      "name": "Desmos Graphing Calculator",
+      "description": "Free graphing calculator",
+      "url": "https://www.desmos.com/calculator"
+    },
+    {
+      "name": "GeoGebra Classic",
+      "description": "Free graphing tool",
+      "url": "https://www.geogebra.org/classic"
+    },
+    {
+      "name": "Calculus Online Course",
+      "description": "Free calculus course",
+      "url": "https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/"
+    },
+    {
+      "name": "Linear Algebra Course",
+      "description": "Free linear algebra course",
+      "url": "https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/"
+    },
+    {
+      "name": "Differential Equations Course",
+      "description": "Free differential equations course",
+      "url": "https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/"
+    },
+    {
+      "name": "Statistics Course",
+      "description": "Free statistics course",
+      "url": "https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/"
+    },
+    {
+      "name": "Probability Course",
+      "description": "Free probability course",
+      "url": "https://ocw.mit.edu/courses/mathematics/18-600-probability-and-random-variables-spring-2014/"
+    },
+    {
+      "name": "Complex Variables Course",
+      "description": "Free complex variables course",
+      "url": "https://ocw.mit.edu/courses/mathematics/18-04-complex-variables-with-applications-spring-2018/"
+    },
+    {
+      "name": "Single Variable Calculus",
+      "description": "Free calculus course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/calculus-1"
+    },
+    {
+      "name": "Multivariable Calculus",
+      "description": "Free multivariable calculus course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/multivariable-calculus"
+    },
+    {
+      "name": "Differential Equations",
+      "description": "Free differential equations course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/differential-equations"
+    },
+    {
+      "name": "Linear Algebra",
+      "description": "Free linear algebra course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/linear-algebra"
+    },
+    {
+      "name": "Statistics and Probability",
+      "description": "Free statistics and probability course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/statistics-probability"
+    },
+    {
+      "name": "Precalculus",
+      "description": "Free precalculus course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/precalculus"
+    },
+    {
+      "name": "Algebra 1",
+      "description": "Free algebra 1 course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/algebra"
+    },
+    {
+      "name": "Algebra 2",
+      "description": "Free algebra 2 course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/algebra2"
+    },
+    {
+      "name": "Geometry",
+      "description": "Free geometry course on Khan Academy",
+      "url": "https://www.khanacademy.org/math/geometry"
+    },
+    {
+      "name": "High School Physics",
+      "description": "Free high school physics course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/high-school-physics"
+    },
+    {
+      "name": "AP Physics 1",
+      "description": "Free AP physics 1 course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/ap-physics-1"
+    },
+    {
+      "name": "AP Physics 2",
+      "description": "Free AP physics 2 course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/ap-physics-2"
+    },
+    {
+      "name": "AP Physics C",
+      "description": "Free AP physics C course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/ap-physics-c"
+    },
+    {
+      "name": "High School Chemistry",
+      "description": "Free high school chemistry course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/high-school-chemistry"
+    },
+    {
+      "name": "AP Chemistry",
+      "description": "Free AP chemistry course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/ap-chemistry"
+    },
+    {
+      "name": "High School Biology",
+      "description": "Free high school biology course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/high-school-biology"
+    },
+    {
+      "name": "AP Biology",
+      "description": "Free AP biology course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/ap-biology"
+    },
+    {
+      "name": "Organic Chemistry",
+      "description": "Free organic chemistry course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/organic-chemistry"
+    },
+    {
+      "name": "AP Environmental Science",
+      "description": "Free AP environmental science course on Khan Academy",
+      "url": "https://www.khanacademy.org/science/ap-environmental-science"
+    },
+    {
+      "name": "Art History",
+      "description": "Free art history course on Khan Academy",
+      "url": "https://www.khanacademy.org/humanities/art-history"
+    },
+    {
+      "name": "US History",
+      "description": "Free US history course on Khan Academy",
+      "url": "https://www.khanacademy.org/humanities/us-history"
+    },
+    {
+      "name": "World History",
+      "description": "Free world history course on Khan Academy",
+      "url": "https://www.khanacademy.org/humanities/world-history"
+    },
+    {
+      "name": "Civics",
+      "description": "Free civics course on Khan Academy",
+      "url": "https://www.khanacademy.org/humanities/ap-us-government-and-politics"
+    },
+    {
+      "name": "Economics",
+      "description": "Free economics course on Khan Academy",
+      "url": "https://www.khanacademy.org/economics-finance-domain"
+    },
+    {
+      "name": "AP Macroeconomics",
+      "description": "Free AP macroeconomics course on Khan Academy",
+      "url": "https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics"
+    },
+    {
+      "name": "AP Microeconomics",
+      "description": "Free AP microeconomics course on Khan Academy",
+      "url": "https://www.khanacademy.org/economics-finance-domain/ap-microeconomics"
+    },
+    {
+      "name": "Computer Programming",
+      "description": "Free computer programming course on Khan Academy",
+      "url": "https://www.khanacademy.org/computing/computer-programming"
+    },
+    {
+      "name": "AP Computer Science Principles",
+      "description": "Free AP computer science principles course on Khan Academy",
+      "url": "https://www.khanacademy.org/computing/ap-computer-science-principles"
+    },
+    {
+      "name": "AP Computer Science A",
+      "description": "Free AP computer science A course on Khan Academy",
+      "url": "https://www.khanacademy.org/computing/ap-computer-science-a"
+    },
+    {
+      "name": "Music Theory",
+      "description": "Free music theory course on Khan Academy",
+      "url": "https://www.khanacademy.org/humanities/music"
+    },
+    {
+      "name": "Grammar",
+      "description": "Free grammar course on Khan Academy",
+      "url": "https://www.khanacademy.org/humanities/grammar"
+    },
+    {
+      "name": "TypingClub",
+      "description": "Free typing tutor",
+      "url": "https://www.typingclub.com/"
+    },
+    {
+      "name": "Typing.com",
+      "description": "Free typing tutor",
+      "url": "https://www.typing.com/"
+    },
+    {
+      "name": "Ratatype",
+      "description": "Free typing test and certificate",
+      "url": "https://www.ratatype.com/"
+    },
+    {
+      "name": "10FastFingers",
+      "description": "Free typing speed test",
+      "url": "https://10fastfingers.com/typing-test/english"
+    },
+    {
+      "name": "Learn to Code HTML & CSS",
+      "description": "Free HTML and CSS tutorial",
+      "url": "https://learn.shayhowe.com/html-css/"
+    },
+    {
+      "name": "Codecademy HTML & CSS",
+      "description": "Free HTML and CSS course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-html"
+    },
+    {
+      "name": "FreeCodeCamp Responsive Web Design",
+      "description": "Free responsive web design certification on FreeCodeCamp",
+      "url": "https://www.freecodecamp.org/learn/responsive-web-design/"
+    },
+    {
+      "name": "W3Schools HTML Tutorial",
+      "description": "Free HTML tutorial on W3Schools",
+      "url": "https://www.w3schools.com/html/"
+    },
+    {
+      "name": "W3Schools CSS Tutorial",
+      "description": "Free CSS tutorial on W3Schools",
+      "url": "https://www.w3schools.com/css/"
+    },
+    {
+      "name": "MDN HTML Tutorial",
+      "description": "Free HTML tutorial on MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "name": "MDN CSS Tutorial",
+      "description": "Free CSS tutorial on MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "name": "JavaScript Tutorial",
+      "description": "Free JavaScript tutorial",
+      "url": "https://www.javascripttutorial.net/"
+    },
+    {
+      "name": "Codecademy JavaScript",
+      "description": "Free JavaScript course on Codecademy",
+      "url": "https://www.codecademy.com/learn/introduction-to-javascript"
+    },
+    {
+      "name": "FreeCodeCamp JavaScript Algorithms and Data Structures",
+      "description": "Free JavaScript certification on FreeCodeCamp",
+      "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+    },
+    {
+      "name": "W3Schools JavaScript Tutorial",
+      "description": "Free JavaScript tutorial on W3Schools",
+      "url": "https://www.w3schools.com/js/"
+    },
+    {
+      "name": "MDN JavaScript Tutorial",
+      "description": "Free JavaScript tutorial on MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "name": "jQuery Tutorial",
+      "description": "Free jQuery tutorial",
+      "url": "https://www.tutorialspoint.com/jquery/index.htm"
+    },
+    {
+      "name": "Codecademy jQuery",
+      "description": "Free jQuery course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-jquery"
+    },
+    {
+      "name": "W3Schools jQuery Tutorial",
+      "description": "Free jQuery tutorial on W3Schools",
+      "url": "https://www.w3schools.com/jquery/"
+    },
+    {
+      "name": "React Tutorial",
+      "description": "Free React tutorial",
+      "url": "https://reactjs.org/tutorial/tutorial.html"
+    },
+    {
+      "name": "Codecademy React",
+      "description": "Free React course on Codecademy",
+      "url": "https://www.codecademy.com/learn/react-101"
+    },
+    {
+      "name": "FreeCodeCamp Front End Libraries Certification",
+      "description": "Free Front End Libraries certification on FreeCodeCamp",
+      "url": "https://www.freecodecamp.org/learn/front-end-libraries/"
+    },
+    {
+      "name": "W3Schools React Tutorial",
+      "description": "Free React tutorial on W3Schools",
+      "url": "https://www.w3schools.com/react/"
+    },
+    {
+      "name": "Angular Tutorial",
+      "description": "Free Angular tutorial",
+      "url": "https://angular.io/tutorial"
+    },
+    {
+      "name": "Codecademy Angular",
+      "description": "Free Angular course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-angular-4"
+    },
+    {
+      "name": "Vue.js Tutorial",
+      "description": "Free Vue.js tutorial",
+      "url": "https://vuejs.org/v2/guide/"
+    },
+    {
+      "name": "Codecademy Vue.js",
+      "description": "Free Vue.js course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-vue-js"
+    },
+    {
+      "name": "Python Tutorial",
+      "description": "Free Python tutorial",
+      "url": "https://www.learnpython.org/"
+    },
+    {
+      "name": "Codecademy Python",
+      "description": "Free Python course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-python-3"
+    },
+    {
+      "name": "FreeCodeCamp Scientific Computing with Python",
+      "description": "Free Python certification on FreeCodeCamp",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "name": "W3Schools Python Tutorial",
+      "description": "Free Python tutorial on W3Schools",
+      "url": "https://www.w3schools.com/python/"
+    },
+    {
+      "name": "Java Tutorial",
+      "description": "Free Java tutorial",
+      "url": "https://www.tutorialspoint.com/java/index.htm"
+    },
+    {
+      "name": "Codecademy Java",
+      "description": "Free Java course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-java"
+    },
+    {
+      "name": "W3Schools Java Tutorial",
+      "description": "Free Java tutorial on W3Schools",
+      "url": "https://www.w3schools.com/java/"
+    },
+    {
+      "name": "C++ Tutorial",
+      "description": "Free C++ tutorial",
+      "url": "https://www.tutorialspoint.com/cplusplus/index.htm"
+    },
+    {
+      "name": "Codecademy C++",
+      "description": "Free C++ course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-c-plus-plus"
+    },
+    {
+      "name": "W3Schools C++ Tutorial",
+      "description": "Free C++ tutorial on W3Schools",
+      "url": "https://www.w3schools.com/cpp/"
+    },
+    {
+      "name": "C# Tutorial",
+      "description": "Free C# tutorial",
+      "url": "https://www.tutorialspoint.com/csharp/index.htm"
+    },
+    {
+      "name": "Codecademy C#",
+      "description": "Free C# course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-c-sharp"
+    },
+    {
+      "name": "W3Schools C# Tutorial",
+      "description": "Free C# tutorial on W3Schools",
+      "url": "https://www.w3schools.com/cs/"
+    },
+    {
+      "name": "PHP Tutorial",
+      "description": "Free PHP tutorial",
+      "url": "https://www.tutorialspoint.com/php/index.htm"
+    },
+    {
+      "name": "Codecademy PHP",
+      "description": "Free PHP course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-php"
+    },
+    {
+      "name": "W3Schools PHP Tutorial",
+      "description": "Free PHP tutorial on W3Schools",
+      "url": "https://www.w3schools.com/php/"
+    },
+    {
+      "name": "SQL Tutorial",
+      "description": "Free SQL tutorial",
+      "url": "https://www.w3schools.com/sql/"
+    },
+    {
+      "name": "Codecademy SQL",
+      "description": "Free SQL course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-sql"
+    },
+    {
+      "name": "DataCamp SQL",
+      "description": "Free SQL course on DataCamp",
+      "url": "https://www.datacamp.com/courses/introduction-to-sql"
+    },
+    {
+      "name": "Git Tutorial",
+      "description": "Free Git tutorial",
+      "url": "https://www.atlassian.com/git/tutorials"
+    },
+    {
+      "name": "GitHub Tutorial",
+      "description": "Free GitHub tutorial",
+      "url": "https://guides.github.com/activities/hello-world/"
+    },
+    {
+      "name": "Codecademy Git",
+      "description": "Free Git course on Codecademy",
+      "url": "https://www.codecademy.com/learn/learn-git"
+    },
+    {
+      "name": "Learn Git Branching",
+      "description": "Interactive Git tutorial",
+      "url": "https://learngitbranching.js.org/"
+    },
+    {
+      "name": "OverAPI",
+      "description": "Cheat sheets for various programming languages and tools",
+      "url": "https://overapi.com/"
+    },
+    {
+      "name": "DevDocs",
+      "description": "API documentation browser",
+      "url": "https://devdocs.io/"
+    },
+    {
+      "name": "MDN Web Docs",
+      "description": "Web technology documentation",
+      "url": "https://developer.mozilla.org/en-US/"
+    },
+    {
+      "name": "Stack Overflow",
+      "description": "Q&A for programmers",
+      "url": "https://stackoverflow.com/"
+    },
+    {
+      "name": "GeeksforGeeks",
+      "description": "Computer science portal",
+      "url": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "name": "Tutorialspoint",
+      "description": "Tutorials for various technologies",
+      "url": "https://www.tutorialspoint.com/"
+    },
+    {
+      "name": "Khan Academy Computer Science",
+      "description": "Free computer science courses on Khan Academy",
+      "url": "https://www.khanacademy.org/computing/computer-science"
+    },
+    {
+      "name": "MIT OpenCourseWare Computer Science",
+      "description": "Free computer science courses from MIT",
+      "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/"
+    },
+    {
+      "name": "Stanford Engineering Everywhere",
+      "description": "Free engineering courses from Stanford",
+      "url": "https://see.stanford.edu/"
+    },
+    {
+      "name": "Coursera Computer Science",
+      "description": "Free computer science courses on Coursera",
+      "url": "https://www.coursera.org/courses?query=computer%20science"
+    },
+    {
+      "name": "edX Computer Science",
+      "description": "Free computer science courses on edX",
+      "url": "https://www.edx.org/learn/computer-science"
+    },
+    {
+      "name": "Udacity",
+      "description": "Free courses on Udacity",
+      "url": "https://www.udacity.com/courses/all"
+    },
+    {
+      "name": "OpenLearn Computing and IT",
+      "description": "Free computing and IT courses on OpenLearn",
+      "url": "http://www.open.edu/openlearn/science-maths-technology/computing-and-ict"
+    },
+    {
+      "name": "Harvard CS50",
+      "description": "Free introduction to computer science course from Harvard",
+      "url": "https://cs50.harvard.edu/x/2024/"
+    },
+    {
+      "name": "Google AI",
+      "description": "Free AI resources from Google",
+      "url": "https://ai.google/"
+    },
+    {
+      "name": "Microsoft AI School",
+      "description": "Free AI learning resources from Microsoft",
+      "url": "https://aischool.microsoft.com/"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "slug": "marketing-&-seo",
+  "name": "Marketing & SEO",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Google",
+      "description": "Analyze website and discover errors that are preventing you from ranking on Google",
+      "url": "https://search.google.com/"
+    },
+    {
+      "name": "Bing Webmaster Tools",
+      "description": "Improve your site's performance in Bing search results",
+      "url": "https://www.bing.com/webmasters/"
+    },
+    {
+      "name": "Semrush",
+      "description": "SEO Toolkit for content, SEO, competitor research, PPC and social media marketing",
+      "url": "https://www.semrush.com/"
+    },
+    {
+      "name": "Ubersuggest",
+      "description": "Free keyword tool to generate more suggestions",
+      "url": "https://neilpatel.com/ubersuggest/"
+    },
+    {
+      "name": "Moz Keyword Explorer",
+      "description": "Keyword research tool to discover and prioritize the best keywords",
+      "url": "https://moz.com/explorer"
+    },
+    {
+      "name": "AnswerThePublic",
+      "description": "Discover what people are asking about any topic",
+      "url": "https://answerthepublic.com/"
+    },
+    {
+      "name": "Google Analytics",
+      "description": "Track and analyze website traffic and user behavior",
+      "url": "https://analytics.google.com/"
+    },
+    {
+      "name": "Google Search Console",
+      "description": "Monitor your website's search performance and identify issues",
+      "url": "https://search.google.com/search-console/"
+    },
+    {
+      "name": "GTmetrix",
+      "description": "Analyze your page speed performance",
+      "url": "https://gtmetrix.com/"
+    },
+    {
+      "name": "PageSpeed Insights",
+      "description": "Analyze your page speed performance",
+      "url": "https://developers.google.com/speed/pagespeed/insights/"
+    },
+    {
+      "name": "Small SEO Tools",
+      "description": "Collection of free SEO tools",
+      "url": "https://smallseotools.com/"
+    },
+    {
+      "name": "SEO Review Tools",
+      "description": "Collection of free SEO tools",
+      "url": "https://seoreviewtools.com/"
+    },
+    {
+      "name": "SEOptimer",
+      "description": "Free SEO audit tool",
+      "url": "https://www.seoptimer.com/"
+    },
+    {
+      "name": "Wordtracker",
+      "description": "Keyword research tool",
+      "url": "https://www.wordtracker.com/"
+    },
+    {
+      "name": "Keyword Surfer",
+      "description": "Free Chrome extension for keyword research",
+      "url": "https://keywordseverywhere.com/"
+    },
+    {
+      "name": "SERPsim",
+      "description": "Free SERP snippet generator",
+      "url": "https://serpsim.com/"
+    },
+    {
+      "name": "Yoast SEO",
+      "description": "SEO plugin for WordPress",
+      "url": "https://yoast.com/"
+    },
+    {
+      "name": "Rank Math",
+      "description": "SEO plugin for WordPress",
+      "url": "https://rankmath.com/"
+    },
+    {
+      "name": "Screaming Frog SEO Spider",
+      "description": "Website crawler for SEO auditing (free version available)",
+      "url": "https://www.screamingfrog.co.uk/seo-spider/"
+    },
+    {
+      "name": "XML-Sitemaps.com",
+      "description": "Free online sitemap generator",
+      "url": "https://www.xml-sitemaps.com/"
+    },
+    {
+      "name": "Robots.txt Generator",
+      "description": "Create a robots.txt file for your website",
+      "url": "https://www.robotstxt.org/"
+    },
+    {
+      "name": "Google Trends",
+      "description": "Explore trending search topics",
+      "url": "https://trends.google.com/trends/"
+    },
+    {
+      "name": "Ahrefs Free SEO Tools",
+      "description": "Set of free SEO tools including keyword generator, broken link checker, and website authority checker",
+      "url": "https://ahrefs.com/free-seo-tools"
+    },
+    {
+      "name": "Hunter.io",
+      "description": "Find email addresses associated with websites",
+      "url": "https://hunter.io/"
+    },
+    {
+      "name": "BuzzSumo",
+      "description": "Analyze what content performs best for any topic or competitor",
+      "url": "https://buzzsumo.com/"
+    },
+    {
+      "name": "SimilarWeb",
+      "description": "Analyze website traffic and performance",
+      "url": "https://www.similarweb.com/"
+    },
+    {
+      "name": "BuiltWith",
+      "description": "Find out what technologies a website is built with",
+      "url": "https://builtwith.com/"
+    },
+    {
+      "name": "Woorank",
+      "description": "Website review and SEO audit tool",
+      "url": "https://www.woorank.com/"
+    },
+    {
+      "name": "MozBar",
+      "description": "Free SEO toolbar for Chrome",
+      "url": "https://moz.com/products/seo-toolbar"
+    },
+    {
+      "name": "SEOquake",
+      "description": "Free SEO toolbar for Chrome and Firefox",
+      "url": "https://www.seoquake.com/"
+    },
+    {
+      "name": "Copyscape",
+      "description": "Check for plagiarism",
+      "url": "https://www.copyscape.com/"
+    },
+    {
+      "name": "Grammarly",
+      "description": "Grammar and spell checker",
+      "url": "https://www.grammarly.com/"
+    },
+    {
+      "name": "Hemingway Editor",
+      "description": "Improve writing clarity",
+      "url": "http://www.hemingwayapp.com/"
+    },
+    {
+      "name": "Headline Analyzer",
+      "description": "Analyze headline strength",
+      "url": "https://coschedule.com/headline-analyzer"
+    },
+    {
+      "name": "Google My Business",
+      "description": "Manage your business listing on Google",
+      "url": "https://www.google.com/business/"
+    },
+    {
+      "name": "Schema Markup Generator",
+      "description": "Generate schema markup code for your website",
+      "url": "https://technicalseo.com/tools/schema-markup-generator/"
+    },
+    {
+      "name": "Mobile-Friendly Test",
+      "description": "Test if your website is mobile-friendly",
+      "url": "https://search.google.com/test/mobile-friendly"
+    },
+    {
+      "name": "WebPageTest",
+      "description": "Test website speed and performance",
+      "url": "https://www.webpagetest.org/"
+    },
+    {
+      "name": "Varvy SEO Tool",
+      "description": "Website SEO analysis tool",
+      "url": "https://varvy.com/"
+    },
+    {
+      "name": "Dareboost",
+      "description": "Website speed and quality testing",
+      "url": "https://www.dareboost.com/"
+    },
+    {
+      "name": "SERP Robot",
+      "description": "Free SERP checker tool",
+      "url": "https://www.serprobot.com/"
+    },
+    {
+      "name": "BROWSEO",
+      "description": "View a website without styles",
+      "url": "https://www.browseo.com/"
+    },
+    {
+      "name": "Internet Archive Wayback Machine",
+      "description": "Explore archived versions of websites",
+      "url": "https://archive.org/web/"
+    },
+    {
+      "name": "Redirect Path",
+      "description": "Check redirect paths for URLs",
+      "url": "https://chrome.google.com/webstore/detail/redirect-path/aomidfkchockcldhbkeiihlnijpldbpn"
+    },
+    {
+      "name": "Link Analyzer",
+      "description": "Analyze the links on a webpage",
+      "url": "https://www.link-assistant.com/website-link-analyzer/"
+    },
+    {
+      "name": "Anchor Text Over Optimizaton Tool",
+      "description": "Analyze anchor text distribution",
+      "url": " https://seotoolstation.com/anchor-text-over-optimization-tool"
+    },
+    {
+      "name": "Keyword Density Checker",
+      "description": "Check the keyword density of a webpage",
+      "url": "https://seotoolstation.com/keyword-density-checker"
+    },
+    {
+      "name": "Domain Authority Checker",
+      "description": "Check the Domain Authority of a website",
+      "url": " https://seotoolstation.com/domain-authority-checker"
+    },
+    {
+      "name": "Page Authority Checker",
+      "description": "Check the Page Authority of a website",
+      "url": " https://seotoolstation.com/page-authority-checker"
+    },
+    {
+      "name": "Broken Link Checker",
+      "description": "Find broken links on a webpage",
+      "url": "https://www.brokenlinkcheck.com/"
+    },
+    {
+      "name": "Website Authority Checker",
+      "description": "Check the authority of a website",
+      "url": "https://websiteseochecker.com/domain-authority-checker/"
+    },
+    {
+      "name": "Bulk URL Opener",
+      "description": "Open multiple URLs at once",
+      "url": " https://www.checkonpage.com/bulk-url-opener"
+    },
+    {
+      "name": "Free Image Optimizer",
+      "description": "Optimize images for web",
+      "url": " https://www.freeimageoptimizer.com/"
+    },
+    {
+      "name": "TinyPNG",
+      "description": "Compress PNG images",
+      "url": "https://tinypng.com/"
+    },
+    {
+      "name": "Compress JPEG",
+      "description": "Compress JPEG images",
+      "url": "https://compressjpeg.com/"
+    },
+    {
+      "name": "Canva",
+      "description": "Create visual content",
+      "url": "https://www.canva.com/"
+    },
+    {
+      "name": "Google Alerts",
+      "description": "Monitor the web for interesting new content",
+      "url": "https://www.google.com/alerts"
+    },
+    {
+      "name": "Mention",
+      "description": "Monitor mentions of your brand online",
+      "url": "https://www.mention.com/"
+    },
+    {
+      "name": "Brand24",
+      "description": "Monitor mentions of your brand online",
+      "url": "https://brand24.com/"
+    }
+  ]
+}

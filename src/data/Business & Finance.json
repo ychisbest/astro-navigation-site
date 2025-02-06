@@ -1,0 +1,617 @@
+{
+  "slug": "business-&-finance",
+  "name": "Business & Finance",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Google Finance",
+      "description": " Get real-time stock quotes and financial news",
+      "url": " https://www.google.com/finance/"
+    },
+    {
+      "name": "Yahoo Finance",
+      "description": " Stock quotes, business news, portfolios",
+      "url": " https://finance.yahoo.com/"
+    },
+    {
+      "name": "Calculator.net",
+      "description": " Various finance and business calculators",
+      "url": " https://www.calculator.net/"
+    },
+    {
+      "name": "Vertex42",
+      "description": " Spreadsheet templates for business and finance",
+      "url": " https://www.vertex42.com/"
+    },
+    {
+      "name": "Docracy",
+      "description": " Free legal document templates",
+      "url": " https://www.docracy.com/"
+    },
+    {
+      "name": "Free Logo Design",
+      "description": " Create a free logo for your business",
+      "url": " https://www.freelogodesign.org/"
+    },
+    {
+      "name": "Wave Accounting",
+      "description": " Free accounting software for small businesses",
+      "url": " https://www.waveapps.com/"
+    },
+    {
+      "name": "Zoho Invoice",
+      "description": " Free invoicing software for small businesses",
+      "url": " https://www.zoho.com/invoice/"
+    },
+    {
+      "name": "Trello",
+      "description": " Project management tool for teams",
+      "url": " https://trello.com/"
+    },
+    {
+      "name": "Asana",
+      "description": " Work management platform",
+      "url": " https://asana.com/"
+    },
+    {
+      "name": "Slack",
+      "description": " Team communication platform",
+      "url": " https://slack.com/"
+    },
+    {
+      "name": "Grammarly",
+      "description": " Grammar and spell checker",
+      "url": " https://www.grammarly.com/"
+    },
+    {
+      "name": "Mailchimp",
+      "description": " Email marketing platform (free plan available)",
+      "url": " https://mailchimp.com/"
+    },
+    {
+      "name": "Google Analytics",
+      "description": " Website analytics tool",
+      "url": " https://analytics.google.com/"
+    },
+    {
+      "name": "Google Search Console",
+      "description": " Monitor your website's search performance",
+      "url": " https://search.google.com/search-console/"
+    },
+    {
+      "name": "Ubersuggest",
+      "description": " Keyword research tool (limited free usage)",
+      "url": " https://neilpatel.com/ubersuggest/"
+    },
+    {
+      "name": "AnswerThePublic",
+      "description": " Keyword research and content ideas",
+      "url": " https://answerthepublic.com/"
+    },
+    {
+      "name": "HubSpot Email Marketing",
+      "description": " Email marketing tools for small businesses",
+      "url": " https://www.hubspot.com/products/email"
+    },
+    {
+      "name": "Canva",
+      "description": " Design tool for creating marketing materials",
+      "url": " https://www.canva.com/"
+    },
+    {
+      "name": "TinyPNG",
+      "description": " Compress PNG images for faster website loading",
+      "url": " https://tinypng.com/"
+    },
+    {
+      "name": "I Love PDF",
+      "description": " PDF tools for merging, splitting, and converting PDFs",
+      "url": " https://www.ilovepdf.com/"
+    },
+    {
+      "name": "Free Currency Converter",
+      "description": " Convert currencies using real-time exchange rates",
+      "url": " https://www.freecurrencyconverter.com/"
+    },
+    {
+      "name": "Invoice Generator",
+      "description": " Create and download professional invoices",
+      "url": " https://www.invoicegenerator.com/"
+    },
+    {
+      "name": "Online Sales Tax Calculator",
+      "description": " Calculate sales tax for different locations",
+      "url": " https://www.salestaxstates.com/calculator"
+    },
+    {
+      "name": "World Time Buddy",
+      "description": " Meeting scheduler for different time zones",
+      "url": " https://www.worldtimebuddy.com/"
+    },
+    {
+      "name": "FreeMind",
+      "description": " Mind mapping software (desktop, but free), http://freemind.sourceforge.net/wiki/index.php/Main_Page (Use responsibly",
+      "url": " it is technically a downloadable software)"
+    },
+    {
+      "name": "MindMeister",
+      "description": " Online mind mapping tool (free basic plan)",
+      "url": " https://www.mindmeister.com/"
+    },
+    {
+      "name": "Zoho CRM",
+      "description": " CRM for managing customer relationships(Free for up to 3 users)",
+      "url": " https://www.zoho.com/crm/free-crm/"
+    },
+    {
+      "name": "HubSpot CRM",
+      "description": " Free CRM software",
+      "url": " https://www.hubspot.com/products/crm"
+    },
+    {
+      "name": "Toggl Track",
+      "description": " Time tracking software",
+      "url": " https://toggl.com/track/"
+    },
+    {
+      "name": "Clockify",
+      "description": " Free time tracking software",
+      "url": " https://clockify.me/"
+    },
+    {
+      "name": "Google Forms",
+      "description": " Create surveys and forms",
+      "url": " https://www.google.com/forms/about/"
+    },
+    {
+      "name": "SurveyMonkey",
+      "description": " Create and send surveys (free basic plan)",
+      "url": " https://www.surveymonkey.com/"
+    },
+    {
+      "name": "Calendly",
+      "description": " Schedule meetings easily",
+      "url": " https://calendly.com/"
+    },
+    {
+      "name": "Later",
+      "description": " Schedule social media posts (free plan available)",
+      "url": " https://later.com/"
+    },
+    {
+      "name": "Buffer",
+      "description": " Social media management tool (free plan available)",
+      "url": " https://buffer.com/"
+    },
+    {
+      "name": "IFTTT",
+      "description": " Automate tasks between different apps and services",
+      "url": " https://ifttt.com/"
+    },
+    {
+      "name": "Zapier",
+      "description": " Connect different apps and automate workflows (free plan available)",
+      "url": " https://zapier.com/"
+    },
+    {
+      "name": "Otter.ai",
+      "description": " Transcription service (free plan available)",
+      "url": " https://otter.ai/"
+    },
+    {
+      "name": "Hemingway Editor",
+      "description": " Improve writing clarity",
+      "url": " http://www.hemingwayapp.com/"
+    },
+    {
+      "name": "Editpad",
+      "description": " Online Text Editor",
+      "url": " https://www.editpad.org/"
+    },
+    {
+      "name": "Word Counter",
+      "description": " Count words, characters, sentences",
+      "url": " https://wordcounter.net/"
+    },
+    {
+      "name": "PDFescape",
+      "description": " Edit PDF files online",
+      "url": " https://www.pdfescape.com/"
+    },
+    {
+      "name": "CamScanner",
+      "description": " Scan documents with your phone (free with watermarks)",
+      "url": " https://www.camscanner.com/"
+    },
+    {
+      "name": "Google Docs",
+      "description": " Online word processor",
+      "url": " https://docs.google.com/"
+    },
+    {
+      "name": "Google Sheets",
+      "description": " Online spreadsheet program",
+      "url": " https://www.google.com/sheets/about/"
+    },
+    {
+      "name": "Google Slides",
+      "description": " Online presentation program",
+      "url": " https://www.google.com/slides/about/"
+    },
+    {
+      "name": "LibreOffice Online",
+      "description": " Open source office suite",
+      "url": " https://www.libreoffice.org/"
+    },
+    {
+      "name": "WPS Office",
+      "description": " Office suite (free version available)",
+      "url": " https://www.wps.com/"
+    },
+    {
+      "name": "Smallpdf",
+      "description": " PDF tools for converting, merging, and editing",
+      "url": " https://smallpdf.com/"
+    },
+    {
+      "name": "Online Convert",
+      "description": " Convert files to different formats",
+      "url": " https://www.online-convert.com/"
+    },
+    {
+      "name": "Zamzar",
+      "description": " File conversion tool",
+      "url": " https://www.zamzar.com/"
+    },
+    {
+      "name": "Image Resizer",
+      "description": " Resize images online",
+      "url": " https://imageresizer.com/"
+    },
+    {
+      "name": "Compressor.io",
+      "description": " Compress images online",
+      "url": " https://compressor.io/"
+    },
+    {
+      "name": "Website Speed Test",
+      "description": " Test your website's loading speed",
+      "url": " https://tools.pingdom.com/"
+    },
+    {
+      "name": "GTmetrix",
+      "description": " Website performance analysis tool",
+      "url": " https://gtmetrix.com/"
+    },
+    {
+      "name": "SSL Checker",
+      "description": " Check your website's SSL certificate",
+      "url": " https://www.sslshopper.com/ssl-checker.html"
+    },
+    {
+      "name": "Whois Lookup",
+      "description": " Find information about a domain name",
+      "url": " https://www.whois.com/whois/"
+    },
+    {
+      "name": "Domain Name Generator",
+      "description": " Generate domain name ideas",
+      "url": " https://www.nameboy.com/"
+    },
+    {
+      "name": "Keyword Planner",
+      "description": " Research keywords for SEO (requires Google Ads account)",
+      "url": " https://ads.google.com/intl/en_us/home/tools/keyword-planner/"
+    },
+    {
+      "name": "Google Trends",
+      "description": " Explore trending search topics",
+      "url": " https://trends.google.com/trends/"
+    },
+    {
+      "name": "Yoast SEO",
+      "description": " SEO plugin for WordPress (free version available)",
+      "url": " https://yoast.com/wordpress/plugins/seo/"
+    },
+    {
+      "name": "MozBar",
+      "description": " SEO toolbar for Chrome (free version available)",
+      "url": " https://moz.com/products/seo-toolbar"
+    },
+    {
+      "name": "BuiltWith",
+      "description": " Find out what technologies a website is built with",
+      "url": " https://builtwith.com/"
+    },
+    {
+      "name": "SimilarWeb",
+      "description": " Website traffic and analytics",
+      "url": " https://www.similarweb.com/"
+    },
+    {
+      "name": "Wayback Machine",
+      "description": " Archive of websites",
+      "url": " https://archive.org/web/"
+    },
+    {
+      "name": "Reverse Image Search",
+      "description": " Search for images online",
+      "url": " https://images.google.com/"
+    },
+    {
+      "name": "QR Code Generator",
+      "description": " Create QR codes",
+      "url": " https://www.qr-code-generator.com/"
+    },
+    {
+      "name": "URL Shortener",
+      "description": " Shorten long URLs",
+      "url": " https://bitly.com/"
+    },
+    {
+      "name": "Privacy Policy Generator",
+      "description": " Generate a privacy policy for your website",
+      "url": " https://www.termsfeed.com/privacy-policy-generator/"
+    },
+    {
+      "name": "Terms and Conditions Generator",
+      "description": " Generate terms and conditions for your website",
+      "url": " https://www.termsfeed.com/terms-conditions-generator/"
+    },
+    {
+      "name": "Disclaimer Generator",
+      "description": " Generate a disclaimer for your website",
+      "url": " https://www.termsfeed.com/disclaimer-generator/"
+    },
+    {
+      "name": "Business Name Generator",
+      "description": " Generate business name ideas",
+      "url": " https://www.shopify.com/tools/business-name-generator"
+    },
+    {
+      "name": "Slogan Generator",
+      "description": " Generate slogans for your business",
+      "url": " https://www.shopify.com/tools/slogan-maker"
+    },
+    {
+      "name": "Free Invoice Template",
+      "description": " Download free invoice templates",
+      "url": " https://www.invoicely.com/free-invoice-template/"
+    },
+    {
+      "name": "Business Plan Template",
+      "description": " Download free business plan templates",
+      "url": " https://www.smartsheet.com/free-business-plan-templates"
+    },
+    {
+      "name": "SWOT Analysis Template",
+      "description": " Download free SWOT analysis templates",
+      "url": " https://www.smartsheet.com/free-swot-analysis-templates"
+    },
+    {
+      "name": "PESTLE Analysis Template",
+      "description": " Download free PESTLE analysis templates",
+      "url": " https://www.smartsheet.com/free-pestle-analysis-templates"
+    },
+    {
+      "name": "Lean Canvas Template",
+      "description": " Download free Lean Canvas templates",
+      "url": " https://leanstack.com/lean-canvas-template"
+    },
+    {
+      "name": "Value Proposition Canvas Template",
+      "description": " Download free Value Proposition Canvas templates",
+      "url": " https://www.strategyzer.com/canvas/value-proposition-canvas"
+    },
+    {
+      "name": "Business Model Canvas Template",
+      "description": " Download free Business Model Canvas templates",
+      "url": " https://www.strategyzer.com/canvas/business-model-canvas"
+    },
+    {
+      "name": "Customer Journey Map Template",
+      "description": " Download free Customer Journey Map templates",
+      "url": " https://www.smartsheet.com/free-customer-journey-map-templates"
+    },
+    {
+      "name": "Empathy Map Template",
+      "description": " Download free Empathy Map templates",
+      "url": " https://www.smartsheet.com/free-empathy-map-templates"
+    },
+    {
+      "name": "Competitive Analysis Template",
+      "description": " Download free Competitive Analysis templates",
+      "url": " https://www.smartsheet.com/free-competitive-analysis-templates"
+    },
+    {
+      "name": "Market Research Template",
+      "description": " Download free Market Research templates",
+      "url": " https://www.smartsheet.com/free-market-research-templates"
+    },
+    {
+      "name": "Financial Statement Templates",
+      "description": " Download free Financial Statement templates",
+      "url": " https://www.smartsheet.com/free-financial-statement-templates"
+    },
+    {
+      "name": "Budget Template",
+      "description": " Download free budget templates",
+      "url": " https://www.smartsheet.com/free-budget-templates"
+    },
+    {
+      "name": "Cash Flow Statement Template",
+      "description": " Download free Cash Flow Statement templates",
+      "url": " https://www.smartsheet.com/free-cash-flow-statement-templates"
+    },
+    {
+      "name": "Profit and Loss Statement Template",
+      "description": " Download free Profit and Loss Statement templates",
+      "url": " https://www.smartsheet.com/free-profit-and-loss-statement-templates"
+    },
+    {
+      "name": "Balance Sheet Template",
+      "description": " Download free Balance Sheet templates",
+      "url": " https://www.smartsheet.com/free-balance-sheet-templates"
+    },
+    {
+      "name": "Break-Even Analysis Template",
+      "description": " Download free Break-Even Analysis templates",
+      "url": " https://www.smartsheet.com/free-break-even-analysis-templates"
+    },
+    {
+      "name": "Startup Valuation Template",
+      "description": " Download free Startup Valuation templates",
+      "url": " https://www.smartsheet.com/free-startup-valuation-templates"
+    },
+    {
+      "name": "Sales Forecast Template",
+      "description": " Download free Sales Forecast templates",
+      "url": " https://www.smartsheet.com/free-sales-forecast-templates"
+    },
+    {
+      "name": "Marketing Plan Template",
+      "description": " Download free Marketing Plan templates",
+      "url": " https://www.smartsheet.com/free-marketing-plan-templates"
+    },
+    {
+      "name": "Social Media Calendar Template",
+      "description": " Download free Social Media Calendar templates",
+      "url": " https://www.smartsheet.com/free-social-media-calendar-templates"
+    },
+    {
+      "name": "Content Calendar Template",
+      "description": " Download free Content Calendar templates",
+      "url": " https://www.smartsheet.com/free-content-calendar-templates"
+    },
+    {
+      "name": "Email Marketing Template",
+      "description": " Download free Email Marketing templates",
+      "url": " https://www.smartsheet.com/free-email-marketing-templates"
+    },
+    {
+      "name": "Project Management Template",
+      "description": " Download free Project Management templates",
+      "url": " https://www.smartsheet.com/free-project-management-templates"
+    },
+    {
+      "name": "Gantt Chart Template",
+      "description": " Download free Gantt Chart templates",
+      "url": " https://www.smartsheet.com/free-gantt-chart-templates"
+    },
+    {
+      "name": "Risk Assessment Template",
+      "description": " Download free Risk Assessment templates",
+      "url": " https://www.smartsheet.com/free-risk-assessment-templates"
+    },
+    {
+      "name": "Meeting Agenda Template",
+      "description": " Download free Meeting Agenda templates",
+      "url": " https://www.smartsheet.com/free-meeting-agenda-templates"
+    },
+    {
+      "name": "Meeting Minutes Template",
+      "description": " Download free Meeting Minutes templates",
+      "url": " https://www.smartsheet.com/free-meeting-minutes-templates"
+    },
+    {
+      "name": "Employee Performance Review Template",
+      "description": " Download free Employee Performance Review templates",
+      "url": " https://www.smartsheet.com/free-employee-performance-review-templates"
+    },
+    {
+      "name": "Job Description Template",
+      "description": " Download free Job Description templates",
+      "url": " https://www.smartsheet.com/free-job-description-templates"
+    },
+    {
+      "name": "Resume Template",
+      "description": " Download free resume templates",
+      "url": " https://www.smartsheet.com/free-resume-templates"
+    },
+    {
+      "name": "Cover Letter Template",
+      "description": " Download free cover letter templates",
+      "url": " https://www.smartsheet.com/free-cover-letter-templates"
+    },
+    {
+      "name": "Business Card Template",
+      "description": " Download free business card templates",
+      "url": " https://www.smartsheet.com/free-business-card-templates"
+    },
+    {
+      "name": "Letterhead Template",
+      "description": " Download free letterhead templates",
+      "url": " https://www.smartsheet.com/free-letterhead-templates"
+    },
+    {
+      "name": "Presentation Template",
+      "description": " Download free presentation templates",
+      "url": " https://www.smartsheet.com/free-presentation-templates"
+    },
+    {
+      "name": "Infographic Template",
+      "description": " Download free infographic templates",
+      "url": " https://www.smartsheet.com/free-infographic-templates"
+    },
+    {
+      "name": "Brochure Template",
+      "description": " Download free brochure templates",
+      "url": " https://www.smartsheet.com/free-brochure-templates"
+    },
+    {
+      "name": "Flyer Template",
+      "description": " Download free flyer templates",
+      "url": " https://www.smartsheet.com/free-flyer-templates"
+    },
+    {
+      "name": "Poster Template",
+      "description": " Download free poster templates",
+      "url": " https://www.smartsheet.com/free-poster-templates"
+    },
+    {
+      "name": "Social Media Post Template",
+      "description": " Download free social media post templates",
+      "url": " https://www.smartsheet.com/free-social-media-post-templates"
+    },
+    {
+      "name": "Report Template",
+      "description": " Download free report templates",
+      "url": " https://www.smartsheet.com/free-report-templates"
+    },
+    {
+      "name": "Case Study Template",
+      "description": " Download free case study templates",
+      "url": " https://www.smartsheet.com/free-case-study-templates"
+    },
+    {
+      "name": "White Paper Template",
+      "description": " Download free white paper templates",
+      "url": " https://www.smartsheet.com/free-white-paper-templates"
+    },
+    {
+      "name": "Ebook Template",
+      "description": " Download free ebook templates",
+      "url": " https://www.smartsheet.com/free-ebook-templates"
+    },
+    {
+      "name": "Newsletter Template",
+      "description": " Download free newsletter templates",
+      "url": " https://www.smartsheet.com/free-newsletter-templates"
+    },
+    {
+      "name": "Press Release Template",
+      "description": " Download free press release templates",
+      "url": " https://www.smartsheet.com/free-press-release-templates"
+    },
+    {
+      "name": "Contract Template",
+      "description": " Download free contract templates",
+      "url": " https://www.smartsheet.com/free-contract-templates"
+    },
+    {
+      "name": "Legal Document Template",
+      "description": " Download free legal document templates",
+      "url": " https://www.smartsheet.com/free-legal-document-templates"
+    }
+  ]
+}

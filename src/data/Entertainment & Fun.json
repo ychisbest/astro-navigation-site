@@ -1,0 +1,1782 @@
+{
+  "slug": "entertainment-&-fun",
+  "name": "Entertainment & Fun",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Random Name Generator",
+      "description": " Generates random names for various purposes.",
+      "url": " https://www.name-generator.org.uk/"
+    },
+    {
+      "name": "Random Number Generator",
+      "description": " Generates random numbers within a specified range.",
+      "url": " https://www.random.org/"
+    },
+    {
+      "name": "Online Dice Roller",
+      "description": " Simulates rolling dice online.",
+      "url": " https://rolladie.net/"
+    },
+    {
+      "name": "Virtual Coin Toss",
+      "description": " Simulates flipping a coin online.",
+      "url": " https://justflipacoin.com/"
+    },
+    {
+      "name": "Online Meme Generator",
+      "description": " Creates memes using various templates and custom text.",
+      "url": " https://imgflip.com/memegenerator"
+    },
+    {
+      "name": "GIF Maker",
+      "description": " Creates animated GIFs from images or videos.",
+      "url": " https://ezgif.com/maker"
+    },
+    {
+      "name": "Online Countdown Timer",
+      "description": " Sets a timer for a specific event or duration.",
+      "url": " https://www.online-stopwatch.com/countdown-timer/"
+    },
+    {
+      "name": "Online Stopwatch",
+      "description": " A simple online stopwatch.",
+      "url": " https://www.online-stopwatch.com/"
+    },
+    {
+      "name": "Word Counter",
+      "description": " Counts the number of words, characters, and sentences in a text.",
+      "url": " https://wordcounter.net/"
+    },
+    {
+      "name": "QR Code Generator",
+      "description": " Generates QR codes for URLs, text, or other data.",
+      "url": " https://www.qr-code-generator.com/"
+    },
+    {
+      "name": "ASCII Art Generator",
+      "description": " Converts text or images into ASCII art.",
+      "url": " https://www.ascii-art-generator.org/"
+    },
+    {
+      "name": "Online Calculator",
+      "description": " A basic online calculator.",
+      "url": " https://www.calculator.net/"
+    },
+    {
+      "name": "Color Palette Generator",
+      "description": " Creates color palettes from images or color codes.",
+      "url": " https://coolors.co/"
+    },
+    {
+      "name": "Fake Tweet Generator",
+      "description": " Creates fake tweet images.",
+      "url": " https://faketweetgenerator.com/"
+    },
+    {
+      "name": "Fortune Teller",
+      "description": " Provides a simulated fortune.",
+      "url": " https://www.fortunetelleroracle.com/"
+    },
+    {
+      "name": "Mad Libs Generator",
+      "description": " Creates Mad Libs stories online.",
+      "url": " https://www.madlibs.com/"
+    },
+    {
+      "name": "Would You Rather",
+      "description": " Generates \"Would You Rather\" questions.",
+      "url": " https://www.wouldyourather.com/"
+    },
+    {
+      "name": "Online Sudoku",
+      "description": " Play Sudoku online.",
+      "url": " https://sudoku.com/"
+    },
+    {
+      "name": "Online Crossword Puzzle",
+      "description": " Play crossword puzzles online.",
+      "url": " https://www.websudoku.com/"
+    },
+    {
+      "name": "Typing Test",
+      "description": " Tests your typing speed and accuracy.",
+      "url": " https://www.typingtest.com/"
+    },
+    {
+      "name": "Online Piano",
+      "description": " Play piano online.",
+      "url": " https://virtualpiano.net/"
+    },
+    {
+      "name": "Virtual Bubble Wrap",
+      "description": " Pop virtual bubble wrap.",
+      "url": " https://virtual-bubblewrap.com/"
+    },
+    {
+      "name": "Random User Generator",
+      "description": " Generates random user profiles with fake information.",
+      "url": " https://randomuser.me/"
+    },
+    {
+      "name": "Lotto Number Generator",
+      "description": " Generates random lotto numbers.",
+      "url": " https://www.random.org/integers/"
+    },
+    {
+      "name": "Online Magic 8 Ball",
+      "description": " Asks a question and receives a random answer.",
+      "url": " https://www.indra.com/8ball/front.html"
+    },
+    {
+      "name": "Fake Name Generator",
+      "description": " Generates fake names and identities.",
+      "url": " https://www.fakenamegenerator.com/"
+    },
+    {
+      "name": "Text to Speech",
+      "description": " Converts text to speech online.",
+      "url": " https://www.naturalreaders.com/online/"
+    },
+    {
+      "name": "Reverse Text Generator",
+      "description": " Reverses text.",
+      "url": " https://www.fliptext.org/"
+    },
+    {
+      "name": "Mirror Text Generator",
+      "description": " Mirrors text.",
+      "url": " https://www.writewords.org.uk/reverse.asp"
+    },
+    {
+      "name": "Online Jigsaw Puzzle",
+      "description": " Play jigsaw puzzles online.",
+      "url": " https://www.jigsawplanet.com/"
+    },
+    {
+      "name": "Rock Paper Scissors Online",
+      "description": " Play Rock Paper Scissors against the computer.",
+      "url": " https://www.aficionados.com/rock-paper-scissors/"
+    },
+    {
+      "name": "URL Shortener",
+      "description": " Shortens long URLs.",
+      "url": " https://bitly.com/"
+    },
+    {
+      "name": "Base64 Encoder/Decoder",
+      "description": " Encodes and decodes Base64 strings.",
+      "url": " https://www.base64encode.org/"
+    },
+    {
+      "name": "Password Generator",
+      "description": " Generates strong passwords.",
+      "url": " https://passwordsgenerator.net/"
+    },
+    {
+      "name": "UUID Generator",
+      "description": " Generates Universally Unique Identifiers (UUIDs).",
+      "url": " https://www.uuidgenerator.net/"
+    },
+    {
+      "name": "HTML Encoder/Decoder",
+      "description": " Encodes and decodes HTML entities.",
+      "url": " https://www.freeformatter.com/html-encoder.html"
+    },
+    {
+      "name": "Text Case Converter",
+      "description": " Converts text between different cases (uppercase, lowercase, etc.).",
+      "url": " https://convertcase.net/"
+    },
+    {
+      "name": "Image to Text Converter (OCR)",
+      "description": " Extracts text from images.",
+      "url": " https://www.onlineocr.net/"
+    },
+    {
+      "name": "Morse Code Translator",
+      "description": " Translates text to Morse code and vice versa.",
+      "url": " https://morsecode.world/translate/"
+    },
+    {
+      "name": "Binary Translator",
+      "description": " Translates text to binary and vice versa.",
+      "url": " https://www.binarytranslator.com/"
+    },
+    {
+      "name": "File Converter",
+      "description": " Converts files between different formats.",
+      "url": " https://cloudconvert.com/"
+    },
+    {
+      "name": "Online Voice Recorder",
+      "description": " Records audio online.",
+      "url": " https://onlinevoicerecorder.com/"
+    },
+    {
+      "name": "Video Editor",
+      "description": " Edits videos online.",
+      "url": " https://www.wevideo.com/"
+    },
+    {
+      "name": "Image Resizer",
+      "description": " Resizes images online.",
+      "url": " https://www.iloveimg.com/resize-image"
+    },
+    {
+      "name": "PDF Editor",
+      "description": " Edits PDF files online.",
+      "url": " https://www.ilovepdf.com/edit-pdf"
+    },
+    {
+      "name": "Online Whiteboard",
+      "description": " A collaborative online whiteboard.",
+      "url": " https://awwapp.com/"
+    },
+    {
+      "name": "Online Mind Map",
+      "description": " Creates mind maps online.",
+      "url": " https://www.mindmup.com/"
+    },
+    {
+      "name": "Flowchart Maker",
+      "description": " Creates flowcharts online.",
+      "url": " https://www.lucidchart.com/"
+    },
+    {
+      "name": "Screenshot Tool",
+      "description": " Takes screenshots of your screen.",
+      "url": " https://www.getcloudapp.com/"
+    },
+    {
+      "name": "Screen Recorder",
+      "description": " Records your screen activity.",
+      "url": " https://www.screencast-o-matic.com/"
+    },
+    {
+      "name": "Online Notepad",
+      "description": " A simple online notepad.",
+      "url": " https://notepad.js.org/"
+    },
+    {
+      "name": "To-Do List",
+      "description": " Creates and manages to-do lists.",
+      "url": " https://todoist.com/"
+    },
+    {
+      "name": "Calendar",
+      "description": " Online calendar for scheduling events.",
+      "url": " https://www.google.com/calendar/"
+    },
+    {
+      "name": "World Clock",
+      "description": " Displays the current time in different time zones.",
+      "url": " https://www.timeanddate.com/worldclock/"
+    },
+    {
+      "name": "Unit Converter",
+      "description": " Converts between different units of measurement.",
+      "url": " https://www.unitconverters.net/"
+    },
+    {
+      "name": "Currency Converter",
+      "description": " Converts between different currencies.",
+      "url": " https://www.xe.com/currencyconverter/"
+    },
+    {
+      "name": "BMI Calculator",
+      "description": " Calculates Body Mass Index (BMI).",
+      "url": " https://www.calculator.net/bmi-calculator.html"
+    },
+    {
+      "name": "Age Calculator",
+      "description": " Calculates age based on birthdate.",
+      "url": " https://www.calculator.net/age-calculator.html"
+    },
+    {
+      "name": "Date Calculator",
+      "description": " Calculates the difference between two dates.",
+      "url": " https://www.calculator.net/date-calculator.html"
+    },
+    {
+      "name": "Loan Calculator",
+      "description": " Calculates loan payments.",
+      "url": " https://www.calculator.net/loan-calculator.html"
+    },
+    {
+      "name": "Mortgage Calculator",
+      "description": " Calculates mortgage payments.",
+      "url": " https://www.calculator.net/mortgage-calculator.html"
+    },
+    {
+      "name": "Simple Drawing Tool",
+      "description": " A simple online drawing tool.",
+      "url": " https://jspaint.app/"
+    },
+    {
+      "name": "Text Art Generator",
+      "description": " Generates text art.",
+      "url": " https://manytools.org/hacker-tools/convert-text-to-ascii-art/"
+    },
+    {
+      "name": "Word Scramble Solver",
+      "description": " Solves word scramble puzzles.",
+      "url": " https://wordunscrambler.me/"
+    },
+    {
+      "name": "Anagram Solver",
+      "description": " Solves anagrams.",
+      "url": " https://www.thefreedictionary.com/anagram-solver.htm"
+    },
+    {
+      "name": "Crossword Solver",
+      "description": " Helps solve crossword puzzles.",
+      "url": " https://www.crosswordsolver.org/"
+    },
+    {
+      "name": "Sudoku Solver",
+      "description": " Solves Sudoku puzzles.",
+      "url": " https://sudokusolver.io/"
+    },
+    {
+      "name": "Online Metronome",
+      "description": " An online metronome for practicing music.",
+      "url": " https://www.metronomeonline.com/"
+    },
+    {
+      "name": "Pitch Detector",
+      "description": " Detects the pitch of a sound.",
+      "url": " https://www.onlinepianist.com/pitch-detector"
+    },
+    {
+      "name": "Sound Effects Generator",
+      "description": " Generates sound effects.",
+      "url": " https://www.myinstants.com/"
+    },
+    {
+      "name": "Background Noise Generator",
+      "description": " Generates background noise (e.g., white noise).",
+      "url": " https://mynoise.net/"
+    },
+    {
+      "name": "Online Radio",
+      "description": " Listens to online radio stations.",
+      "url": " https://www.internet-radio.com/"
+    },
+    {
+      "name": "Podcast Player",
+      "description": " Plays podcasts online.",
+      "url": " https://www.listennotes.com/"
+    },
+    {
+      "name": "Online TV",
+      "description": " Watches TV shows online.",
+      "url": " https://www.pluto.tv/"
+    },
+    {
+      "name": "Movie Streaming",
+      "description": " Streams movies online.",
+      "url": " https://tubitv.com/"
+    },
+    {
+      "name": "Game Streaming",
+      "description": " Streams video games online.",
+      "url": " https://www.twitch.tv/"
+    },
+    {
+      "name": "Book Reader",
+      "description": " Reads ebooks online.",
+      "url": " https://www.gutenberg.org/"
+    },
+    {
+      "name": "Comic Reader",
+      "description": " Reads comics online.",
+      "url": " https://www.marvel.com/comics/unlimited"
+    },
+    {
+      "name": "Online Coloring Pages",
+      "description": " Provides coloring pages online.",
+      "url": " https://www.justcolor.net/"
+    },
+    {
+      "name": "Origami Instructions",
+      "description": " Provides origami instructions.",
+      "url": " https://www.origami-instructions.com/"
+    },
+    {
+      "name": "Magic Trick Tutorials",
+      "description": " Provides magic trick tutorials.",
+      "url": " https://www.wikihow.com/Do-Easy-Magic-Tricks"
+    },
+    {
+      "name": "Optical Illusion Generator",
+      "description": " Generates optical illusions.",
+      "url": " https://www.illusionsindex.org/i/top-illusions"
+    },
+    {
+      "name": "Trivia Quiz Generator",
+      "description": " Generates trivia quizzes.",
+      "url": " https://www.opinionstage.com/"
+    },
+    {
+      "name": "Personality Quiz Generator",
+      "description": " Generates personality quizzes.",
+      "url": " https://www.proprofs.com/quiz-school/personality-quiz/"
+    },
+    {
+      "name": "Love Calculator",
+      "description": " Calculates love compatibility.",
+      "url": " https://www.calculator.net/love-calculator.html"
+    },
+    {
+      "name": "Compatibility Test",
+      "description": " Tests compatibility between two people.",
+      "url": " https://www.astrology.com/compatibility"
+    },
+    {
+      "name": "Dream Interpretation",
+      "description": " Interprets dreams.",
+      "url": " https://www.dreamdictionary.org/"
+    },
+    {
+      "name": "Palm Reading",
+      "description": " Provides palm reading interpretations.",
+      "url": " https://www.free-palm-reading.com/"
+    },
+    {
+      "name": "Tarot Card Reading",
+      "description": " Provides tarot card readings.",
+      "url": " https://www.trustedtarot.com/"
+    },
+    {
+      "name": "Astrology Chart",
+      "description": " Generates astrology charts.",
+      "url": " https://astro.com/"
+    },
+    {
+      "name": "Biorhythm Calculator",
+      "description": " Calculates biorhythms.",
+      "url": " https://www.calculator.net/biorhythm-calculator.html"
+    },
+    {
+      "name": "ESP Test",
+      "description": " Tests for extrasensory perception (ESP).",
+      "url": " https://www.gotpsi.org/test/"
+    },
+    {
+      "name": "Mind Reader",
+      "description": " Attempts to read your mind.",
+      "url": " https://www.mathsisfun.com/games/mind-reader.html"
+    },
+    {
+      "name": "Joke Generator",
+      "description": " Generates jokes.",
+      "url": " https://www.rd.com/jokes/"
+    },
+    {
+      "name": "Riddle Generator",
+      "description": " Generates riddles.",
+      "url": " https://www.riddles.com/"
+    },
+    {
+      "name": "Pick Up Line Generator",
+      "description": " Generates pick-up lines.",
+      "url": " https://www.pickup lines.net/"
+    },
+    {
+      "name": "Insult Generator",
+      "description": " Generates insults.",
+      "url": " https://insultgenerator.org/"
+    },
+    {
+      "name": "Compliment Generator",
+      "description": " Generates compliments.",
+      "url": " https://www.complimentgenerator.com/"
+    },
+    {
+      "name": "Excuses Generator",
+      "description": " Generates excuses.",
+      "url": " http://www.theexcusegenerator.com/"
+    },
+    {
+      "name": "Story Generator",
+      "description": " Generates stories.",
+      "url": " https://www.plot-generator.org.uk/"
+    },
+    {
+      "name": "Poem Generator",
+      "description": " Generates poems.",
+      "url": " https://www.poem-generator.org.uk/"
+    },
+    {
+      "name": "Name Poem Generator",
+      "description": " Generates poems based on a name.",
+      "url": " https://www.names.org/name-poem/"
+    },
+    {
+      "name": "Song Lyrics Generator",
+      "description": " Generates song lyrics.",
+      "url": " https://www.songlyricsgenerator.com/"
+    },
+    {
+      "name": "Fortune Cookie Generator",
+      "description": " Generates fortune cookie messages.",
+      "url": " https://www.fortunecookiegenerator.com/"
+    },
+    {
+      "name": "Motivational Quote Generator",
+      "description": " Generates motivational quotes.",
+      "url": " https://www.oberlo.com/blog/motivational-quotes"
+    },
+    {
+      "name": "Inspirational Quote Generator",
+      "description": " Generates inspirational quotes.",
+      "url": " https://www.brainyquote.com/"
+    },
+    {
+      "name": "Proverb Generator",
+      "description": " Generates proverbs.",
+      "url": " https://www.quotegarden.com/proverbs.html"
+    },
+    {
+      "name": "Philosophical Quote Generator",
+      "description": " Generates philosophical quotes.",
+      "url": " https://www.goodreads.com/quotes"
+    },
+    {
+      "name": "Science Fact Generator",
+      "description": " Generates science facts.",
+      "url": " https://www.sciencefacts.net/"
+    },
+    {
+      "name": "History Fact Generator",
+      "description": " Generates history facts.",
+      "url": " https://www.history.com/this-day-in-history"
+    },
+    {
+      "name": "Random Fact Generator",
+      "description": " Generates random facts.",
+      "url": " https://uselessfacts.jsrd.io/"
+    },
+    {
+      "name": "Did You Know Generator",
+      "description": " Generates \"Did You Know\" facts.",
+      "url": " https://www.didyouknowfacts.com/"
+    },
+    {
+      "name": "Space Fact Generator",
+      "description": " Generates space facts.",
+      "url": " https://space-facts.com/"
+    },
+    {
+      "name": "Animal Fact Generator",
+      "description": " Generates animal facts.",
+      "url": " https://www.sciencekids.co.nz/sciencefacts/animals.html"
+    },
+    {
+      "name": "Food Fact Generator",
+      "description": " Generates food facts.",
+      "url": " https://www.foodfacts.com/"
+    },
+    {
+      "name": "Movie Fact Generator",
+      "description": " Generates movie facts.",
+      "url": " https://www.imdb.com/list/ls058000045/"
+    },
+    {
+      "name": "Music Fact Generator",
+      "description": " Generates music facts.",
+      "url": " https://www.udiscovermusic.com/stories/music-facts-trivia/"
+    },
+    {
+      "name": "Game Fact Generator",
+      "description": " Generates video game facts.",
+      "url": " https://www.thefactsite.com/20-interesting-video-game-facts/"
+    },
+    {
+      "name": "Technology Fact Generator",
+      "description": " Generates technology facts.",
+      "url": " https://interestingengineering.com/10-mind-blowing-tech-facts"
+    },
+    {
+      "name": "Art Fact Generator",
+      "description": " Generates art facts.",
+      "url": " https://www.artfacts.net/"
+    },
+    {
+      "name": "Travel Fact Generator",
+      "description": " Generates travel facts.",
+      "url": " https://www.travelandleisure.com/"
+    },
+    {
+      "name": "Sports Fact Generator",
+      "description": " Generates sports facts.",
+      "url": " https://www.topendsports.com/sport/list/interesting-facts.htm"
+    },
+    {
+      "name": "Business Fact Generator",
+      "description": " Generates business facts.",
+      "url": " https://smallbiztrends.com/2014/01/business-facts.html"
+    },
+    {
+      "name": "Law Fact Generator",
+      "description": " Generates law facts.",
+      "url": " https://www.hg.org/legal-articles.asp"
+    },
+    {
+      "name": "Medical Fact Generator",
+      "description": " Generates medical facts.",
+      "url": " https://www.webmd.com/"
+    },
+    {
+      "name": "Psychology Fact Generator",
+      "description": " Generates psychology facts.",
+      "url": " https://www.simplypsychology.org/"
+    },
+    {
+      "name": "Geography Fact Generator",
+      "description": " Generates geography facts.",
+      "url": " https://www.worldatlas.com/"
+    },
+    {
+      "name": "Economics Fact Generator",
+      "description": " Generates economics facts.",
+      "url": " https://www.investopedia.com/"
+    },
+    {
+      "name": "Political Fact Generator",
+      "description": " Generates political facts.",
+      "url": " https://www.politifact.com/"
+    },
+    {
+      "name": "Environmental Fact Generator",
+      "description": " Generates environmental facts.",
+      "url": " https://www.epa.gov/"
+    },
+    {
+      "name": "Religious Fact Generator",
+      "description": " Generates religious facts.",
+      "url": " https://www.pewresearch.org/"
+    },
+    {
+      "name": "Mythology Fact Generator",
+      "description": " Generates mythology facts.",
+      "url": " https://www.britannica.com/topic/mythology"
+    },
+    {
+      "name": "Urban Legend Generator",
+      "description": " Generates urban legends.",
+      "url": " https://www.snopes.com/"
+    },
+    {
+      "name": "Conspiracy Theory Generator",
+      "description": " Generates conspiracy theories.",
+      "url": " https://www.ranker.com/list/true-conspiracy-theories/melisa-reedy"
+    },
+    {
+      "name": "Creepypasta Generator",
+      "description": " Generates creepypasta stories.",
+      "url": " https://www.creepypasta.com/"
+    },
+    {
+      "name": "Short Story Generator",
+      "description": " Generates short stories.",
+      "url": " https://www.shortstoryproject.com/"
+    },
+    {
+      "name": "Flash Fiction Generator",
+      "description": " Generates flash fiction stories.",
+      "url": " https://www.101words.org/"
+    },
+    {
+      "name": "Microfiction Generator",
+      "description": " Generates microfiction stories.",
+      "url": " https://www.fimfiction.net/"
+    },
+    {
+      "name": "Dialogue Generator",
+      "description": " Generates dialogue between characters.",
+      "url": " https://www.springhole.net/writing/dialogue-prompts.htm"
+    },
+    {
+      "name": "Character Generator",
+      "description": " Generates character profiles.",
+      "url": " https://www.fantasynamegenerators.com/character-generator.php"
+    },
+    {
+      "name": "Plot Twist Generator",
+      "description": " Generates plot twists.",
+      "url": " https://www.writersdigest.com/writing-articles/5-master-plots-that-never-fail"
+    },
+    {
+      "name": "Worldbuilding Generator",
+      "description": " Generates worldbuilding elements.",
+      "url": " https://www.worldanvil.com/"
+    },
+    {
+      "name": "Map Generator",
+      "description": " Generates maps for fantasy worlds.",
+      "url": " https://azgaar.github.io/Fantasy-Map-Generator/"
+    },
+    {
+      "name": "Timeline Generator",
+      "description": " Generates timelines.",
+      "url": " https://www.tiki-toki.com/"
+    },
+    {
+      "name": "Family Tree Generator",
+      "description": " Generates family trees.",
+      "url": " https://www.myheritage.com/family-tree-builder"
+    },
+    {
+      "name": "Relationship Calculator",
+      "description": " Calculates relationship compatibility.",
+      "url": " https://www.lovecalculator.com/"
+    },
+    {
+      "name": "Friendship Calculator",
+      "description": " Calculates friendship compatibility.",
+      "url": " https://www.friendshipcalculator.com/"
+    },
+    {
+      "name": "Online Dating Site",
+      "description": " Connects people for dating.",
+      "url": " https://www.okcupid.com/"
+    },
+    {
+      "name": "Virtual Pet",
+      "description": " Adopts and cares for a virtual pet.",
+      "url": " https://www.neopets.com/"
+    },
+    {
+      "name": "Virtual Aquarium",
+      "description": " Creates and manages a virtual aquarium.",
+      "url": " https://www.virtualaquarium.com/"
+    },
+    {
+      "name": "Virtual Garden",
+      "description": " Creates and manages a virtual garden.",
+      "url": " https://www.growveg.com/"
+    },
+    {
+      "name": "Virtual Dollhouse",
+      "description": " Creates and decorates a virtual dollhouse.",
+      "url": " https://www.agirlsfashiondollhouse.com/"
+    },
+    {
+      "name": "Virtual Makeover",
+      "description": " Applies makeup and hairstyles virtually.",
+      "url": " https://www.taaz.com/"
+    },
+    {
+      "name": "Virtual Dress Up",
+      "description": " Dresses up virtual characters.",
+      "url": " https://www.dressupgames.com/"
+    },
+    {
+      "name": "Virtual Avatar Creator",
+      "description": " Creates virtual avatars.",
+      "url": " https://getavataaars.com/"
+    },
+    {
+      "name": "Emoji Generator",
+      "description": " Generates custom emojis.",
+      "url": " https://emoji.supply/"
+    },
+    {
+      "name": "Sticker Generator",
+      "description": " Generates custom stickers.",
+      "url": " https://www.stickermule.com/"
+    },
+    {
+      "name": "Font Generator",
+      "description": " Generates custom fonts.",
+      "url": " https://fontstruct.com/"
+    },
+    {
+      "name": "Logo Generator",
+      "description": " Generates logos.",
+      "url": " https://hatchful.shopify.com/"
+    },
+    {
+      "name": "Business Name Generator",
+      "description": " Generates business names.",
+      "url": " https://www.shopify.com/tools/business-name-generator"
+    },
+    {
+      "name": "Slogan Generator",
+      "description": " Generates slogans.",
+      "url": " https://www.shopify.com/tools/slogan-maker"
+    },
+    {
+      "name": "Marketing Tool",
+      "description": " Assists with marketing efforts.",
+      "url": " https://mailchimp.com/"
+    },
+    {
+      "name": "SEO Tool",
+      "description": " Assists with Search Engine Optimization (SEO).",
+      "url": " https://ahrefs.com/"
+    },
+    {
+      "name": "Social Media Tool",
+      "description": " Assists with social media management.",
+      "url": " https://buffer.com/"
+    },
+    {
+      "name": "Productivity Tool",
+      "description": " Assists with productivity.",
+      "url": " https://asana.com/"
+    },
+    {
+      "name": "Collaboration Tool",
+      "description": " Assists with collaboration.",
+      "url": " https://www.slack.com/"
+    },
+    {
+      "name": "Learning Tool",
+      "description": " Assists with learning.",
+      "url": " https://www.khanacademy.org/"
+    },
+    {
+      "name": "Research Tool",
+      "description": " Assists with research.",
+      "url": " https://scholar.google.com/"
+    },
+    {
+      "name": "Writing Tool",
+      "description": " Assists with writing.",
+      "url": " https://www.grammarly.com/"
+    },
+    {
+      "name": "Design Tool",
+      "description": " Assists with design.",
+      "url": " https://www.canva.com/"
+    },
+    {
+      "name": "Development Tool",
+      "description": " Assists with software development.",
+      "url": " https://github.com/"
+    },
+    {
+      "name": "Security Tool",
+      "description": " Assists with security.",
+      "url": " https://www.cloudflare.com/"
+    },
+    {
+      "name": "Privacy Tool",
+      "description": " Assists with privacy.",
+      "url": " https://duckduckgo.com/"
+    },
+    {
+      "name": "Accessibility Tool",
+      "description": " Assists with accessibility.",
+      "url": " https://wave.webaim.org/"
+    },
+    {
+      "name": "Translation Tool",
+      "description": " Translates text between languages.",
+      "url": " https://translate.google.com/"
+    },
+    {
+      "name": "Dictionary",
+      "description": " Provides definitions of words.",
+      "url": " https://www.merriam-webster.com/"
+    },
+    {
+      "name": "Thesaurus",
+      "description": " Provides synonyms and antonyms of words.",
+      "url": " https://www.thesaurus.com/"
+    },
+    {
+      "name": "Grammar Checker",
+      "description": " Checks grammar and spelling.",
+      "url": " https://www.grammarly.com/"
+    },
+    {
+      "name": "Plagiarism Checker",
+      "description": " Checks for plagiarism.",
+      "url": " https://www.duplichecker.com/"
+    },
+    {
+      "name": "Citation Generator",
+      "description": " Generates citations for research papers.",
+      "url": " https://www.citationmachine.net/"
+    },
+    {
+      "name": "Scientific Calculator",
+      "description": " A scientific online calculator.",
+      "url": " https://www.calculator.net/scientific-calculator.html"
+    },
+    {
+      "name": "Graphing Calculator",
+      "description": " A graphing online calculator.",
+      "url": " https://www.desmos.com/calculator"
+    },
+    {
+      "name": "Statistics Calculator",
+      "description": " A statistics online calculator.",
+      "url": " https://www.calculator.net/statistics-calculator.html"
+    },
+    {
+      "name": "Financial Calculator",
+      "description": " A financial online calculator.",
+      "url": " https://www.calculator.net/financial-calculator.html"
+    },
+    {
+      "name": "Conversion Calculator",
+      "description": " A conversion online calculator.",
+      "url": " https://www.calculator.net/conversion-calculator.html"
+    },
+    {
+      "name": "Health Calculator",
+      "description": " A health online calculator.",
+      "url": " https://www.calculator.net/health-calculator.html"
+    },
+    {
+      "name": "Math Calculator",
+      "description": " A math online calculator.",
+      "url": " https://www.calculator.net/math-calculator.html"
+    },
+    {
+      "name": "Physics Calculator",
+      "description": " A physics online calculator.",
+      "url": " https://www.calculator.net/physics-calculator.html"
+    },
+    {
+      "name": "Chemistry Calculator",
+      "description": " A chemistry online calculator.",
+      "url": " https://www.calculator.net/chemistry-calculator.html"
+    },
+    {
+      "name": "Engineering Calculator",
+      "description": " An engineering online calculator.",
+      "url": " https://www.calculator.net/engineering-calculator.html"
+    },
+    {
+      "name": "Construction Calculator",
+      "description": " A construction online calculator.",
+      "url": " https://www.calculator.net/construction-calculator.html"
+    },
+    {
+      "name": "Real Estate Calculator",
+      "description": " A real estate online calculator.",
+      "url": " https://www.calculator.net/real-estate-calculator.html"
+    },
+    {
+      "name": "Tax Calculator",
+      "description": " A tax online calculator.",
+      "url": " https://www.calculator.net/tax-calculator.html"
+    },
+    {
+      "name": "Retirement Calculator",
+      "description": " A retirement online calculator.",
+      "url": " https://www.calculator.net/retirement-calculator.html"
+    },
+    {
+      "name": "Investment Calculator",
+      "description": " An investment online calculator.",
+      "url": " https://www.calculator.net/investment-calculator.html"
+    },
+    {
+      "name": "Savings Calculator",
+      "description": " A savings online calculator.",
+      "url": " https://www.calculator.net/savings-calculator.html"
+    },
+    {
+      "name": "Budget Calculator",
+      "description": " A budget online calculator.",
+      "url": " https://www.calculator.net/budget-calculator.html"
+    },
+    {
+      "name": "Credit Card Calculator",
+      "description": " A credit card online calculator.",
+      "url": " https://www.calculator.net/credit-card-calculator.html"
+    },
+    {
+      "name": "Auto Loan Calculator",
+      "description": " An auto loan online calculator.",
+      "url": " https://www.calculator.net/auto-loan-calculator.html"
+    },
+    {
+      "name": "Student Loan Calculator",
+      "description": " A student loan online calculator.",
+      "url": " https://www.calculator.net/student-loan-calculator.html"
+    },
+    {
+      "name": "Personal Loan Calculator",
+      "description": " A personal loan online calculator.",
+      "url": " https://www.calculator.net/personal-loan-calculator.html"
+    },
+    {
+      "name": "Debt Consolidation Calculator",
+      "description": " A debt consolidation online calculator.",
+      "url": " https://www.calculator.net/debt-consolidation-calculator.html"
+    },
+    {
+      "name": "Paycheck Calculator",
+      "description": " A paycheck online calculator.",
+      "url": " https://www.calculator.net/paycheck-calculator.html"
+    },
+    {
+      "name": "Hourly Wage Calculator",
+      "description": " An hourly wage online calculator.",
+      "url": " https://www.calculator.net/hourly-wage-calculator.html"
+    },
+    {
+      "name": "Salary Calculator",
+      "description": " A salary online calculator.",
+      "url": " https://www.calculator.net/salary-calculator.html"
+    },
+    {
+      "name": "Net Income Calculator",
+      "description": " A net income online calculator.",
+      "url": " https://www.calculator.net/net-income-calculator.html"
+    },
+    {
+      "name": "Gross Income Calculator",
+      "description": " A gross income online calculator.",
+      "url": " https://www.calculator.net/gross-income-calculator.html"
+    },
+    {
+      "name": "Take Home Pay Calculator",
+      "description": " A take home pay online calculator.",
+      "url": " https://www.calculator.net/take-home-pay-calculator.html"
+    },
+    {
+      "name": "Inflation Calculator",
+      "description": " An inflation online calculator.",
+      "url": " https://www.calculator.net/inflation-calculator.html"
+    },
+    {
+      "name": "Present Value Calculator",
+      "description": " A present value online calculator.",
+      "url": " https://www.calculator.net/present-value-calculator.html"
+    },
+    {
+      "name": "Future Value Calculator",
+      "description": " A future value online calculator.",
+      "url": " https://www.calculator.net/future-value-calculator.html"
+    },
+    {
+      "name": "Compound Interest Calculator",
+      "description": " A compound interest online calculator.",
+      "url": " https://www.calculator.net/compound-interest-calculator.html"
+    },
+    {
+      "name": "Annuity Calculator",
+      "description": " An annuity online calculator.",
+      "url": " https://www.calculator.net/annuity-calculator.html"
+    },
+    {
+      "name": "Perpetuity Calculator",
+      "description": " A perpetuity online calculator.",
+      "url": " https://www.calculator.net/perpetuity-calculator.html"
+    },
+    {
+      "name": "TVM Calculator",
+      "description": " A Time Value of Money (TVM) calculator.",
+      "url": " https://www.calculator.net/tvm-calculator.html"
+    },
+    {
+      "name": "Rule of 72 Calculator",
+      "description": " A Rule of 72 calculator.",
+      "url": " https://www.calculator.net/rule-of-72-calculator.html"
+    },
+    {
+      "name": "Stock Calculator",
+      "description": " A stock online calculator.",
+      "url": " https://www.calculator.net/stock-calculator.html"
+    },
+    {
+      "name": "Option Calculator",
+      "description": " An option online calculator.",
+      "url": " https://www.calculator.net/option-calculator.html"
+    },
+    {
+      "name": "Bond Calculator",
+      "description": " A bond online calculator.",
+      "url": " https://www.calculator.net/bond-calculator.html"
+    },
+    {
+      "name": "Mutual Fund Calculator",
+      "description": " A mutual fund online calculator.",
+      "url": " https://www.calculator.net/mutual-fund-calculator.html"
+    },
+    {
+      "name": "ETF Calculator",
+      "description": " An ETF online calculator.",
+      "url": " https://www.calculator.net/etf-calculator.html"
+    },
+    {
+      "name": "Hedge Fund Calculator",
+      "description": " A hedge fund online calculator.",
+      "url": " https://www.calculator.net/hedge-fund-calculator.html"
+    },
+    {
+      "name": "Commodity Calculator",
+      "description": " A commodity online calculator.",
+      "url": " https://www.calculator.net/commodity-calculator.html"
+    },
+    {
+      "name": "Cryptocurrency Calculator",
+      "description": " A cryptocurrency online calculator.",
+      "url": " https://www.calculator.net/cryptocurrency-calculator.html"
+    },
+    {
+      "name": "Real Estate Investment Calculator",
+      "description": " A real estate investment online calculator.",
+      "url": " https://www.calculator.net/real-estate-investment-calculator.html"
+    },
+    {
+      "name": "Rental Property Calculator",
+      "description": " A rental property online calculator.",
+      "url": " https://www.calculator.net/rental-property-calculator.html"
+    },
+    {
+      "name": "Cap Rate Calculator",
+      "description": " A cap rate online calculator.",
+      "url": " https://www.calculator.net/cap-rate-calculator.html"
+    },
+    {
+      "name": "ROI Calculator",
+      "description": " A Return on Investment (ROI) calculator.",
+      "url": " https://www.calculator.net/roi-calculator.html"
+    },
+    {
+      "name": "IRR Calculator",
+      "description": " An Internal Rate of Return (IRR) calculator.",
+      "url": " https://www.calculator.net/irr-calculator.html"
+    },
+    {
+      "name": "NPV Calculator",
+      "description": " A Net Present Value (NPV) calculator.",
+      "url": " https://www.calculator.net/npv-calculator.html"
+    },
+    {
+      "name": "Discounted Cash Flow Calculator",
+      "description": " A discounted cash flow online calculator.",
+      "url": " https://www.calculator.net/discounted-cash-flow-calculator.html"
+    },
+    {
+      "name": "Breakeven Calculator",
+      "description": " A breakeven online calculator.",
+      "url": " https://www.calculator.net/breakeven-calculator.html"
+    },
+    {
+      "name": "Margin Calculator",
+      "description": " A margin online calculator.",
+      "url": " https://www.calculator.net/margin-calculator.html"
+    },
+    {
+      "name": "Markup Calculator",
+      "description": " A markup online calculator.",
+      "url": " https://www.calculator.net/markup-calculator.html"
+    },
+    {
+      "name": "Profit Calculator",
+      "description": " A profit online calculator.",
+      "url": " https://www.calculator.net/profit-calculator.html"
+    },
+    {
+      "name": "Loss Calculator",
+      "description": " A loss online calculator.",
+      "url": " https://www.calculator.net/loss-calculator.html"
+    },
+    {
+      "name": "Revenue Calculator",
+      "description": " A revenue online calculator.",
+      "url": " https://www.calculator.net/revenue-calculator.html"
+    },
+    {
+      "name": "Cost Calculator",
+      "description": " A cost online calculator.",
+      "url": " https://www.calculator.net/cost-calculator.html"
+    },
+    {
+      "name": "Expense Calculator",
+      "description": " An expense online calculator.",
+      "url": " https://www.calculator.net/expense-calculator.html"
+    },
+    {
+      "name": "Inventory Calculator",
+      "description": " An inventory online calculator.",
+      "url": " https://www.calculator.net/inventory-calculator.html"
+    },
+    {
+      "name": "Sales Tax Calculator",
+      "description": " A sales tax online calculator.",
+      "url": " https://www.calculator.net/sales-tax-calculator.html"
+    },
+    {
+      "name": "VAT Calculator",
+      "description": " A Value Added Tax (VAT) calculator.",
+      "url": " https://www.calculator.net/vat-calculator.html"
+    },
+    {
+      "name": "Tip Calculator",
+      "description": " A tip online calculator.",
+      "url": " https://www.calculator.net/tip-calculator.html"
+    },
+    {
+      "name": "Discount Calculator",
+      "description": " A discount online calculator.",
+      "url": " https://www.calculator.net/discount-calculator.html"
+    },
+    {
+      "name": "Percentage Calculator",
+      "description": " A percentage online calculator.",
+      "url": " https://www.calculator.net/percentage-calculator.html"
+    },
+    {
+      "name": "Fraction Calculator",
+      "description": " A fraction online calculator.",
+      "url": " https://www.calculator.net/fraction-calculator.html"
+    },
+    {
+      "name": "Decimal Calculator",
+      "description": " A decimal online calculator.",
+      "url": " https://www.calculator.net/decimal-calculator.html"
+    },
+    {
+      "name": "Scientific Notation Calculator",
+      "description": " A scientific notation online calculator.",
+      "url": " https://www.calculator.net/scientific-notation-calculator.html"
+    },
+    {
+      "name": "Binary Calculator",
+      "description": " A binary online calculator.",
+      "url": " https://www.calculator.net/binary-calculator.html"
+    },
+    {
+      "name": "Hex Calculator",
+      "description": " A hexadecimal online calculator.",
+      "url": " https://www.calculator.net/hex-calculator.html"
+    },
+    {
+      "name": "Roman Numeral Calculator",
+      "description": " A Roman numeral online calculator.",
+      "url": " https://www.calculator.net/roman-numeral-calculator.html"
+    },
+    {
+      "name": "Time Calculator",
+      "description": " A time online calculator.",
+      "url": " https://www.calculator.net/time-calculator.html"
+    },
+    {
+      "name": "Date Duration Calculator",
+      "description": " A date duration online calculator.",
+      "url": " https://www.calculator.net/date-duration-calculator.html"
+    },
+    {
+      "name": "Age Difference Calculator",
+      "description": " An age difference online calculator.",
+      "url": " https://www.calculator.net/age-difference-calculator.html"
+    },
+    {
+      "name": "Pregnancy Calculator",
+      "description": " A pregnancy online calculator.",
+      "url": " https://www.calculator.net/pregnancy-calculator.html"
+    },
+    {
+      "name": "Due Date Calculator",
+      "description": " A due date online calculator.",
+      "url": " https://www.calculator.net/due-date-calculator.html"
+    },
+    {
+      "name": "Ovulation Calculator",
+      "description": " An ovulation online calculator.",
+      "url": " https://www.calculator.net/ovulation-calculator.html"
+    },
+    {
+      "name": "Fertility Calculator",
+      "description": " A fertility online calculator.",
+      "url": " https://www.calculator.net/fertility-calculator.html"
+    },
+    {
+      "name": "Calorie Calculator",
+      "description": " A calorie online calculator.",
+      "url": " https://www.calculator.net/calorie-calculator.html"
+    },
+    {
+      "name": "BMR Calculator",
+      "description": " A Basal Metabolic Rate (BMR) online calculator.",
+      "url": " https://www.calculator.net/bmr-calculator.html"
+    },
+    {
+      "name": "Body Fat Calculator",
+      "description": " A body fat online calculator.",
+      "url": " https://www.calculator.net/body-fat-calculator.html"
+    },
+    {
+      "name": "Ideal Weight Calculator",
+      "description": " An ideal weight online calculator.",
+      "url": " https://www.calculator.net/ideal-weight-calculator.html"
+    },
+    {
+      "name": "Water Intake Calculator",
+      "description": " A water intake online calculator.",
+      "url": " https://www.calculator.net/water-intake-calculator.html"
+    },
+    {
+      "name": "Sleep Calculator",
+      "description": " A sleep online calculator.",
+      "url": " https://www.calculator.net/sleep-calculator.html"
+    },
+    {
+      "name": "Blood Alcohol Content (BAC) Calculator",
+      "description": " A BAC online calculator.",
+      "url": " https://www.calculator.net/bac-calculator.html"
+    },
+    {
+      "name": "Medication Dosage Calculator",
+      "description": " A medication dosage online calculator.",
+      "url": " https://www.calculator.net/medication-dosage-calculator.html"
+    },
+    {
+      "name": "IV Drip Rate Calculator",
+      "description": " An IV drip rate online calculator.",
+      "url": " https://www.calculator.net/iv-drip-rate-calculator.html"
+    },
+    {
+      "name": "Surface Area Calculator",
+      "description": " A surface area online calculator.",
+      "url": " https://www.calculator.net/surface-area-calculator.html"
+    },
+    {
+      "name": "Volume Calculator",
+      "description": " A volume online calculator.",
+      "url": " https://www.calculator.net/volume-calculator.html"
+    },
+    {
+      "name": "Density Calculator",
+      "description": " A density online calculator.",
+      "url": " https://www.calculator.net/density-calculator.html"
+    },
+    {
+      "name": "Pressure Calculator",
+      "description": " A pressure online calculator.",
+      "url": " https://www.calculator.net/pressure-calculator.html"
+    },
+    {
+      "name": "Force Calculator",
+      "description": " A force online calculator.",
+      "url": " https://www.calculator.net/force-calculator.html"
+    },
+    {
+      "name": "Work Calculator",
+      "description": " A work online calculator.",
+      "url": " https://www.calculator.net/work-calculator.html"
+    },
+    {
+      "name": "Power Calculator",
+      "description": " A power online calculator.",
+      "url": " https://www.calculator.net/power-calculator.html"
+    },
+    {
+      "name": "Energy Calculator",
+      "description": " An energy online calculator.",
+      "url": " https://www.calculator.net/energy-calculator.html"
+    },
+    {
+      "name": "Torque Calculator",
+      "description": " A torque online calculator.",
+      "url": " https://www.calculator.net/torque-calculator.html"
+    },
+    {
+      "name": "Velocity Calculator",
+      "description": " A velocity online calculator.",
+      "url": " https://www.calculator.net/velocity-calculator.html"
+    },
+    {
+      "name": "Acceleration Calculator",
+      "description": " An acceleration online calculator.",
+      "url": " https://www.calculator.net/acceleration-calculator.html"
+    },
+    {
+      "name": "Momentum Calculator",
+      "description": " A momentum online calculator.",
+      "url": " https://www.calculator.net/momentum-calculator.html"
+    },
+    {
+      "name": "Kinetic Energy Calculator",
+      "description": " A kinetic energy online calculator.",
+      "url": " https://www.calculator.net/kinetic-energy-calculator.html"
+    },
+    {
+      "name": "Potential Energy Calculator",
+      "description": " A potential energy online calculator.",
+      "url": " https://www.calculator.net/potential-energy-calculator.html"
+    },
+    {
+      "name": "Gravity Calculator",
+      "description": " A gravity online calculator.",
+      "url": " https://www.calculator.net/gravity-calculator.html"
+    },
+    {
+      "name": "Centripetal Force Calculator",
+      "description": " A centripetal force online calculator.",
+      "url": " https://www.calculator.net/centripetal-force-calculator.html"
+    },
+    {
+      "name": "Friction Calculator",
+      "description": " A friction online calculator.",
+      "url": " https://www.calculator.net/friction-calculator.html"
+    },
+    {
+      "name": "Spring Constant Calculator",
+      "description": " A spring constant online calculator.",
+      "url": " https://www.calculator.net/spring-constant-calculator.html"
+    },
+    {
+      "name": "Simple Harmonic Motion Calculator",
+      "description": " A simple harmonic motion online calculator.",
+      "url": " https://www.calculator.net/simple-harmonic-motion-calculator.html"
+    },
+    {
+      "name": "Wave Calculator",
+      "description": " A wave online calculator.",
+      "url": " https://www.calculator.net/wave-calculator.html"
+    },
+    {
+      "name": "Sound Calculator",
+      "description": " A sound online calculator.",
+      "url": " https://www.calculator.net/sound-calculator.html"
+    },
+    {
+      "name": "Light Calculator",
+      "description": " A light online calculator.",
+      "url": " https://www.calculator.net/light-calculator.html"
+    },
+    {
+      "name": "Lens Calculator",
+      "description": " A lens online calculator.",
+      "url": " https://www.calculator.net/lens-calculator.html"
+    },
+    {
+      "name": "Mirror Calculator",
+      "description": " A mirror online calculator.",
+      "url": " https://www.calculator.net/mirror-calculator.html"
+    },
+    {
+      "name": "Refraction Calculator",
+      "description": " A refraction online calculator.",
+      "url": " https://www.calculator.net/refraction-calculator.html"
+    },
+    {
+      "name": "Diffraction Calculator",
+      "description": " A diffraction online calculator.",
+      "url": " https://www.calculator.net/diffraction-calculator.html"
+    },
+    {
+      "name": "Interference Calculator",
+      "description": " An interference online calculator.",
+      "url": " https://www.calculator.net/interference-calculator.html"
+    },
+    {
+      "name": "Doppler Effect Calculator",
+      "description": " A Doppler effect online calculator.",
+      "url": " https://www.calculator.net/doppler-effect-calculator.html"
+    },
+    {
+      "name": "Electrical Current Calculator",
+      "description": " An electrical current online calculator.",
+      "url": " https://www.calculator.net/electrical-current-calculator.html"
+    },
+    {
+      "name": "Electrical Resistance Calculator",
+      "description": " An electrical resistance online calculator.",
+      "url": " https://www.calculator.net/electrical-resistance-calculator.html"
+    },
+    {
+      "name": "Electrical Voltage Calculator",
+      "description": " An electrical voltage online calculator.",
+      "url": " https://www.calculator.net/electrical-voltage-calculator.html"
+    },
+    {
+      "name": "Electrical Power Calculator",
+      "description": " An electrical power online calculator.",
+      "url": " https://www.calculator.net/electrical-power-calculator.html"
+    },
+    {
+      "name": "Electrical Energy Calculator",
+      "description": " An electrical energy online calculator.",
+      "url": " https://www.calculator.net/electrical-energy-calculator.html"
+    },
+    {
+      "name": "Electrical Charge Calculator",
+      "description": " An electrical charge online calculator.",
+      "url": " https://www.calculator.net/electrical-charge-calculator.html"
+    },
+    {
+      "name": "Capacitance Calculator",
+      "description": " A capacitance online calculator.",
+      "url": " https://www.calculator.net/capacitance-calculator.html"
+    },
+    {
+      "name": "Inductance Calculator",
+      "description": " An inductance online calculator.",
+      "url": " https://www.calculator.net/inductance-calculator.html"
+    },
+    {
+      "name": "Resonance Calculator",
+      "description": " A resonance online calculator.",
+      "url": " https://www.calculator.net/resonance-calculator.html"
+    },
+    {
+      "name": "Transformer Calculator",
+      "description": " A transformer online calculator.",
+      "url": " https://www.calculator.net/transformer-calculator.html"
+    },
+    {
+      "name": "Diode Calculator",
+      "description": " A diode online calculator.",
+      "url": " https://www.calculator.net/diode-calculator.html"
+    },
+    {
+      "name": "Transistor Calculator",
+      "description": " A transistor online calculator.",
+      "url": " https://www.calculator.net/transistor-calculator.html"
+    },
+    {
+      "name": "Op Amp Calculator",
+      "description": " An Op Amp online calculator.",
+      "url": " https://www.calculator.net/op-amp-calculator.html"
+    },
+    {
+      "name": "Logic Gate Calculator",
+      "description": " A logic gate online calculator.",
+      "url": " https://www.calculator.net/logic-gate-calculator.html"
+    },
+    {
+      "name": "Boolean Algebra Calculator",
+      "description": " A Boolean algebra online calculator.",
+      "url": " https://www.calculator.net/boolean-algebra-calculator.html"
+    },
+    {
+      "name": "Karnaugh Map Calculator",
+      "description": " A Karnaugh map online calculator.",
+      "url": " https://www.calculator.net/karnaugh-map-calculator.html"
+    },
+    {
+      "name": "Number System Converter",
+      "description": " A number system online converter.",
+      "url": " https://www.calculator.net/number-system-converter.html"
+    },
+    {
+      "name": "Base Converter",
+      "description": " A base online converter.",
+      "url": " https://www.calculator.net/base-converter.html"
+    },
+    {
+      "name": "Binary to Decimal Converter",
+      "description": " A binary to decimal online converter.",
+      "url": " https://www.calculator.net/binary-to-decimal-converter.html"
+    },
+    {
+      "name": "Decimal to Binary Converter",
+      "description": " A decimal to binary online converter.",
+      "url": " https://www.calculator.net/decimal-to-binary-converter.html"
+    },
+    {
+      "name": "Hex to Decimal Converter",
+      "description": " A hexadecimal to decimal online converter.",
+      "url": " https://www.calculator.net/hex-to-decimal-converter.html"
+    },
+    {
+      "name": "Decimal to Hex Converter",
+      "description": " A decimal to hexadecimal online converter.",
+      "url": " https://www.calculator.net/decimal-to-hex-converter.html"
+    },
+    {
+      "name": "Octal to Decimal Converter",
+      "description": " An octal to decimal online converter.",
+      "url": " https://www.calculator.net/octal-to-decimal-converter.html"
+    },
+    {
+      "name": "Decimal to Octal Converter",
+      "description": " A decimal to octal online converter.",
+      "url": " https://www.calculator.net/decimal-to-octal-converter.html"
+    },
+    {
+      "name": "ASCII to Hex Converter",
+      "description": " An ASCII to hexadecimal online converter.",
+      "url": " https://www.calculator.net/ascii-to-hex-converter.html"
+    },
+    {
+      "name": "Hex to ASCII Converter",
+      "description": " A hexadecimal to ASCII online converter.",
+      "url": " https://www.calculator.net/hex-to-ascii-converter.html"
+    },
+    {
+      "name": "Unicode Converter",
+      "description": " A Unicode online converter.",
+      "url": " https://www.calculator.net/unicode-converter.html"
+    },
+    {
+      "name": "HTML Color Codes",
+      "description": " Displays HTML color codes.",
+      "url": " https://www.calculator.net/html-color-codes.html"
+    },
+    {
+      "name": "RGB to Hex Converter",
+      "description": " An RGB to hexadecimal online converter.",
+      "url": " https://www.calculator.net/rgb-to-hex-converter.html"
+    },
+    {
+      "name": "Hex to RGB Converter",
+      "description": " A hexadecimal to RGB online converter.",
+      "url": " https://www.calculator.net/hex-to-rgb-converter.html"
+    },
+    {
+      "name": "CMYK to RGB Converter",
+      "description": " A CMYK to RGB online converter.",
+      "url": " https://www.calculator.net/cmyk-to-rgb-converter.html"
+    },
+    {
+      "name": "RGB to CMYK Converter",
+      "description": " An RGB to CMYK online converter.",
+      "url": " https://www.calculator.net/rgb-to-cmyk-converter.html"
+    },
+    {
+      "name": "Audio Converter",
+      "description": " Converts audio files.",
+      "url": " https://online-audio-converter.com/"
+    },
+    {
+      "name": "Video Converter",
+      "description": " Converts video files.",
+      "url": " https://convertio.co/"
+    },
+    {
+      "name": "eBook Converter",
+      "description": " Converts eBook files.",
+      "url": " https://ebook.online-convert.com/"
+    },
+    {
+      "name": "Document Converter",
+      "description": " Converts document files.",
+      "url": " https://www.onlineconverter.com/"
+    },
+    {
+      "name": "Image Converter",
+      "description": " Converts image files.",
+      "url": " https://www.onlineconverter.com/image"
+    },
+    {
+      "name": "Archive Converter",
+      "description": " Converts archive files.",
+      "url": " https://www.onlineconverter.com/archive"
+    },
+    {
+      "name": "Hash Generator",
+      "description": " Generates hash values for text or files.",
+      "url": " https://md5file.com/calculator"
+    },
+    {
+      "name": "Password Strength Checker",
+      "description": " Checks the strength of a password.",
+      "url": " https://password.kaspersky.com/"
+    },
+    {
+      "name": "SSL Checker",
+      "description": " Checks the SSL certificate of a website.",
+      "url": " https://www.sslshopper.com/ssl-checker.html"
+    },
+    {
+      "name": "Website Speed Test",
+      "description": " Tests the speed of a website.",
+      "url": " https://developers.google.com/speed/pagespeed/insights/"
+    },
+    {
+      "name": "Ping Test",
+      "description": " Pings a website or IP address.",
+      "url": " https://www.dotcom-monitor.com/"
+    },
+    {
+      "name": "Traceroute",
+      "description": " Traces the route of a network connection.",
+      "url": " https://www.traceroute.org/"
+    },
+    {
+      "name": "IP Lookup",
+      "description": " Looks up information about an IP address.",
+      "url": " https://www.iplocation.net/"
+    },
+    {
+      "name": "DNS Lookup",
+      "description": " Looks up DNS records for a domain.",
+      "url": " https://dnslookup.online/"
+    },
+    {
+      "name": "WHOIS Lookup",
+      "description": " Looks up WHOIS information for a domain.",
+      "url": " https://www.whois.com/whois/"
+    },
+    {
+      "name": "Port Scanner",
+      "description": " Scans for open ports on a server.",
+      "url": " https://www.yougetsignal.com/tools/open-ports/"
+    },
+    {
+      "name": "Network Calculator",
+      "description": " Calculates network addresses and subnets.",
+      "url": " https://www.calculator.net/ip-subnet-calculator.html"
+    },
+    {
+      "name": "Regular Expression Tester",
+      "description": " Tests regular expressions.",
+      "url": " https://regex101.com/"
+    },
+    {
+      "name": "JSON Formatter",
+      "description": " Formats JSON code.",
+      "url": " https://jsonformatter.curiousconcept.com/"
+    },
+    {
+      "name": "XML Formatter",
+      "description": " Formats XML code.",
+      "url": " https://www.freeformatter.com/xml-formatter.html"
+    },
+    {
+      "name": "CSS Formatter",
+      "description": " Formats CSS code.",
+      "url": " https://www.freeformatter.com/css-formatter.html"
+    },
+    {
+      "name": "JavaScript Formatter",
+      "description": " Formats JavaScript code.",
+      "url": " https://www.freeformatter.com/javascript-formatter.html"
+    },
+    {
+      "name": "HTML Formatter",
+      "description": " Formats HTML code.",
+      "url": " https://www.freeformatter.com/html-formatter.html"
+    },
+    {
+      "name": "SQL Formatter",
+      "description": " Formats SQL code.",
+      "url": " https://www.freeformatter.com/sql-formatter.html"
+    },
+    {
+      "name": "PHP Formatter",
+      "description": " Formats PHP code.",
+      "url": " https://www.freeformatter.com/php-formatter.html"
+    },
+    {
+      "name": "Python Formatter",
+      "description": " Formats Python code.",
+      "url": " https://www.freeformatter.com/python-formatter.html"
+    },
+    {
+      "name": "Java Formatter",
+      "description": " Formats Java code.",
+      "url": " https://www.freeformatter.com/java-formatter.html"
+    },
+    {
+      "name": "C++ Formatter",
+      "description": " Formats C++ code.",
+      "url": " https://www.freeformatter.com/cplusplus-formatter.html"
+    }
+  ]
+}
