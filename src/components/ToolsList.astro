@@ -1,11 +1,17 @@
 ---
 // src/components/ToolsList.astro
 import type { ToolCategory } from "../types";
-const { data } = Astro.props as { data: ToolCategory[] };
+const { data, limit } = Astro.props as { data: ToolCategory[]; limit?: number };
+
+// Apply limit to each category's data if limit is specified
+const limitedData = data.map(category => ({
+    ...category,
+    data: limit ? category.data.slice(0, limit) : category.data
+}));
 ---
 
 <section class="max-w-7xl mx-auto px-5 py-10">
-    {data.map((category) => (
+    {limitedData.map((category) => (
         <div class="mb-14 last:mb-0">
             <!-- 分类标题采用细线分割 -->
             <div class="flex items-center mb-8 space-x-4">
@@ -48,8 +54,18 @@ const { data } = Astro.props as { data: ToolCategory[] };
                     </a>
                 ))}
             </div>
+     
+                <div class="flex justify-center mt-10">
+                    <a href={`/category/${category.slug}`} class="text-sm text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300">
+                        view more →
+                    </a>
+                </div>
+         
         </div>
     ))}
+
+    
+
 </section>
 
 <style>
