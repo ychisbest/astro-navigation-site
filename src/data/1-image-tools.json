@@ -1,0 +1,33 @@
+{
+  "slug": "image-tools",
+  "name": "Image Tools",
+  "description": "Online image processing and editing tools.",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Online Image Compressor",
+      "description": "Quickly compress image file size to optimize website loading speed.",
+      "url": "https://tinypng.com"
+    },
+    {
+      "name": "Image Format Converter",
+      "description": "Convert between various image formats including JPG, PNG, GIF, WebP and more.",
+      "url": "https://cloudconvert.com/image-converter"
+    },
+    {
+      "name": "Online Photo Editor",
+      "description": "Simple online image editor with basic features like crop, resize, filters and more.",
+      "url": "https://www.photopea.com"
+    },
+    {
+      "name": "Favicon Generator",
+      "description": "Convert images to ICO format for website favicon or application icons.",
+      "url": "https://favicon.io"
+    },
+    {
+      "name": "SVG Optimizer",
+      "description": "Optimize SVG vector graphics files to reduce file size and improve performance.",
+      "url": "https://jakearchibald.github.io/svgomg"
+    }
+  ]
+}

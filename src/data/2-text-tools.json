@@ -1,0 +1,33 @@
+{
+    "slug": "text-tools",
+    "name": "Text Tools",
+    "description": "Online text processing and manipulation tools.",
+    "icon": "file-text",
+    "data": [
+        {
+            "name": "Text Case Converter",
+            "description": "Convert text between different cases (uppercase, lowercase, title case, etc.).",
+            "url": "https://convertcase.net"
+        },
+        {
+            "name": "Lorem Ipsum Generator",
+            "description": "Generate placeholder text for design mockups.",
+            "url": "https://loremipsum.io"
+        },
+        {
+            "name": "Text Difference Checker",
+            "description": "Compare two texts and find the differences.",
+            "url": "https://www.diffchecker.com"
+        },
+        {
+            "name": "Word Counter",
+            "description": "Count words, characters, and paragraphs in text.",
+            "url": "https://wordcounter.net"
+        },
+        {
+            "name": "Text Formatting Tools",
+            "description": "Remove extra spaces, sort lines, remove duplicate lines.",
+            "url": "https://www.textfixer.com"
+        }
+    ]
+}
