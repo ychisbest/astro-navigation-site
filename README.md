@@ -1,48 +1,57 @@
-# Astro Starter Kit: Basics
+# Astro Navigation Site Template / Astro导航站模板
 
-```sh
-npm create astro@latest -- --template basics
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/fasttoolhub)
+
+[English](#english) | [中文](#中文)
+
+## English
+
+A navigation website template built with Astro that automatically generates content based on data files.
+
+### Features
+- Automatically generates navigation content from files in `src/data` directory
+- Fast and efficient static site generation
+- Easy to customize and extend
+- One-click deployment to Vercel
+
+### Getting Started
+1. Install dependencies:
+```bash
+npm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+2. Development:
+```bash
+npm run dev
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+3. Build for production:
+```bash
+npm run build
+```
 
-## 🧞 Commands
+## 中文
 
-All commands are run from the root of the project, from a terminal:
+基于Astro构建的导航网站模板，可以自动根据数据文件生成内容。
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### 特性
+- 自动从`src/data`目录的文件生成导航内容
+- 快速高效的静态站点生成
+- 易于定制和扩展
+- 一键部署到Vercel平台
 
-## 👀 Want to learn more?
+### 开始使用
+1. 安装依赖：
+```bash
+npm install
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+2. 开发模式：
+```bash
+npm run dev
+```
+
+3. 生产构建：
+```bash
+npm run build
+```
