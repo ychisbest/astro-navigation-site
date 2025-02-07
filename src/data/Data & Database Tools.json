@@ -1,0 +1,47 @@
+{
+  "slug": "data-&-database-tools",
+  "name": "Data & Database Tools",
+  "icon": "image",
+  "data": [
+    {
+      "name": "SQLZoo",
+      "description": "Interactive SQL tutorial with online editor",
+      "url": "https://sqlzoo.net/"
+    },
+    {
+      "name": "DB Browser for SQLite",
+      "description": "Open source visual tool to create, design, and edit SQLite database files",
+      "url": "https://sqlitebrowser.org/"
+    },
+    {
+      "name": "JSON Formatter & Validator",
+      "description": "Online tool to format and validate JSON data",
+      "url": "https://jsonformatter.curiousconcept.com/"
+    },
+    {
+      "name": "XML Validator",
+      "description": "Online tool to validate XML documents",
+      "url": "https://www.xmlvalidation.com/"
+    },
+    {
+      "name": "CSVJSON",
+      "description": "Online tool to convert CSV to JSON and vice versa",
+      "url": "https://csvjson.com/"
+    },
+    {
+      "name": "Mockaroo",
+      "description": "Test data generator",
+      "url": "https://www.mockaroo.com/"
+    },
+    {
+      "name": "Quick Database Diagram",
+      "description": "Online tool to design database diagrams",
+      "url": "https://www.quickdatabasediagrams.com/"
+    },
+    {
+      "name": "Data Types",
+      "description": "Find the right data type for your application.",
+      "url": "https://www.data-types.org/"
+    }
+  ]
+}

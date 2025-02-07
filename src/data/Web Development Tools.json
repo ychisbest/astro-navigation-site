@@ -1,0 +1,57 @@
+{
+  "slug": "web-development-tools",
+  "name": "Web Development Tools",
+  "icon": "image",
+  "data": [
+    {
+      "name": "HTML Validator",
+      "description": " Validates HTML code for errors",
+      "url": " https://validator.w3.org/"
+    },
+    {
+      "name": "CSS Validator",
+      "description": " Validates CSS code for errors",
+      "url": " https://jigsaw.w3.org/css-validator/"
+    },
+    {
+      "name": "JavaScript Minifier",
+      "description": " Minifies JavaScript code to reduce file size",
+      "url": " https://www.minifier.org/"
+    },
+    {
+      "name": "JSON Formatter",
+      "description": " Formats JSON data for readability",
+      "url": " https://jsonformatter.curiousconcept.com/"
+    },
+    {
+      "name": "Regex Tester",
+      "description": " Tests regular expressions against input strings",
+      "url": " https://regex101.com/"
+    },
+    {
+      "name": "Color Picker",
+      "description": " Picks colors from a spectrum or image",
+      "url": " https://htmlcolorcodes.com/color-picker/"
+    },
+    {
+      "name": "Favicon Generator",
+      "description": " Generates favicons for websites",
+      "url": " https://www.favicon.cc/"
+    },
+    {
+      "name": "Online Text Editor",
+      "description": " A simple online text editor",
+      "url": " https://dillinger.io/"
+    },
+    {
+      "name": "GTmetrix",
+      "description": " Website speed and performance analyzer",
+      "url": " https://gtmetrix.com/"
+    },
+    {
+      "name": "WebAIM WAVE",
+      "description": " Website accessibility evaluation tool",
+      "url": " https://wave.webaim.org/"
+    }
+  ]
+}

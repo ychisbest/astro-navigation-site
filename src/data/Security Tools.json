@@ -1,0 +1,57 @@
+{
+  "slug": "security-tools",
+  "name": "Security Tools",
+  "icon": "image",
+  "data": [
+    {
+      "name": "VirusTotal",
+      "description": " Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community",
+      "url": "https://www.virustotal.com/"
+    },
+    {
+      "name": "Nmap Online",
+      "description": " Online port scanner using Nmap",
+      "url": "https://hackertarget.com/nmap-online-port-scanner/"
+    },
+    {
+      "name": "SSL Server Test",
+      "description": " Checks the configuration of SSL web servers",
+      "url": "https://www.ssllabs.com/ssltest/"
+    },
+    {
+      "name": "Have I Been Pwned",
+      "description": " Check if your email or phone has been compromised in a data breach",
+      "url": "https://haveibeenpwned.com/"
+    },
+    {
+      "name": "CyberChef",
+      "description": " The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+      "url": "https://gchq.github.io/CyberChef/"
+    },
+    {
+      "name": "URLVoid",
+      "description": " Free service to analyze websites through multiple blacklist engines and online website analysis tools to detect malicious websites",
+      "url": "https://www.urlvoid.com/"
+    },
+    {
+      "name": "Shodan",
+      "description": " Search engine for Internet-connected devices",
+      "url": "https://www.shodan.io/"
+    },
+    {
+      "name": "Metagoofil",
+      "description": " Metadata harvester",
+      "url": "https://github.com/laramies/metagoofil"
+    },
+    {
+      "name": "crt.sh",
+      "description": " Certificate Search",
+      "url": "https://crt.sh/"
+    },
+    {
+      "name": "SecurityHeaders.io",
+      "description": " Test the HTTP response headers of any website",
+      "url": "https://securityheaders.com/"
+    }
+  ]
+}

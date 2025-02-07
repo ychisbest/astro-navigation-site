@@ -1,0 +1,57 @@
+{
+  "slug": "audio-&-video-tools",
+  "name": "Audio & Video Tools",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Online Converter",
+      "description": " Convert files like images, video, audio, documents, and more from one format to another",
+      "url": "https://www.onlineconverter.com/"
+    },
+    {
+      "name": "Online Audio Converter",
+      "description": " Convert audio files to different formats, including MP3, WAV, M4A, and more",
+      "url": "https://online-audio-converter.com/"
+    },
+    {
+      "name": "Video Converter",
+      "description": " A free online video converter",
+      "url": "https://www.video-converter.com/"
+    },
+    {
+      "name": "Kapwing",
+      "description": " Online video editor with tools for trimming, resizing, adding subtitles, and more",
+      "url": "https://www.kapwing.com/"
+    },
+    {
+      "name": "CloudConvert",
+      "description": " Convert various file formats including audio and video",
+      "url": "https://cloudconvert.com/"
+    },
+    {
+      "name": "Ezgif",
+      "description": " Online GIF maker and image editor with tools for creating, resizing, optimizing, and editing GIFs",
+      "url": "https://ezgif.com/"
+    },
+    {
+      "name": "Veed.io",
+      "description": " Online video editing platform with features like subtitles, translations, and screen recording",
+      "url": "https://www.veed.io/"
+    },
+    {
+      "name": "Audio Alter",
+      "description": " A collection of free online audio tools, including converters, equalizers, and more",
+      "url": "https://audioalter.com/"
+    },
+    {
+      "name": "Zamzar",
+      "description": " Online file conversion tool that supports a wide range of audio and video formats",
+      "url": "https://www.zamzar.com/"
+    },
+    {
+      "name": "Clipchamp",
+      "description": " Online video editor with a focus on ease of use and social media content creation",
+      "url": "https://clipchamp.com/"
+    }
+  ]
+}

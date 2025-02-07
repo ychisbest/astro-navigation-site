@@ -1,0 +1,57 @@
+{
+  "slug": "date-&-time-tools",
+  "name": "Date & Time Tools",
+  "icon": "image",
+  "data": [
+    {
+      "name": "World Time Buddy",
+      "description": " A convenient world clock, meeting planner, and time converter.",
+      "url": "https://www.worldtimebuddy.com/"
+    },
+    {
+      "name": "Time.is",
+      "description": " Precise time, accurate to milliseconds.",
+      "url": "https://time.is/"
+    },
+    {
+      "name": "Date Calculator",
+      "description": " Calculate the number of days between two dates.",
+      "url": "https://www.timeanddate.com/date/duration.html"
+    },
+    {
+      "name": "Online Stopwatch",
+      "description": " A simple and accurate online stopwatch.",
+      "url": "https://www.online-stopwatch.com/"
+    },
+    {
+      "name": "Countdown Timer",
+      "description": " Set a timer and countdown to a specific date or time.",
+      "url": "https://www.timeanddate.com/countdown/"
+    },
+    {
+      "name": "Time Zone Converter",
+      "description": " Convert times from one time zone to another.",
+      "url": "https://www.timeanddate.com/worldclock/converter.html"
+    },
+    {
+      "name": "Date Duration Calculator",
+      "description": " Calculates the number of days, months, and years between two dates.",
+      "url": "https://www.calculator.net/date-calculator.html"
+    },
+    {
+      "name": "Current Time",
+      "description": " Shows the current time for any location worldwide.",
+      "url": "https://24timezones.com/"
+    },
+    {
+      "name": "Online Alarm Clock",
+      "description": " A free online alarm clock to set alarms in your browser.",
+      "url": "https://onlineclock.net/"
+    },
+    {
+      "name": "Day of the Week Calculator",
+      "description": " Determine the day of the week for any date.",
+      "url": "https://www.timeanddate.com/date/weekday.html"
+    }
+  ]
+}

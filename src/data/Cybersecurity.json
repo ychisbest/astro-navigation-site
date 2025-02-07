@@ -1,0 +1,57 @@
+{
+  "slug": "cybersecurity",
+  "name": "Cybersecurity",
+  "icon": "image",
+  "data": [
+    {
+      "name": "VirusTotal",
+      "description": " Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community",
+      "url": "https://www.virustotal.com/"
+    },
+    {
+      "name": "Nmap Online",
+      "description": " Scan network ports and discover hosts online",
+      "url": "https://hackertarget.com/nmap-online-port-scan/"
+    },
+    {
+      "name": "Shodan",
+      "description": " Search engine for Internet-connected devices",
+      "url": "https://www.shodan.io/"
+    },
+    {
+      "name": "Have I Been Pwned?",
+      "description": " Check if your email or phone has been compromised in a data breach",
+      "url": "https://haveibeenpwned.com/"
+    },
+    {
+      "name": "SSL Server Test (Qualys SSL Labs)",
+      "description": " Deep analysis of the configuration of any SSL web server",
+      "url": "https://www.ssllabs.com/ssltest/"
+    },
+    {
+      "name": "CyberChef",
+      "description": " The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+      "url": "https://gchq.github.io/CyberChef/"
+    },
+    {
+      "name": "URLVoid",
+      "description": " Analyze websites for malware and other threats",
+      "url": "https://www.urlvoid.com/"
+    },
+    {
+      "name": "Metagoofil",
+      "description": " Metadata harvester",
+      "url": "https://github.com/opsdisk/metagoofil"
+    },
+    {
+      "name": "SpiderFoot",
+      "description": " Open source intelligence automation tool",
+      "url": "http://www.spiderfoot.net/"
+    },
+    {
+      "name": "Wireshark",
+      "description": " Network protocol analyzer",
+      "url": "https://www.wireshark.org/"
+    }
+  ]
+}

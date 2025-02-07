@@ -1,0 +1,1847 @@
+{
+  "slug": "code-tools",
+  "name": "Code Tools",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Namecheap",
+      "description": " Domain name registration and web hosting",
+      "url": " https://www.namecheap.com"
+    },
+    {
+      "name": "JSON Formatter",
+      "description": " Format and validate JSON data",
+      "url": " https://jsonformatter.org/"
+    },
+    {
+      "name": "Free Online OCR",
+      "description": " Convert scanned documents and images to editable text",
+      "url": " https://www.free-online-ocr.com/"
+    },
+    {
+      "name": "Online Regex Tester",
+      "description": " Test and debug regular expressions",
+      "url": " https://regex101.com/"
+    },
+    {
+      "name": "UUID Generator",
+      "description": " Generate universally unique identifiers (UUIDs)",
+      "url": " https://www.uuidgenerator.net/"
+    },
+    {
+      "name": "Diffchecker",
+      "description": " Online text comparison tool",
+      "url": " https://www.diffchecker.com/"
+    },
+    {
+      "name": "Code Beautify",
+      "description": " Code formatting and beautification for various languages",
+      "url": " https://codebeautify.org/"
+    },
+    {
+      "name": "HTML Encoder/Decoder",
+      "description": " Encode or decode HTML entities",
+      "url": " https://www.freeformatter.com/html-encoder.html"
+    },
+    {
+      "name": "CSS Minifier",
+      "description": " Minify CSS code to reduce file size",
+      "url": " https://cssminifier.com/"
+    },
+    {
+      "name": "JavaScript Minifier",
+      "description": " Minify JavaScript code to reduce file size",
+      "url": " https://www.minifier.org/"
+    },
+    {
+      "name": "XML Formatter",
+      "description": " Format and validate XML data",
+      "url": " https://www.xmlformatter.com/"
+    },
+    {
+      "name": "Base64 Encode/Decode",
+      "description": " Encode or decode data using Base64 encoding",
+      "url": " https://www.base64encode.org/"
+    },
+    {
+      "name": "Online Text Editor",
+      "description": " A simple online text editor",
+      "url": " https://onlinehtmleditor.dev/"
+    },
+    {
+      "name": "QR Code Generator",
+      "description": " Create QR codes for URLs, text, and more",
+      "url": " https://www.qr-code-generator.com/"
+    },
+    {
+      "name": "Lorem Ipsum Generator",
+      "description": " Generate placeholder text for layouts",
+      "url": " https://www.lipsum.com/"
+    },
+    {
+      "name": "Markdown Editor",
+      "description": " Online Markdown editor with preview",
+      "url": " https://dillinger.io/"
+    },
+    {
+      "name": "Online String to Hex Converter",
+      "description": " Convert string to hexadecimal representation",
+      "url": " https://string-functions.com/string-hex.aspx"
+    },
+    {
+      "name": "Online Hex to String Converter",
+      "description": " Convert hexadecimal representation to string",
+      "url": " https://string-functions.com/hex-string.aspx"
+    },
+    {
+      "name": "Free Online Linter",
+      "description": " Linting tool for various programming languages",
+      "url": " https://www.online-lint.com/"
+    },
+    {
+      "name": "JavaScript Obfuscator",
+      "description": " Obfuscate JavaScript code to protect it from being easily read",
+      "url": " https://javascriptobfuscator.com/"
+    },
+    {
+      "name": "ASCIIflow",
+      "description": " Text-based diagram editor",
+      "url": " https://asciiflow.com/"
+    },
+    {
+      "name": "Online CSV to JSON Converter",
+      "description": " Convert CSV files to JSON format",
+      "url": " https://www.convertcsv.com/csv-to-json.htm"
+    },
+    {
+      "name": "Online JSON to CSV Converter",
+      "description": " Convert JSON data to CSV format",
+      "url": " https://www.convertcsv.com/json-to-csv.htm"
+    },
+    {
+      "name": "Free Online Image to Base64 Converter",
+      "description": " Convert images to Base64 encoded strings",
+      "url": " https://www.base64-image.de/"
+    },
+    {
+      "name": "Online JavaScript Beautifier",
+      "description": " A javascript code formatting tool",
+      "url": " https://beautifier.io/"
+    },
+    {
+      "name": "JSON Editor Online",
+      "description": " Edit, transform, filter, sort, and format JSON",
+      "url": " https://jsoneditoronline.org/"
+    },
+    {
+      "name": "Online YAML to JSON Converter",
+      "description": " Convert YAML to JSON format",
+      "url": " https://www.json2yaml.com/convert-yaml-to-json"
+    },
+    {
+      "name": "Online JSON to YAML Converter",
+      "description": " Convert JSON to YAML format",
+      "url": " https://www.json2yaml.com/convert-json-to-yaml"
+    },
+    {
+      "name": "Online Cron Expression Generator",
+      "description": " Generate and explain cron expressions",
+      "url": " https://crontab.guru/"
+    },
+    {
+      "name": "IP Address Lookup",
+      "description": " Look up IP address information",
+      "url": " https://www.iplocation.net/"
+    },
+    {
+      "name": "Free Online Word Counter",
+      "description": " Count words, characters, sentences, paragraphs and more",
+      "url": " https://wordcounter.net/"
+    },
+    {
+      "name": "Online HTML Editor",
+      "description": " Edit and preview HTML code",
+      "url": " https://htmleditor.io/"
+    },
+    {
+      "name": "Online URL Encoder/Decoder",
+      "description": " Encode or decode URLs",
+      "url": " https://www.urlencoder.io/"
+    },
+    {
+      "name": "Htaccess Generator",
+      "description": " Generate .htaccess snippets for various server configurations",
+      "url": " https://www.htaccessgenerator.com/"
+    },
+    {
+      "name": "Online Password Generator",
+      "description": " Generate strong and random passwords",
+      "url": " https://passwordsgenerator.net/"
+    },
+    {
+      "name": "XML to JSON Converter",
+      "description": " Convert XML to JSON format",
+      "url": " https://www.freeformatter.com/xml-to-json-converter.html"
+    },
+    {
+      "name": "JSON to XML Converter",
+      "description": " Convert JSON to XML format",
+      "url": " https://www.freeformatter.com/json-to-xml-converter.html"
+    },
+    {
+      "name": "Free Online Sitemap Generator",
+      "description": " Generate sitemap for your website",
+      "url": " https://www.xml-sitemaps.com/"
+    },
+    {
+      "name": "Online Image Optimizer",
+      "description": " Optimize images for web use",
+      "url": " https://imageoptim.com/online"
+    },
+    {
+      "name": "Web Code Tools",
+      "description": " Online tools for web development (HTML, CSS, JavaScript)",
+      "url": " https://webcodetools.com/"
+    },
+    {
+      "name": "Free Online Favicon Generator",
+      "description": " Create favicon icons for websites",
+      "url": " https://www.favicon.io/"
+    },
+    {
+      "name": "Online Color Converter",
+      "description": " Convert colors between different formats (HEX, RGB, HSL)",
+      "url": " https://www.rapidtables.com/convert/color/index.html"
+    },
+    {
+      "name": "Online SVG Editor",
+      "description": " Edit and create SVG images",
+      "url": " https://editor.method.ac/"
+    },
+    {
+      "name": "Online File Diff Tool",
+      "description": " Compare text files online",
+      "url": " https://www.textcompare.org/"
+    },
+    {
+      "name": "Online CSV Editor",
+      "description": " Edit CSV files online",
+      "url": " https://csvhub.com/"
+    },
+    {
+      "name": "Online Robots.txt Generator",
+      "description": " Generate robots.txt file for website crawling control",
+      "url": " https://www.robotstxt.org/"
+    },
+    {
+      "name": "URL Shortener",
+      "description": " Shorten long URLs",
+      "url": " https://bitly.com/"
+    },
+    {
+      "name": "Online JSON Validator",
+      "description": " Validate JSON data",
+      "url": " https://jsonlint.com/"
+    },
+    {
+      "name": "Online CSS Validator",
+      "description": " Validate CSS code",
+      "url": " https://jigsaw.w3.org/css-validator/"
+    },
+    {
+      "name": "Online HTML Validator",
+      "description": " Validate HTML code",
+      "url": " https://validator.w3.org/"
+    },
+    {
+      "name": "Online JavaScript Validator",
+      "description": " Validate JavaScript code",
+      "url": " https://www.javascriptlint.com/online_lint.php"
+    },
+    {
+      "name": "Free Online Plagiarism Checker",
+      "description": " Check for plagiarism in text",
+      "url": " https://www.quetext.com/"
+    },
+    {
+      "name": "Online JSON Viewer",
+      "description": " View JSON data in a human-readable format",
+      "url": " https://codebeautify.org/jsonviewer"
+    },
+    {
+      "name": "Online XML Viewer",
+      "description": " View XML data in a human-readable format",
+      "url": " https://codebeautify.org/xmlviewer"
+    },
+    {
+      "name": "Online YAML Viewer",
+      "description": " View YAML data in a human-readable format",
+      "url": " https://codebeautify.org/yaml-viewer"
+    },
+    {
+      "name": "Online Text to Speech",
+      "description": " Convert text to speech",
+      "url": " https://www.naturalreaders.com/online/"
+    },
+    {
+      "name": "Online Speech to Text",
+      "description": " Convert speech to text",
+      "url": " https://www.google.com/intl/en/chrome/demos/speech.html"
+    },
+    {
+      "name": "Online Markdown to HTML Converter",
+      "description": " Convert Markdown to HTML",
+      "url": " https://markdowntohtml.com/"
+    },
+    {
+      "name": "Online HTML to Markdown Converter",
+      "description": " Convert HTML to Markdown",
+      "url": " https://domchristie.github.io/turndown/"
+    },
+    {
+      "name": "Online URI Parser",
+      "description": " Parse and analyze URIs",
+      "url": " https://meyerweb.com/eric/tools/dencoder/"
+    },
+    {
+      "name": "Online JWT Decoder",
+      "description": " Decode and verify JSON Web Tokens (JWTs)",
+      "url": " https://jwt.io/"
+    },
+    {
+      "name": "Online Regex Generator",
+      "description": " Generate regular expressions",
+      "url": " https://regex.ai/"
+    },
+    {
+      "name": "Online Password Strength Checker",
+      "description": " Check the strength of a password",
+      "url": " https://password.kaspersky.com/"
+    },
+    {
+      "name": "Online BSON Viewer",
+      "description": " View BSON data in a human-readable format",
+      "url": " https://codebeautify.org/bsonviewer"
+    },
+    {
+      "name": "Online Robots.txt Tester",
+      "description": " Test robots.txt file for website crawling control",
+      "url": " https://technicalseo.com/tools/robots-txt-generator/"
+    },
+    {
+      "name": "Online Sitemap Validator",
+      "description": " Validate sitemap file",
+      "url": " https://www.xml-sitemaps.com/validate-xml-sitemap.html"
+    },
+    {
+      "name": "Online File Converter",
+      "description": " Convert files between different formats",
+      "url": " https://www.onlineconverter.com/"
+    },
+    {
+      "name": "Online HTML to Text Converter",
+      "description": " Convert HTML to plain text",
+      "url": " https://wordtohtml.net/html-to-text"
+    },
+    {
+      "name": "Online Text to HTML Converter",
+      "description": " Convert plain text to HTML",
+      "url": " https://wordtohtml.net/text-to-html"
+    },
+    {
+      "name": "Online Unicode Converter",
+      "description": " Convert text to Unicode",
+      "url": " https://unicodetools.com/"
+    },
+    {
+      "name": "Online JSON to Table Converter",
+      "description": " Convert JSON to HTML Table",
+      "url": " https://www.convertjson.com/json-to-table.htm"
+    },
+    {
+      "name": "Online Table to JSON Converter",
+      "description": " Convert HTML Table to JSON",
+      "url": " https://www.convertjson.com/html-table-to-json.htm"
+    },
+    {
+      "name": "Online CSV to HTML Table Converter",
+      "description": " Convert CSV to HTML Table",
+      "url": " https://csv2table.com/"
+    },
+    {
+      "name": "Online HTML Table to CSV Converter",
+      "description": " Convert HTML Table to CSV",
+      "url": " https://www.tablesgenerator.com/html_tables_to_csv"
+    },
+    {
+      "name": "Online JSON Diff Tool",
+      "description": " Compare JSON files online",
+      "url": " https://www.jsondiff.com/"
+    },
+    {
+      "name": "Online XML Diff Tool",
+      "description": " Compare XML files online",
+      "url": " https://www.xml-diff.com/"
+    },
+    {
+      "name": "Online YAML Diff Tool",
+      "description": " Compare YAML files online",
+      "url": " https://www.yamldiff.com/"
+    },
+    {
+      "name": "Online Markdown Diff Tool",
+      "description": " Compare Markdown files online",
+      "url": " https://www.diffnow.com/compare-markdown"
+    },
+    {
+      "name": "Free Online Reverse Image Search",
+      "description": " Search for similar images online",
+      "url": " https://images.google.com/"
+    },
+    {
+      "name": "Online Code Coverage Tool",
+      "description": " Check code coverage online",
+      "url": " https://codecov.io/"
+    },
+    {
+      "name": "Online Website Speed Test",
+      "description": " Test website speed and performance",
+      "url": " https://pagespeed.web.dev/"
+    },
+    {
+      "name": "Online Website Security Scanner",
+      "description": " Scan website for security vulnerabilities",
+      "url": " https://sitecheck.sucuri.net/"
+    },
+    {
+      "name": "Online Domain Age Checker",
+      "description": " Check the age of a domain",
+      "url": " https://www.domainagechecker.com/"
+    },
+    {
+      "name": "Online Whois Lookup",
+      "description": " Look up domain registration information",
+      "url": " https://www.whois.com/whois/"
+    },
+    {
+      "name": "Online DNS Lookup",
+      "description": " Look up DNS records for a domain",
+      "url": " https://dnslookup.online/"
+    },
+    {
+      "name": "Online MX Lookup",
+      "description": " Look up MX records for a domain",
+      "url": " https://mxtoolbox.com/"
+    },
+    {
+      "name": "Online SPF Record Checker",
+      "description": " Check SPF record for a domain",
+      "url": " https://www.spfwizard.com/"
+    },
+    {
+      "name": "Online DKIM Record Checker",
+      "description": " Check DKIM record for a domain",
+      "url": " https://www.mail-tester.com/spf-dkim-check"
+    },
+    {
+      "name": "Online DMARC Record Checker",
+      "description": " Check DMARC record for a domain",
+      "url": " https://dmarcly.com/tools/dmarc-checker/"
+    },
+    {
+      "name": "Online Port Scanner",
+      "description": " Scan for open ports on a server",
+      "url": " https://www.yougetsignal.com/tools/open-ports/"
+    },
+    {
+      "name": "Online Ping Tool",
+      "description": " Ping a server to check its availability",
+      "url": " https://ping.eu/"
+    },
+    {
+      "name": "Online Traceroute Tool",
+      "description": " Trace the route to a server",
+      "url": " https://www.traceroute.org/"
+    },
+    {
+      "name": "Online Hex Editor",
+      "description": " Edit binary files in a web browser",
+      "url": " https://hexed.it/"
+    },
+    {
+      "name": "Online Markdown Table Generator",
+      "description": " Generate Markdown tables",
+      "url": " https://www.tablesgenerator.com/markdown_tables"
+    },
+    {
+      "name": "Online JSON Schema Validator",
+      "description": " Validate JSON data against a schema",
+      "url": " https://www.jsonschemavalidator.net/"
+    },
+    {
+      "name": "Online YAML Schema Validator",
+      "description": " Validate YAML data against a schema",
+      "url": " https://www.yamllint.com/"
+    },
+    {
+      "name": "Online CSS Grid Generator",
+      "description": " Generate CSS Grid layouts",
+      "url": " https://cssgrid-generator.netlify.app/"
+    },
+    {
+      "name": "Online Flexbox Generator",
+      "description": " Generate CSS Flexbox layouts",
+      "url": " https://flexbox.tech/"
+    },
+    {
+      "name": "Online Box Shadow Generator",
+      "description": " Generate CSS Box Shadows",
+      "url": " https://www.cssmatic.com/box-shadow"
+    },
+    {
+      "name": "Online Text Shadow Generator",
+      "description": " Generate CSS Text Shadows",
+      "url": " https://www.cssmatic.com/text-shadow"
+    },
+    {
+      "name": "Online Border Radius Generator",
+      "description": " Generate CSS Border Radius",
+      "url": " https://www.cssmatic.com/border-radius"
+    },
+    {
+      "name": "Online Gradient Generator",
+      "description": " Generate CSS Gradients",
+      "url": " https://cssgradient.io/"
+    },
+    {
+      "name": "Online Animation Generator",
+      "description": " Generate CSS Animations",
+      "url": " https://animista.net/"
+    },
+    {
+      "name": "Online Filter Generator",
+      "description": " Generate CSS Filters",
+      "url": " https://www.cssmatic.com/filter-generator"
+    },
+    {
+      "name": "Online Clip-path Generator",
+      "description": " Generate CSS Clip-path",
+      "url": " https://bennettfeely.com/clippy/"
+    },
+    {
+      "name": "Online Cubic Bezier Generator",
+      "description": " Generate CSS Cubic Bezier",
+      "url": " https://cubic-bezier.com/"
+    },
+    {
+      "name": "Online Easing Functions",
+      "description": " Visualize CSS Easing Functions",
+      "url": " https://easings.net/"
+    },
+    {
+      "name": "Online Keyframes Generator",
+      "description": " Generate CSS Keyframes",
+      "url": " https://keyframes.app/"
+    },
+    {
+      "name": "Online Perspective Generator",
+      "description": " Generate CSS Perspective",
+      "url": " https://3dtransforms.desandro.com/perspective"
+    },
+    {
+      "name": "Online Transform Generator",
+      "description": " Generate CSS Transform",
+      "url": " https://www.transform.tools/"
+    },
+    {
+      "name": "Online Transition Generator",
+      "description": " Generate CSS Transition",
+      "url": " https://transition.style/"
+    },
+    {
+      "name": "Online Glassmorphism Generator",
+      "description": " Generate CSS Glassmorphism",
+      "url": " https://glassmorphism.com/"
+    },
+    {
+      "name": "Online Neumorphism Generator",
+      "description": " Generate CSS Neumorphism",
+      "url": " https://neumorphism.io/"
+    },
+    {
+      "name": "Online Blob Generator",
+      "description": " Generate Blob Shape",
+      "url": " https://www.blobmaker.app/"
+    },
+    {
+      "name": "Online Wave Generator",
+      "description": " Generate Wave Shape",
+      "url": " https://getwaves.io/"
+    },
+    {
+      "name": "Online Pattern Generator",
+      "description": " Generate Pattern Background",
+      "url": " https://www.magicpattern.design/tools/css-backgrounds"
+    },
+    {
+      "name": "Online Isometric CSS Generator",
+      "description": " Generate Isometric CSS",
+      "url": " https://isometric.net/"
+    },
+    {
+      "name": "Online Grid to Flexbox Converter",
+      "description": " Convert Grid code to Flexbox",
+      "url": " https://www.toptal.com/developers/css/grid-to-flexbox"
+    },
+    {
+      "name": "Online HTML to Pug Converter",
+      "description": " Convert HTML to Pug",
+      "url": " https://html-to-pug.com/"
+    },
+    {
+      "name": "Online Pug to HTML Converter",
+      "description": " Convert Pug to HTML",
+      "url": " https://pughtml.com/"
+    },
+    {
+      "name": "Online HTML to Haml Converter",
+      "description": " Convert HTML to Haml",
+      "url": " https://htmltohaml.herokuapp.com/"
+    },
+    {
+      "name": "Online Haml to HTML Converter",
+      "description": " Convert Haml to HTML",
+      "url": " https://haml2html.herokuapp.com/"
+    },
+    {
+      "name": "Online Stylus to CSS Converter",
+      "description": " Convert Stylus to CSS",
+      "url": " https://stylus-lang.com/try.html"
+    },
+    {
+      "name": "Online Sass to CSS Converter",
+      "description": " Convert Sass to CSS",
+      "url": " https://sassmeister.com/"
+    },
+    {
+      "name": "Online Less to CSS Converter",
+      "description": " Convert Less to CSS",
+      "url": " https://less2css.org/"
+    },
+    {
+      "name": "Online CSS to Sass Converter",
+      "description": " Convert CSS to Sass",
+      "url": " https://www.css2sass.com/"
+    },
+    {
+      "name": "Online CSS to Less Converter",
+      "description": " Convert CSS to Less",
+      "url": " https://www.csstidy.org/"
+    },
+    {
+      "name": "Online CSS to Stylus Converter",
+      "description": " Convert CSS to Stylus",
+      "url": " https://transform.tools/css-to-stylus"
+    },
+    {
+      "name": "Online Regular Expression Tester with Code Generation",
+      "description": " Test regular expressions and generate code snippets",
+      "url": " https://www.regextester.com/"
+    },
+    {
+      "name": "Online SQL Formatter",
+      "description": " Format SQL queries",
+      "url": " https://www.sqlformatter.org/"
+    },
+    {
+      "name": "Online SQL Minifier",
+      "description": " Minify SQL queries",
+      "url": " https://www.minifier.org/"
+    },
+    {
+      "name": "Online SQL Validator",
+      "description": " Validate SQL queries",
+      "url": " https://sqlformat.darold.net/"
+    },
+    {
+      "name": "Online SQL to JSON Converter",
+      "description": " Convert SQL to JSON format",
+      "url": " https://www.convertjson.com/sql-to-json.htm"
+    },
+    {
+      "name": "Online JSON to SQL Converter",
+      "description": " Convert JSON to SQL format",
+      "url": " https://www.convertjson.com/json-to-sql.htm"
+    },
+    {
+      "name": "Online CSV to SQL Converter",
+      "description": " Convert CSV to SQL format",
+      "url": " https://csvtosql.com/"
+    },
+    {
+      "name": "Online SQL to CSV Converter",
+      "description": " Convert SQL to CSV format",
+      "url": " https://sql2csv.com/"
+    },
+    {
+      "name": "Online MySQL to PostgreSQL Converter",
+      "description": " Convert MySQL to PostgreSQL",
+      "url": " https://www.sqlines.com/online"
+    },
+    {
+      "name": "Online PostgreSQL to MySQL Converter",
+      "description": " Convert PostgreSQL to MySQL",
+      "url": " https://www.sqlines.com/online"
+    },
+    {
+      "name": "Online MongoDB to SQL Converter",
+      "description": " Convert MongoDB queries to SQL",
+      "url": " https://www.sqlines.com/online"
+    },
+    {
+      "name": "Online SQL to MongoDB Converter",
+      "description": " Convert SQL queries to MongoDB",
+      "url": " https://www.sqlines.com/online"
+    },
+    {
+      "name": "Online GraphQL Editor",
+      "description": " Edit and test GraphQL queries",
+      "url": " https://graphql.org/swapi-graphql/"
+    },
+    {
+      "name": "Online REST API Testing Tool",
+      "description": " Test REST APIs",
+      "url": " https://reqbin.com/"
+    },
+    {
+      "name": "Online WebSocket Testing Tool",
+      "description": " Test WebSocket connections",
+      "url": " https://www.websocket.org/echo.html"
+    },
+    {
+      "name": "Online HTTP Header Checker",
+      "description": " Check HTTP headers of a website",
+      "url": " https://httpstatus.io/"
+    },
+    {
+      "name": "Online HTTP Request Maker",
+      "description": " Make HTTP requests",
+      "url": " https://www.hurl.it/"
+    },
+    {
+      "name": "Online TLS/SSL Checker",
+      "description": " Check TLS/SSL configuration of a website",
+      "url": " https://www.sslshopper.com/ssl-checker.html"
+    },
+    {
+      "name": "Online CORS Checker",
+      "description": " Check CORS configuration of a website",
+      "url": " https://www.test-cors.org/"
+    },
+    {
+      "name": "Online Content Security Policy (CSP) Generator",
+      "description": " Generate CSP headers",
+      "url": " https://csp-generator.hashbang.sh/"
+    },
+    {
+      "name": "Online SRV Record Checker",
+      "description": " Check SRV record for a domain",
+      "url": " https://mxtoolbox.com/SuperTool.aspx?action=srv"
+    },
+    {
+      "name": "Online TXT Record Checker",
+      "description": " Check TXT record for a domain",
+      "url": " https://mxtoolbox.com/SuperTool.aspx?action=txt"
+    },
+    {
+      "name": "Online CAA Record Checker",
+      "description": " Check CAA record for a domain",
+      "url": " https://www.whatsmydns.net/#CAA"
+    },
+    {
+      "name": "Online DNS Propagation Checker",
+      "description": " Check DNS propagation across different locations",
+      "url": " https://www.whatsmydns.net/"
+    },
+    {
+      "name": "Online TCP Port Forwarding Tester",
+      "description": " Test TCP port forwarding",
+      "url": " https://www.yougetsignal.com/tools/open-ports/"
+    },
+    {
+      "name": "Online UDP Port Forwarding Tester",
+      "description": " Test UDP port forwarding",
+      "url": " https://www.yougetsignal.com/tools/open-ports/"
+    },
+    {
+      "name": "Online Network Latency Tester",
+      "description": " Test network latency",
+      "url": " https://www.meter.net/ping-test/"
+    },
+    {
+      "name": "Online Packet Loss Tester",
+      "description": " Test packet loss",
+      "url": " https://packetlosstest.com/"
+    },
+    {
+      "name": "Online Jitter Tester",
+      "description": " Test network jitter",
+      "url": " https://www.speedcheck.org/jitter/"
+    },
+    {
+      "name": "Online Bandwidth Tester",
+      "description": " Test network bandwidth",
+      "url": " https://www.speedtest.net/"
+    },
+    {
+      "name": "Online WebRTC Leak Test",
+      "description": " Test for WebRTC leaks",
+      "url": " https://browserleaks.com/webrtc"
+    },
+    {
+      "name": "Online DNS Leak Test",
+      "description": " Test for DNS leaks",
+      "url": " https://www.dnsleaktest.com/"
+    },
+    {
+      "name": "Online IPv6 Test",
+      "description": " Test for IPv6 connectivity",
+      "url": " https://test-ipv6.com/"
+    },
+    {
+      "name": "Online Screen Resolution Test",
+      "description": " Test screen resolution",
+      "url": " https://www.whatismyscreenresolution.com/"
+    },
+    {
+      "name": "Online Browser Size Test",
+      "description": " Test browser size",
+      "url": " https://www.browserstack.com/what-is-my-browser-size"
+    },
+    {
+      "name": "Online Browser Version Test",
+      "description": " Test browser version",
+      "url": " https://www.whatismybrowser.com/"
+    },
+    {
+      "name": "Online User-Agent String Tester",
+      "description": " Test User-Agent string",
+      "url": " https://www.whatismybrowser.com/detect/what-is-my-user-agent"
+    },
+    {
+      "name": "Online Geolocation Tester",
+      "description": " Test geolocation",
+      "url": " https://browserleaks.com/geo"
+    },
+    {
+      "name": "Online Cookie Tester",
+      "description": " Test cookies",
+      "url": " https://browserleaks.com/cookies"
+    },
+    {
+      "name": "Online Canvas Fingerprint Tester",
+      "description": " Test canvas fingerprint",
+      "url": " https://browserleaks.com/canvas"
+    },
+    {
+      "name": "Online WebGL Tester",
+      "description": " Test WebGL",
+      "url": " https://webglreport.com/"
+    },
+    {
+      "name": "Online Font Tester",
+      "description": " Test fonts",
+      "url": " https://www.typetester.org/"
+    },
+    {
+      "name": "Online Color Blindness Simulator",
+      "description": " Simulate color blindness",
+      "url": " https://www.color-blindness.com/coblis-color-blindness-simulator/"
+    },
+    {
+      "name": "Online Website Screenshot Generator",
+      "description": " Generate website screenshots",
+      "url": " https://www.websiteplanet.com/webtools/free-screenshot-maker/"
+    },
+    {
+      "name": "Online Mobile-Friendly Test",
+      "description": " Test if a website is mobile-friendly",
+      "url": " https://search.google.com/test/mobile-friendly"
+    },
+    {
+      "name": "Online Structured Data Testing Tool",
+      "description": " Test structured data markup",
+      "url": " https://search.google.com/structured-data/testing-tool"
+    },
+    {
+      "name": "Online AMP Validator",
+      "description": " Validate AMP pages",
+      "url": " https://validator.ampproject.org/"
+    },
+    {
+      "name": "Online PWA Builder",
+      "description": " Build Progressive Web Apps (PWAs)",
+      "url": " https://www.pwabuilder.com/"
+    },
+    {
+      "name": "Online Manifest Generator",
+      "description": " Generate PWA manifest file",
+      "url": " https://app-manifest.sumitgoutham.com/"
+    },
+    {
+      "name": "Online Service Worker Generator",
+      "description": " Generate PWA service worker file",
+      "url": " https://serviceworke.rs/"
+    },
+    {
+      "name": "Online Lighthouse Report Generator",
+      "description": " Generate Lighthouse report",
+      "url": " https://web.dev/measure/"
+    },
+    {
+      "name": "Online Accessibility Insights",
+      "description": " Check website accessibility",
+      "url": " https://accessibilityinsights.io/"
+    },
+    {
+      "name": "Online WAVE Web Accessibility Evaluation Tool",
+      "description": " Check website accessibility",
+      "url": " https://wave.webaim.org/"
+    },
+    {
+      "name": "Online Color Contrast Checker",
+      "description": " Check color contrast for accessibility",
+      "url": " https://webaim.org/resources/contrastchecker/"
+    },
+    {
+      "name": "Online HTML5 Outliner",
+      "description": " Generate HTML5 document outline",
+      "url": " https://h5o.github.io/"
+    },
+    {
+      "name": "Online Microdata Generator",
+      "description": " Generate microdata markup",
+      "url": " https://technicalseo.com/tools/schema-markup-generator/"
+    },
+    {
+      "name": "Online Schema Markup Generator",
+      "description": " Generate schema markup",
+      "url": " https://technicalseo.com/tools/schema-markup-generator/"
+    },
+    {
+      "name": "Online Robots Exclusion Standard (RES) Tester",
+      "description": " Test robots.txt for RES compliance",
+      "url": " https://technicalseo.com/tools/robots-txt-generator/"
+    },
+    {
+      "name": "Online Google Analytics Debugger",
+      "description": " Debug Google Analytics tracking",
+      "url": " https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijddfnjhcigkjpap"
+    },
+    {
+      "name": "Online Google Tag Manager Debugger",
+      "description": " Debug Google Tag Manager setup",
+      "url": " https://chrome.google.com/webstore/detail/tag-assistant-legacy-by-goo/kejbdjndbnbjgmefkgdddjlbokphdefk"
+    },
+    {
+      "name": "Online Gzip Test",
+      "description": " Check if Gzip compression is enabled",
+      "url": " https://checkgzipcompression.com/"
+    },
+    {
+      "name": "Online Brotli Test",
+      "description": " Check if Brotli compression is enabled",
+      "url": " https://www.giftofspeed.com/gzip-test/"
+    },
+    {
+      "name": "Online HTTP/2 Test",
+      "description": " Check if HTTP/2 is enabled",
+      "url": " https://tools.keycdn.com/http2-test"
+    },
+    {
+      "name": "Online HTTP/3 Test",
+      "description": " Check if HTTP/3 is enabled",
+      "url": " https://http3check.net/"
+    },
+    {
+      "name": "Online Cache-Control Test",
+      "description": " Check Cache-Control headers",
+      "url": " https://www.webpagetest.org/"
+    },
+    {
+      "name": "Online Expires Header Test",
+      "description": " Check Expires headers",
+      "url": " https://www.webpagetest.org/"
+    },
+    {
+      "name": "Online ETag Test",
+      "description": " Check ETag headers",
+      "url": " https://www.webpagetest.org/"
+    },
+    {
+      "name": "Online Keep-Alive Test",
+      "description": " Check Keep-Alive headers",
+      "url": " https://www.webpagetest.org/"
+    },
+    {
+      "name": "Online Connection: Keep-Alive Test",
+      "description": " Check Connection: Keep-Alive headers",
+      "url": " https://www.webpagetest.org/"
+    },
+    {
+      "name": "Online Strict-Transport-Security (HSTS) Test",
+      "description": " Check Strict-Transport-Security (HSTS) headers",
+      "url": " https://hstspreload.org/"
+    },
+    {
+      "name": "Online Content Security Policy (CSP) Test",
+      "description": " Check Content Security Policy (CSP) headers",
+      "url": " https://csp-evaluator.withgoogle.com/"
+    },
+    {
+      "name": "Online X-Frame-Options Test",
+      "description": " Check X-Frame-Options headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online X-XSS-Protection Test",
+      "description": " Check X-XSS-Protection headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online X-Content-Type-Options Test",
+      "description": " Check X-Content-Type-Options headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online Referrer-Policy Test",
+      "description": " Check Referrer-Policy headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online Permissions-Policy Test",
+      "description": " Check Permissions-Policy headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online Feature-Policy Test",
+      "description": " Check Feature-Policy headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online Clear-Site-Data Test",
+      "description": " Check Clear-Site-Data headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online Reporting-Endpoints Test",
+      "description": " Check Reporting-Endpoints headers",
+      "url": " https://securityheaders.com/"
+    },
+    {
+      "name": "Online Certificate Transparency (CT) Test",
+      "description": " Check Certificate Transparency (CT)",
+      "url": " https://www.sslshopper.com/certificate-key-matcher.html"
+    },
+    {
+      "name": "Online OCSP Stapling Test",
+      "description": " Check OCSP Stapling",
+      "url": " https://www.sslshopper.com/ssl-checker.html"
+    },
+    {
+      "name": "Online CAA Record Policy Tester",
+      "description": " Test CAA record policy",
+      "url": " https://caatest.co.uk/"
+    },
+    {
+      "name": "Online SRI Hash Generator",
+      "description": " Generate Subresource Integrity (SRI) hashes",
+      "url": " https://www.srihash.org/"
+    },
+    {
+      "name": "Online CSP Hash Generator",
+      "description": " Generate CSP hashes",
+      "url": " https://report-uri.com/home/generate_2"
+    },
+    {
+      "name": "Online CORS Anywhere",
+      "description": " Bypass CORS restrictions",
+      "url": " https://cors-anywhere.herokuapp.com/"
+    },
+    {
+      "name": "Online Reverse Proxy Tester",
+      "description": " Test reverse proxy configuration",
+      "url": " https://www.whatismyip.com/reverse-proxy-check/"
+    },
+    {
+      "name": "Online Load Balancer Tester",
+      "description": " Test load balancer configuration",
+      "url": " https://loadbalancer.org/blog/how-to-test-your-load-balancer/"
+    },
+    {
+      "name": "Online CDN Tester",
+      "description": " Test CDN configuration",
+      "url": " https://www.cdnperf.com/"
+    },
+    {
+      "name": "Online DDoS Protection Tester",
+      "description": " Test DDoS protection",
+      "url": " https://www.cloudflare.com/ddos/what-is-a-ddos-attack/"
+    },
+    {
+      "name": "Online VirusTotal",
+      "description": " Scan files and URLs for viruses",
+      "url": " https://www.virustotal.com/gui/home/upload"
+    },
+    {
+      "name": "Online URL Scan",
+      "description": " Scan URLs for malicious content",
+      "url": " https://urlscan.io/"
+    },
+    {
+      "name": "Online Hybrid Analysis",
+      "description": " Analyze files and URLs for malicious behavior",
+      "url": " https://www.hybrid-analysis.com/"
+    },
+    {
+      "name": "Online Any Run",
+      "description": " Analyze files and URLs in a sandbox environment",
+      "url": " https://app.any.run/"
+    },
+    {
+      "name": "Online ThreatCrowd",
+      "description": " Investigate threats",
+      "url": " https://www.threatcrowd.org/"
+    },
+    {
+      "name": "Online AlienVault OTX",
+      "description": " Investigate threats",
+      "url": " https://otx.alienvault.com/"
+    },
+    {
+      "name": "Online Shodan",
+      "description": " Search for devices connected to the internet",
+      "url": " https://www.shodan.io/"
+    },
+    {
+      "name": "Online Censys",
+      "description": " Search for devices connected to the internet",
+      "url": " https://censys.io/"
+    },
+    {
+      "name": "Online ZoomEye",
+      "description": " Search for devices connected to the internet",
+      "url": " https://www.zoomeye.org/"
+    },
+    {
+      "name": "Online Hacker Target",
+      "description": " Security tools and resources",
+      "url": " https://hackertarget.com/"
+    },
+    {
+      "name": "Online Pentest-Tools",
+      "description": " Online penetration testing tools",
+      "url": " https://pentest-tools.com/"
+    },
+    {
+      "name": "Online SecurityTrails",
+      "description": " Security intelligence and threat intelligence",
+      "url": " https://securitytrails.com/"
+    },
+    {
+      "name": "Online GreyNoise",
+      "description": " Mass internet scan data",
+      "url": " https://viz.greynoise.io/"
+    },
+    {
+      "name": "Online Fofa",
+      "description": " Search engine for cybersecurity",
+      "url": " https://fofa.info/"
+    },
+    {
+      "name": "Online BinaryEdge",
+      "description": " Search engine for cybersecurity",
+      "url": " https://www.binaryedge.io/"
+    },
+    {
+      "name": "Online Criminal IP",
+      "description": " Search engine for cybersecurity",
+      "url": " https://www.criminalip.io/"
+    },
+    {
+      "name": "Online Spyse",
+      "description": " OSINT search engine",
+      "url": " https://spyse.com/"
+    },
+    {
+      "name": "Online LeakIX",
+      "description": " Search leaked databases",
+      "url": " https://leakix.net/"
+    },
+    {
+      "name": "Online IntelX",
+      "description": " Search data breaches",
+      "url": " https://intelx.io/"
+    },
+    {
+      "name": "Online Have I Been Pwned?",
+      "description": " Check if your account has been compromised in a data breach",
+      "url": " https://haveibeenpwned.com/"
+    },
+    {
+      "name": "Online Dehashed",
+      "description": " Search for leaked credentials",
+      "url": " https://www.dehashed.com/"
+    },
+    {
+      "name": "Online WeLeakInfo",
+      "description": " Search for leaked credentials",
+      "url": " https://weleakinfo.com/"
+    },
+    {
+      "name": "Online Snusbase",
+      "description": " Search for leaked credentials",
+      "url": " https://snusbase.com/"
+    },
+    {
+      "name": "Online BreachCompilation",
+      "description": " Search for leaked credentials",
+      "url": " https://breachcompilation.com/"
+    },
+    {
+      "name": "Online RaidForums",
+      "description": " Search for leaked data",
+      "url": " https://raidforums.com/"
+    },
+    {
+      "name": "Online Nulled.to",
+      "description": " Search for leaked data",
+      "url": " https://nulled.to/"
+    },
+    {
+      "name": "Online Cracked.to",
+      "description": " Search for leaked data",
+      "url": " https://cracked.to/"
+    },
+    {
+      "name": "Online BlackHatWorld",
+      "description": " Internet marketing and security forum",
+      "url": " https://www.blackhatworld.com/"
+    },
+    {
+      "name": "Online Hack Forums",
+      "description": " Hacking forum",
+      "url": " https://hackforums.net/"
+    },
+    {
+      "name": "Online Exploit Database",
+      "description": " Vulnerability database",
+      "url": " https://www.exploit-db.com/"
+    },
+    {
+      "name": "Online CVE Details",
+      "description": " Vulnerability details",
+      "url": " https://www.cvedetails.com/"
+    },
+    {
+      "name": "Online NVD",
+      "description": " National Vulnerability Database",
+      "url": " https://nvd.nist.gov/"
+    },
+    {
+      "name": "Online SANS Institute",
+      "description": " Security training and resources",
+      "url": " https://www.sans.org/"
+    },
+    {
+      "name": "Online OWASP",
+      "description": " Open Web Application Security Project",
+      "url": " https://owasp.org/"
+    },
+    {
+      "name": "Online NIST",
+      "description": " National Institute of Standards and Technology",
+      "url": " https://www.nist.gov/"
+    },
+    {
+      "name": "Online CERT",
+      "description": " Computer Emergency Response Team",
+      "url": " https://www.cert.org/"
+    },
+    {
+      "name": "Online US-CERT",
+      "description": " United States Computer Emergency Readiness Team",
+      "url": " https://www.us-cert.gov/"
+    },
+    {
+      "name": "Online ENISA",
+      "description": " European Union Agency for Cybersecurity",
+      "url": " https://www.enisa.europa.eu/"
+    },
+    {
+      "name": "Online SUCURI SiteCheck",
+      "description": " Website security scanner",
+      "url": " https://sitecheck.sucuri.net/"
+    },
+    {
+      "name": "Online Quttera",
+      "description": " Website malware scanner",
+      "url": " https://quttera.com/"
+    },
+    {
+      "name": "Online Virusdie",
+      "description": " Website security platform",
+      "url": " https://virusdie.com/"
+    },
+    {
+      "name": "Online Astra Security",
+      "description": " Website security platform",
+      "url": " https://www.getastra.com/"
+    },
+    {
+      "name": "Online MalCare",
+      "description": " WordPress security plugin",
+      "url": " https://www.malcare.com/"
+    },
+    {
+      "name": "Online Wordfence",
+      "description": " WordPress security plugin",
+      "url": " https://www.wordfence.com/"
+    },
+    {
+      "name": "Online iThemes Security",
+      "description": " WordPress security plugin",
+      "url": " https://ithemes.com/security/"
+    },
+    {
+      "name": "Online All In One WP Security & Firewall",
+      "description": " WordPress security plugin",
+      "url": " https://wordpress.org/plugins/all-in-one-wp-security/"
+    },
+    {
+      "name": "Online Shield Security",
+      "description": " WordPress security plugin",
+      "url": " https://www.getshieldsecurity.com/"
+    },
+    {
+      "name": "Online NinjaFirewall",
+      "description": " WordPress security plugin",
+      "url": " https://nintechnet.com/ninjafirewall/"
+    },
+    {
+      "name": "Online BBQ Firewall",
+      "description": " WordPress security plugin",
+      "url": " https://plugin.remotedefinition.com/"
+    },
+    {
+      "name": "Online Anti-Malware Security and Brute-Force Firewall",
+      "description": " WordPress security plugin",
+      "url": " https://wordpress.org/plugins/anti-malware/"
+    },
+    {
+      "name": "Online WebARX",
+      "description": " Website security platform",
+      "url": " https://webarxsecurity.com/"
+    },
+    {
+      "name": "Online Cloudflare",
+      "description": " Website security and performance",
+      "url": " https://www.cloudflare.com/"
+    },
+    {
+      "name": "Online Akamai",
+      "description": " Website security and performance",
+      "url": " https://www.akamai.com/"
+    },
+    {
+      "name": "Online Imperva",
+      "description": " Website security and performance",
+      "url": " https://www.imperva.com/"
+    },
+    {
+      "name": "Online Fastly",
+      "description": " Website security and performance",
+      "url": " https://www.fastly.com/"
+    },
+    {
+      "name": "Online StackPath",
+      "description": " Website security and performance",
+      "url": " https://www.stackpath.com/"
+    },
+    {
+      "name": "Online Amazon CloudFront",
+      "description": " Website security and performance",
+      "url": " https://aws.amazon.com/cloudfront/"
+    },
+    {
+      "name": "Online Google Cloud CDN",
+      "description": " Website security and performance",
+      "url": " https://cloud.google.com/cdn/"
+    },
+    {
+      "name": "Online Microsoft Azure CDN",
+      "description": " Website security and performance",
+      "url": " https://azure.microsoft.com/en-us/services/cdn/"
+    },
+    {
+      "name": "Online Alibaba Cloud CDN",
+      "description": " Website security and performance",
+      "url": " https://www.alibabacloud.com/product/cdn"
+    },
+    {
+      "name": "Online Tencent Cloud CDN",
+      "description": " Website security and performance",
+      "url": " https://intl.cloud.tencent.com/product/cdn"
+    },
+    {
+      "name": "Online Baidu Cloud CDN",
+      "description": " Website security and performance",
+      "url": " https://cloud.baidu.com/product/cdn"
+    },
+    {
+      "name": "Online ChinaCache CDN",
+      "description": " Website security and performance",
+      "url": " https://www.chinacache.com/"
+    },
+    {
+      "name": "Online Quantil Networks CDN",
+      "description": " Website security and performance",
+      "url": " https://www.quantil.com/"
+    },
+    {
+      "name": "Online Limelight Networks CDN",
+      "description": " Website security and performance",
+      "url": " https://www.limelight.com/"
+    },
+    {
+      "name": "Online Highwinds CDN",
+      "description": " Website security and performance",
+      "url": " https://www.highwinds.com/"
+    },
+    {
+      "name": "Online CDNetworks CDN",
+      "description": " Website security and performance",
+      "url": " https://www.cdnetworks.com/"
+    },
+    {
+      "name": "Online Aryaka Networks CDN",
+      "description": " Website security and performance",
+      "url": " https://www.aryaka.com/"
+    },
+    {
+      "name": "Online Varnish Software CDN",
+      "description": " Website security and performance",
+      "url": " https://www.varnish-software.com/"
+    },
+    {
+      "name": "Online KeyCDN",
+      "description": " Website security and performance",
+      "url": " https://www.keycdn.com/"
+    },
+    {
+      "name": "Online BunnyCDN",
+      "description": " Website security and performance",
+      "url": " https://bunny.net/"
+    },
+    {
+      "name": "Online G-Core Labs CDN",
+      "description": " Website security and performance",
+      "url": " https://gcorelabs.com/cdn/"
+    },
+    {
+      "name": "Online BelugaCDN",
+      "description": " Website security and performance",
+      "url": " https://www.belugacdn.com/"
+    },
+    {
+      "name": "Online Edgio CDN",
+      "description": " Website security and performance",
+      "url": " https://www.edg.io/"
+    },
+    {
+      "name": "Online Section CDN",
+      "description": " Website security and performance",
+      "url": " https://www.section.io/"
+    },
+    {
+      "name": "Online Azion CDN",
+      "description": " Website security and performance",
+      "url": " https://www.azion.com/"
+    },
+    {
+      "name": "Online Netlify CDN",
+      "description": " Website security and performance",
+      "url": " https://www.netlify.com/"
+    },
+    {
+      "name": "Online Firebase Hosting",
+      "description": " Website security and performance",
+      "url": " https://firebase.google.com/docs/hosting"
+    },
+    {
+      "name": "Online GitHub Pages",
+      "description": " Website security and performance",
+      "url": " https://pages.github.com/"
+    },
+    {
+      "name": "Online GitLab Pages",
+      "description": " Website security and performance",
+      "url": " https://docs.gitlab.com/ee/user/project/pages/"
+    },
+    {
+      "name": "Online Surge.sh",
+      "description": " Website security and performance",
+      "url": " https://surge.sh/"
+    },
+    {
+      "name": "Online Heroku",
+      "description": " Website security and performance",
+      "url": " https://www.heroku.com/"
+    },
+    {
+      "name": "Online AWS Amplify",
+      "description": " Website security and performance",
+      "url": " https://aws.amazon.com/amplify/"
+    },
+    {
+      "name": "Online Vercel",
+      "description": " Website security and performance",
+      "url": " https://vercel.com/"
+    },
+    {
+      "name": "Online Render",
+      "description": " Website security and performance",
+      "url": " https://render.com/"
+    },
+    {
+      "name": "Online DigitalOcean App Platform",
+      "description": " Website security and performance",
+      "url": " https://www.digitalocean.com/products/app-platform"
+    },
+    {
+      "name": "Online Fly.io",
+      "description": " Website security and performance",
+      "url": " https://fly.io/"
+    },
+    {
+      "name": "Online Railway",
+      "description": " Website security and performance",
+      "url": " https://railway.app/"
+    },
+    {
+      "name": "Online Deta",
+      "description": " Website security and performance",
+      "url": " https://deta.space/"
+    },
+    {
+      "name": "Online Replit",
+      "description": " Website security and performance",
+      "url": " https://replit.com/"
+    },
+    {
+      "name": "Online CodeSandbox",
+      "description": " Website security and performance",
+      "url": " https://codesandbox.io/"
+    },
+    {
+      "name": "Online Glitch",
+      "description": " Website security and performance",
+      "url": " https://glitch.com/"
+    },
+    {
+      "name": "Online StackBlitz",
+      "description": " Website security and performance",
+      "url": " https://stackblitz.com/"
+    },
+    {
+      "name": "Online CodePen",
+      "description": " Website security and performance",
+      "url": " https://codepen.io/"
+    },
+    {
+      "name": "Online JSFiddle",
+      "description": " Website security and performance",
+      "url": " https://jsfiddle.net/"
+    },
+    {
+      "name": "Online Liveweave",
+      "description": " Website security and performance",
+      "url": " https://liveweave.com/"
+    },
+    {
+      "name": "Online CSSDeck",
+      "description": " Website security and performance",
+      "url": " https://cssdeck.com/"
+    },
+    {
+      "name": "Online Dabblet",
+      "description": " Website security and performance",
+      "url": " https://dabblet.com/"
+    },
+    {
+      "name": "Online Plunker",
+      "description": " Website security and performance",
+      "url": " https://plnkr.co/"
+    },
+    {
+      "name": "Online Repl.it",
+      "description": " Website security and performance",
+      "url": " https://repl.it/"
+    },
+    {
+      "name": "Online Ideone",
+      "description": " Website security and performance",
+      "url": " https://ideone.com/"
+    },
+    {
+      "name": "Online Paiza.IO",
+      "description": " Website security and performance",
+      "url": " https://paiza.io/en"
+    },
+    {
+      "name": "Online Codechef",
+      "description": " Website security and performance",
+      "url": " https://www.codechef.com/"
+    },
+    {
+      "name": "Online HackerRank",
+      "description": " Website security and performance",
+      "url": " https://www.hackerrank.com/"
+    },
+    {
+      "name": "Online LeetCode",
+      "description": " Website security and performance",
+      "url": " https://leetcode.com/"
+    },
+    {
+      "name": "Online Codewars",
+      "description": " Website security and performance",
+      "url": " https://www.codewars.com/"
+    },
+    {
+      "name": "Online Project Euler",
+      "description": " Website security and performance",
+      "url": " https://projecteuler.net/"
+    },
+    {
+      "name": "Online Topcoder",
+      "description": " Website security and performance",
+      "url": " https://www.topcoder.com/"
+    },
+    {
+      "name": "Online Kaggle",
+      "description": " Website security and performance",
+      "url": " https://www.kaggle.com/"
+    },
+    {
+      "name": "Online DrivenData",
+      "description": " Website security and performance",
+      "url": " https://www.drivendata.org/"
+    },
+    {
+      "name": "Online HackerEarth",
+      "description": " Website security and performance",
+      "url": " https://www.hackerearth.com/"
+    },
+    {
+      "name": "Online InterviewBit",
+      "description": " Website security and performance",
+      "url": " https://www.interviewbit.com/"
+    },
+    {
+      "name": "Online GeeksforGeeks",
+      "description": " Website security and performance",
+      "url": " https://www.geeksforgeeks.org/"
+    },
+    {
+      "name": "Online TutorialsPoint",
+      "description": " Website security and performance",
+      "url": " https://www.tutorialspoint.com/index.htm"
+    },
+    {
+      "name": "Online W3Schools",
+      "description": " Website security and performance",
+      "url": " https://www.w3schools.com/"
+    },
+    {
+      "name": "Online MDN Web Docs",
+      "description": " Website security and performance",
+      "url": " https://developer.mozilla.org/en-US/"
+    },
+    {
+      "name": "Online FreeCodeCamp",
+      "description": " Website security and performance",
+      "url": " https://www.freecodecamp.org/"
+    },
+    {
+      "name": "Online Coursera",
+      "description": " Website security and performance",
+      "url": " https://www.coursera.org/"
+    },
+    {
+      "name": "Online edX",
+      "description": " Website security and performance",
+      "url": " https://www.edx.org/"
+    },
+    {
+      "name": "Online Udacity",
+      "description": " Website security and performance",
+      "url": " https://www.udacity.com/"
+    },
+    {
+      "name": "Online Udemy",
+      "description": " Website security and performance",
+      "url": " https://www.udemy.com/"
+    },
+    {
+      "name": "Online Skillshare",
+      "description": " Website security and performance",
+      "url": " https://www.skillshare.com/"
+    },
+    {
+      "name": "Online LinkedIn Learning",
+      "description": " Website security and performance",
+      "url": " https://www.linkedin.com/learning/"
+    },
+    {
+      "name": "Online Pluralsight",
+      "description": " Website security and performance",
+      "url": " https://www.pluralsight.com/"
+    },
+    {
+      "name": "Online Treehouse",
+      "description": " Website security and performance",
+      "url": " https://teamtreehouse.com/"
+    },
+    {
+      "name": "Online Codecademy",
+      "description": " Website security and performance",
+      "url": " https://www.codecademy.com/"
+    },
+    {
+      "name": "Online Khan Academy",
+      "description": " Website security and performance",
+      "url": " https://www.khanacademy.org/"
+    },
+    {
+      "name": "Online MIT OpenCourseWare",
+      "description": " Website security and performance",
+      "url": " https://ocw.mit.edu/"
+    },
+    {
+      "name": "Online Stanford Online",
+      "description": " Website security and performance",
+      "url": " https://online.stanford.edu/"
+    },
+    {
+      "name": "Online Harvard Online",
+      "description": " Website security and performance",
+      "url": " https://online.harvard.edu/"
+    },
+    {
+      "name": "Online Yale Online",
+      "description": " Website security and performance",
+      "url": " https://online.yale.edu/"
+    },
+    {
+      "name": "Online Princeton Online",
+      "description": " Website security and performance",
+      "url": " https://online.princeton.edu/"
+    },
+    {
+      "name": "Online Columbia Online",
+      "description": " Website security and performance",
+      "url": " https://online.columbia.edu/"
+    },
+    {
+      "name": "Online University of Pennsylvania Online",
+      "description": " Website security and performance",
+      "url": " https://online.upenn.edu/"
+    },
+    {
+      "name": "Online California Institute of Technology Online",
+      "description": " Website security and performance",
+      "url": " https://www.caltech.edu/"
+    },
+    {
+      "name": "Online University of Chicago Online",
+      "description": " Website security and performance",
+      "url": " https://online.uchicago.edu/"
+    },
+    {
+      "name": "Online Johns Hopkins University Online",
+      "description": " Website security and performance",
+      "url": " https://online.jhu.edu/"
+    },
+    {
+      "name": "Online Northwestern University Online",
+      "description": " Website security and performance",
+      "url": " https://www.northwestern.edu/online/"
+    },
+    {
+      "name": "Online Duke University Online",
+      "description": " Website security and performance",
+      "url": " https://online.duke.edu/"
+    },
+    {
+      "name": "Online University of Michigan Online",
+      "description": " Website security and performance",
+      "url": " https://online.umich.edu/"
+    },
+    {
+      "name": "Online University of California",
+      "description": " Berkeley Online, Website security and performance",
+      "url": " https://online.berkeley.edu/"
+    },
+    {
+      "name": "Online University of California",
+      "description": " Los Angeles Online, Website security and performance",
+      "url": " https://online.ucla.edu/"
+    },
+    {
+      "name": "Online University of Texas at Austin Online",
+      "description": " Website security and performance",
+      "url": " https://online.utexas.edu/"
+    },
+    {
+      "name": "Online University of Washington Online",
+      "description": " Website security and performance",
+      "url": " https://online.uw.edu/"
+    },
+    {
+      "name": "Online Georgia Institute of Technology Online",
+      "description": " Website security and performance",
+      "url": " https://www.gatech.edu/academics/online-degrees"
+    },
+    {
+      "name": "Online Carnegie Mellon University Online",
+      "description": " Website security and performance",
+      "url": " https://www.cmu.edu/"
+    },
+    {
+      "name": "Online Cornell University Online",
+      "description": " Website security and performance",
+      "url": " https://ecornell.cornell.edu/"
+    },
+    {
+      "name": "Online New York University Online",
+      "description": " Website security and performance",
+      "url": " https://www.nyu.edu/academics/online-learning.html"
+    },
+    {
+      "name": "Online University of Toronto Online",
+      "description": " Website security and performance",
+      "url": " https://learn.utoronto.ca/"
+    },
+    {
+      "name": "Online University of British Columbia Online",
+      "description": " Website security and performance",
+      "url": " https://extendedlearning.ubc.ca/"
+    },
+    {
+      "name": "Online McGill University Online",
+      "description": " Website security and performance",
+      "url": " https://www.mcgill.ca/channels/channels/news/mcgill-launches-its-first-fully-online-program-316041"
+    }
+  ]
+}

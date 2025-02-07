@@ -1,0 +1,57 @@
+{
+  "slug": "utilities",
+  "name": "Utilities",
+  "icon": "image",
+  "data": [
+    {
+      "name": "Unit Converter",
+      "description": "Convert between different units of measurement.",
+      "url": "https://www.unitconverters.net/"
+    },
+    {
+      "name": "Online Stopwatch",
+      "description": "A simple and accurate stopwatch.",
+      "url": "https://www.online-stopwatch.com/"
+    },
+    {
+      "name": "Random Password Generator",
+      "description": "Create strong and secure passwords.",
+      "url": "https://www.lastpass.com/password-generator"
+    },
+    {
+      "name": "QR Code Generator",
+      "description": "Create custom QR codes.",
+      "url": "https://www.qr-code-generator.com/"
+    },
+    {
+      "name": "Base64 Encode/Decode",
+      "description": "Encode or decode text using Base64.",
+      "url": "https://www.base64encode.org/"
+    },
+    {
+      "name": "JSON Formatter",
+      "description": "Format and validate JSON data.",
+      "url": "https://jsonformatter.curiousconcept.com/"
+    },
+    {
+      "name": "UUID Generator",
+      "description": "Generate universally unique identifiers (UUIDs).",
+      "url": "https://www.uuidgenerator.net/"
+    },
+    {
+      "name": "Image Resizer",
+      "description": "Resize images online for free.",
+      "url": "https://www.iloveimg.com/resize-image"
+    },
+    {
+      "name": "Color Picker",
+      "description": "Pick colors from an online color palette.",
+      "url": "https://htmlcolorcodes.com/color-picker/"
+    },
+    {
+      "name": "World Time Clock",
+      "description": "See the current time in cities around the world.",
+      "url": "https://www.timeanddate.com/worldclock/"
+    }
+  ]
+}
