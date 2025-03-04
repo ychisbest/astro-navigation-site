@@ -52,6 +52,11 @@
       "name": "World Time Clock",
       "description": "See the current time in cities around the world.",
       "url": "https://www.timeanddate.com/worldclock/"
+    },
+    {
+      "name": "Time Dot",
+      "description": "Visualize Your Time",
+      "url": "https://timedot.net"
     }
   ]
 }
