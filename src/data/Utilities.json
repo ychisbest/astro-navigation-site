@@ -62,6 +62,12 @@
       "name": "x trench run",
       "description": "good game",
       "url": "https://xtrenchrun.fun"
+    },
+    {
+      "name": "survival race",
+      "description": "to play survival race",
+      "url": "survivalrace.fun"
     }
+
   ]
 }
