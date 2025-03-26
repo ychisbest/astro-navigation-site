@@ -67,6 +67,11 @@
       "name": "survival race",
       "description": "to play survival race",
       "url": "survivalrace.fun"
+    },
+    {
+      "name": "happy ghast",
+      "description": "A news and information integration site about happy ghast in Minecraft.",
+      "url": "happyghast.info"
     }
 
   ]
