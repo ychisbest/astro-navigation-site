@@ -1,0 +1,653 @@
+---
+// Import necessary components and utilities
+import Formalizer from "@/components/Formalizer"; // Assuming this is used elsewhere or can be removed if not needed on this page
+import { SITE_TITLE, SITE_TITLE_SHORT } from "@/consts";
+import Image from "astro/components/Image.astro"; // Currently unused, keep if planning to add images
+import { DEFAULT_LOCALE, LOCALES, useTranslations, type Lang } from "@/i18n";
+import Layout from "@/layouts/Base.astro";
+import { Icon } from "astro-icon/components";
+
+const locale = Astro.currentLocale as Lang;
+const t = useTranslations(locale);
+
+// Generate static paths for locales
+export const getStaticPaths = () =>
+  Object.keys(LOCALES).map((lang) => ({ params: { lang } }));
+
+const currentLocale = locale as Lang;
+
+const canonical =
+  currentLocale === DEFAULT_LOCALE
+    ? (Astro.site?.toString() ?? "")
+    : (Astro.url?.toString() ?? "");
+
+// Helper function for cleaner translation calls
+const translate = (key: Parameters<typeof t>[0]) => t(key);
+---
+
+<Layout
+  canonical={canonical}
+  title={translate({
+    en: `Home - ${SITE_TITLE_SHORT}`,
+    es: `Inicio - ${SITE_TITLE_SHORT}`,
+    ar: `الصفحة الرئيسية - ${SITE_TITLE_SHORT}`,
+    pt: `Início - ${SITE_TITLE_SHORT}`,
+    fr: `Accueil - ${SITE_TITLE_SHORT}`,
+    ru: `Главная - ${SITE_TITLE_SHORT}`,
+    "zh-cn": `首页 - ${SITE_TITLE_SHORT}`,
+    ja: `ホーム - ${SITE_TITLE_SHORT}`,
+  })}
+>
+  <div class="container mx-auto px-4 py-16 sm:py-20">
+    <div class="text-center pb-16"> {/* Increased padding (py), added subtle gradient */}
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-3"> {/* Reduced size, changed weight, softer color, reduced margin */}
+        {SITE_TITLE}
+      </h1>
+      <h2 class="text-md md:text-lg text-gray-500 mt-3 mb-8 max-w-xl mx-auto"> {/* Reduced size, softer color, adjusted margins, slightly reduced max-width for tighter feel */}
+        {
+          translate({
+            en: "Your Fast Startup Toolkit for Turning Ideas into Reality, Designed for Indie Hackers.",
+            es: "Tu Kit de Herramientas de Inicio Rápido para Convertir Ideas en Realidad, Diseñado para Hackers Independientes.",
+            ar: "مجموعة أدوات البدء السريع الخاصة بك لتحويل الأفكار إلى واقع، مصممة للمطورين المستقلين.",
+            pt: "Seu Kit de Ferramentas de Inicialização Rápida para Transformar Ideias em Realidade, Projetado para Hackers Independentes.",
+            fr: "Votre Boîte à Outils de Démarrage Rapide pour Transformer les Idées en Réalité, Conçue pour les Hackers Indépendants.",
+            ru: "Ваш Набор Инструментов Быстрого Старта для Превращения Идей в Реальность, Разработанный для Независимых Разработчиков.",
+            "zh-cn": "专为独立开发者设计的快速启动工具包，助您将想法变为现实。",
+            ja: "インディーハッカー向けに設計された、アイデアを現実に変えるための高速スタートアップツールキット。",
+          })
+        }
+      </h2>
+       <span class="inline-block px-4 py-1.5 rounded-full bg-blue-50 text-blue-600 text-xs font-semibold tracking-wide"> {/* Reduced padding slightly, lighter colors, smaller text, added tracking */}
+         {translate({
+            en: "Build smarter, launch faster.",
+            es: "Construye de forma más inteligente, lanza más rápido.",
+            ar: "ابنِ بذكاء، أطلق أسرع.",
+            pt: "Construa de forma mais inteligente, lance mais rápido.",
+            fr: "Construisez plus intelligemment, lancez plus rapidement.",
+            ru: "Стройте умнее, запускайте быстрее.",
+            "zh-cn": "更智能地构建，更快地启动。",
+            ja: "より賢く構築し、より速く立ち上げる。",
+         })}
+       </span>
+    </div>
+
+    <div class="space-y-16">
+
+      <!-- Step 1: Demand Research Section -->
+      <section class="max-w-4xl mx-auto bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <div class="flex items-start md:items-center gap-4 mb-6">
+          <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 text-white shadow-md">
+            <Icon name="mdi:magnify" class="w-7 h-7" />
+          </div>
+          <div>
+            <span class="text-sm font-semibold text-indigo-600 tracking-wider uppercase">
+              {translate({ en: "Step 1", es: "Paso 1", ar: "الخطوة 1", pt: "Passo 1", fr: "Étape 1", ru: "Шаг 1", "zh-cn": "步骤 1", ja: "ステップ 1" })}
+            </span>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
+              {translate({
+                en: "Uncover Real Demand",
+                es: "Descubre la Demanda Real",
+                ar: "اكتشف الطلب الحقيقي",
+                pt: "Descubra a Demanda Real",
+                fr: "Découvrez la Demande Réelle",
+                ru: "Выявите Реальный Спрос",
+                "zh-cn": "挖掘真实需求",
+                ja: "真の需要を発見する",
+              })}
+            </h2>
+          </div>
+        </div>
+
+        <div class="mb-6 p-4 bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-amber-400 rounded-lg shadow-sm">
+          <div class="flex items-start gap-3">
+            <Icon name="mdi:lightbulb-on-outline" class="w-6 h-6 text-amber-600 mt-1 flex-shrink-0" />
+            <div>
+              <h4 class="font-semibold text-amber-900 mb-1">{translate({en:"Core Principle", es: "Principio Clave", ar: "المبدأ الأساسي", pt: "Princípio Fundamental", fr: "Principe Clé", ru: "Ключевой Принцип", "zh-cn": "核心原则", ja: "核心原則"})}</h4>
+              <p class="text-amber-800 text-sm leading-relaxed">
+                {translate({
+                  en: "Build products users demonstrably need and are searching for, not just what you think is cool. Validate assumptions early.",
+                  es: "Crea productos que los usuarios demuestren necesitar y estén buscando, no solo lo que crees que es genial. Valida las suposiciones temprano.",
+                  ar: "قم ببناء منتجات يثبت المستخدمون حاجتهم إليها ويبحثون عنها، وليس فقط ما تعتقد أنه رائع. تحقق من صحة الافتراضات مبكرًا.",
+                  pt: "Crie produtos que os usuários comprovadamente precisam e procuram, não apenas o que você acha legal. Valide as suposições cedo.",
+                  fr: "Créez des produits dont les utilisateurs ont manifestement besoin et qu'ils recherchent, pas seulement ce que vous pensez être cool. Validez tôt les hypothèses.",
+                  ru: "Создавайте продукты, в которых пользователи явно нуждаются и ищут, а не то, что вам кажется крутым. Проверяйте предположения на раннем этапе.",
+                  "zh-cn": "开发用户明确需要并正在寻找的产品，而不仅仅是你觉得酷的东西。尽早验证假设。",
+                  ja: "あなたがクールだと思うものだけでなく、ユーザーが明確に必要とし、探している製品を作りましょう。仮説を早期に検証します。",
+                })}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-gray-600 mb-6">
+          {translate({
+            en: "Before writing a line of code, identify genuine problems and market gaps. Understand your potential users' pain points and search behavior.",
+            es: "Antes de escribir una línea de código, identifica problemas genuinos y brechas de mercado. Comprende los puntos débiles y el comportamiento de búsqueda de tus usuarios potenciales.",
+            ar: "قبل كتابة أي سطر برمجي، حدد المشاكل الحقيقية والفجوات في السوق. افهم نقاط الألم لدى المستخدمين المحتملين وسلوك بحثهم.",
+            pt: "Antes de escrever uma linha de código, identifique problemas genuínos e lacunas de mercado. Entenda os pontos problemáticos e o comportamento de busca de seus potenciais usuários.",
+            fr: "Avant d'écrire une ligne de code, identifiez les problèmes réels et les lacunes du marché. Comprenez les points faibles et le comportement de recherche de vos utilisateurs potentiels.",
+            ru: "Прежде чем написать строчку кода, определите реальные проблемы и рыночные ниши. Поймите болевые точки ваших потенциальных пользователей и их поисковое поведение.",
+            "zh-cn": "在编写任何代码之前，识别真正的痛点和市场空白。了解潜在用户的痛点和搜索行为。",
+            ja: "コードを一行書く前に、真の問題と市場のギャップを特定します。潜在的なユーザーのペインポイントと検索行動を理解しましょう。",
+          })}
+        </p>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-700">
+          {translate({ en: "Recommended Research Tools", es: "Herramientas de Investigación Recomendadas", ar: "أدوات البحث الموصى بها", pt: "Ferramentas de Pesquisa Recomendadas", fr: "Outils de Recherche Recommandés", ru: "Рекомендуемые Инструменты Исследования", "zh-cn": "推荐研究工具", ja: "推奨リサーチツール" })}
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Tool Card: Google Trends -->
+          <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all duration-200">
+            <div class="flex items-center gap-3 mb-2">
+                <Icon name="mdi:chart-line" class="w-5 h-5 text-blue-600" />
+              <h4 class="font-medium text-gray-800">Google Trends</h4>
+            </div>
+            <p class="text-sm text-gray-600 mb-3">
+              {translate({ en: "Gauge interest over time and identify trending searches.", es: "Mide el interés a lo largo del tiempo e identifica búsquedas populares.", ar: "قياس الاهتمام بمرور الوقت وتحديد عمليات البحث الرائجة.", pt: "Avalie o interesse ao longo do tempo e identifique pesquisas em alta.", fr: "Évaluez l'intérêt au fil du temps et identifiez les recherches tendance.", ru: "Оцените интерес с течением времени и выявите популярные запросы.", "zh-cn": "衡量兴趣随时间的变化并发现热门搜索。", ja: "時間経過に伴う関心を測定し、トレンドの検索を特定します。" })}
+            </p>
+            <a href="https://trends.google.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 hover:underline">
+              {translate({ en: "Explore Trends", es: "Explorar Tendencias", ar: "استكشف الاتجاهات", pt: "Explorar Tendências", fr: "Explorer les Tendances", ru: "Исследовать Тренды", "zh-cn": "探索趋势", ja: "トレンドを探る" })} <Icon name="mdi:arrow-top-right" class="w-4 h-4 ml-1" />
+            </a>
+          </div>
+
+          <!-- Tool Card: Reddit -->
+          <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all duration-200">
+            <div class="flex items-center gap-3 mb-2">
+                <Icon name="mdi:reddit" class="w-5 h-5 text-orange-600" />
+              <h4 class="font-medium text-gray-800">Reddit & Niche Forums</h4>
+            </div>
+            <p class="text-sm text-gray-600 mb-3">
+              {translate({ en: "Find communities discussing problems you can solve.", es: "Encuentra comunidades discutiendo problemas que puedes resolver.", ar: "ابحث عن مجتمعات تناقش المشاكل التي يمكنك حلها.", pt: "Encontre comunidades discutindo problemas que você pode resolver.", fr: "Trouvez des communautés discutant de problèmes que vous pouvez résoudre.", ru: "Найдите сообщества, обсуждающие проблемы, которые вы можете решить.", "zh-cn": "寻找讨论您可以解决的问题的社区。", ja: "解決できる問題を議論しているコミュニティを見つけます。" })}
+            </p>
+            <a href="https://www.reddit.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 hover:underline">
+              {translate({ en: "Visit Reddit", es: "Visitar Reddit", ar: "زيارة Reddit", pt: "Visitar Reddit", fr: "Visiter Reddit", ru: "Посетить Reddit", "zh-cn": "访问 Reddit", ja: "Redditにアクセス" })} <Icon name="mdi:arrow-top-right" class="w-4 h-4 ml-1" />
+            </a>
+             <!-- Add a note about niche forums -->
+             <p class="text-xs text-gray-500 mt-2 italic">
+                {translate({ en: "Also search for industry-specific forums.", es: "Busca también foros específicos de la industria.", ar: "ابحث أيضًا عن المنتديات المتخصصة في الصناعة.", pt: "Procure também por fóruns específicos da indústria.", fr: "Recherchez également des forums spécifiques à l'industrie.", ru: "Также ищите отраслевые форумы.", "zh-cn": "同时搜索行业特定论坛。", ja: "業界固有のフォーラムも検索してください。" })}
+              </p>
+          </div>
+
+           <!-- Tool Card: Keyword Research Tools -->
+          <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all duration-200">
+            <div class="flex items-center gap-3 mb-2">
+              <Icon name="mdi:key-variant" class="w-5 h-5 text-gray-600" />
+              <h4 class="font-medium text-gray-800">Keyword Research Tools</h4>
+            </div>
+            <p class="text-sm text-gray-600 mb-3">
+              {translate({ en: "Analyze search volume for specific problems or solutions.", es: "Analiza el volumen de búsqueda para problemas o soluciones específicas.", ar: "تحليل حجم البحث عن مشاكل أو حلول محددة.", pt: "Analise o volume de pesquisa para problemas ou soluções específicas.", fr: "Analysez le volume de recherche pour des problèmes ou solutions spécifiques.", ru: "Анализируйте объем поиска по конкретным проблемам или решениям.", "zh-cn": "分析特定问题或解决方案的搜索量。", ja: "特定の問題や解決策の検索ボリュームを分析します。" })}
+            </p>
+            <div class="flex flex-wrap gap-2">
+                <a href="https://ahrefs.com/free-seo-tools" target="_blank" rel="noopener noreferrer" class="text-xs px-2 py-1 bg-gray-100 rounded hover:bg-gray-200">Ahrefs Free</a>
+                <a href="https://semrush.com/" target="_blank" rel="noopener noreferrer" class="text-xs px-2 py-1 bg-gray-100 rounded hover:bg-gray-200">Semrush</a>
+                <a href="https://ads.google.com/home/tools/keyword-planner/" target="_blank" rel="noopener noreferrer" class="text-xs px-2 py-1 bg-gray-100 rounded hover:bg-gray-200">Google Keyword Planner</a>
+            </div>
+          </div>
+
+          <!-- Tool Card: Competitor Analysis -->
+          <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all duration-200">
+            <div class="flex items-center gap-3 mb-2">
+              <Icon name="mdi:binoculars" class="w-5 h-5 text-gray-600" />
+              <h4 class="font-medium text-gray-800">Competitor Analysis</h4>
+            </div>
+            <p class="text-sm text-gray-600 mb-3">
+              {translate({ en: "Study existing solutions, identify their weaknesses and underserved niches.", es: "Estudia las soluciones existentes, identifica sus debilidades y nichos desatendidos.", ar: "دراسة الحلول الحالية، وتحديد نقاط ضعفها والمنافذ غير المخدومة.", pt: "Estude as soluções existentes, identifique suas fraquezas e nichos mal atendidos.", fr: "Étudiez les solutions existantes, identifiez leurs faiblesses et les niches mal desservies.", ru: "Изучите существующие решения, выявите их слабые стороны и недостаточно обслуживаемые ниши.", "zh-cn": "研究现有解决方案，找出它们的弱点和未被满足的细分市场。", ja: "既存のソリューションを調査し、弱点とサービスが行き届いていないニッチを特定します。" })}
+            </p>
+             <p class="text-xs text-gray-500 italic">
+                {translate({ en: "Look at reviews, feature requests, and pricing.", es: "Mira reseñas, solicitudes de funciones y precios.", ar: "انظر إلى المراجعات وطلبات الميزات والتسعير.", pt: "Veja avaliações, solicitações de recursos e preços.", fr: "Examinez les avis, les demandes de fonctionnalités et la tarification.", ru: "Посмотрите на отзывы, запросы функций и цены.", "zh-cn": "查看评论、功能请求和定价。", ja: "レビュー、機能リクエスト、価格設定を確認してください。" })}
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 2: Website Building Section -->
+      <section class="max-w-4xl mx-auto bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <div class="flex items-start md:items-center gap-4 mb-6">
+          <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-green-400 to-cyan-500 text-white shadow-md">
+            <Icon name="mdi:cube-outline" class="w-7 h-7" />
+          </div>
+           <div>
+            <span class="text-sm font-semibold text-cyan-600 tracking-wider uppercase">
+               {translate({ en: "Step 2", es: "Paso 2", ar: "الخطوة 2", pt: "Passo 2", fr: "Étape 2", ru: "Шаг 2", "zh-cn": "步骤 2", ja: "ステップ 2" })}
+            </span>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
+              {translate({
+                en: "Build Your Platform",
+                es: "Construye Tu Plataforma",
+                ar: "ابنِ منصتك",
+                pt: "Construa Sua Plataforma",
+                fr: "Construisez Votre Plateforme",
+                ru: "Создайте Свою Платформу",
+                "zh-cn": "构建您的平台",
+                ja: "プラットフォームを構築する",
+              })}
+            </h2>
+          </div>
+        </div>
+
+        <div class="mb-6 p-4 bg-gradient-to-r from-teal-50 to-cyan-50 border-l-4 border-teal-400 rounded-lg shadow-sm">
+          <div class="flex items-start gap-3">
+            <Icon name="mdi:rocket-launch-outline" class="w-6 h-6 text-teal-600 mt-1 flex-shrink-0" />
+             <div>
+              <h4 class="font-semibold text-teal-900 mb-1">{translate({en:"Core Principle", es: "Principio Clave", ar: "المبدأ الأساسي", pt: "Princípio Fundamental", fr: "Principe Clé", ru: "Ключевой Принцип", "zh-cn": "核心原则", ja: "核心原則"})}</h4>
+              <p class="text-teal-800 text-sm leading-relaxed">
+                {translate({
+                  en: "Start simple, launch fast. Focus on building a Minimum Viable Product (MVP) to validate your core idea quickly. Perfectionism kills momentum.",
+                  es: "Empieza simple, lanza rápido. Enfócate en construir un Producto Mínimo Viable (MVP) para validar tu idea central rápidamente. El perfeccionismo mata el impulso.",
+                  ar: "ابدأ ببساطة، أطلق بسرعة. ركز على بناء منتج قابل للتطبيق بحد أدنى (MVP) للتحقق من صحة فكرتك الأساسية بسرعة. الكمالية تقتل الزخم.",
+                  pt: "Comece simples, lance rápido. Concentre-se em construir um Produto Mínimo Viável (MVP) para validar sua ideia central rapidamente. O perfeccionismo mata o impulso.",
+                  fr: "Commencez simple, lancez rapidement. Concentrez-vous sur la création d'un Produit Minimum Viable (MVP) pour valider rapidement votre idée principale. Le perfectionnisme tue l'élan.",
+                  ru: "Начинайте просто, запускайте быстро. Сконцентрируйтесь на создании Минимально Жизнеспособного Продукта (MVP), чтобы быстро проверить вашу основную идею. Перфекционизм убивает движущую силу.",
+                  "zh-cn": "从简开始，快速启动。专注于构建最小可行产品（MVP）以快速验证您的核心想法。完美主义会扼杀动力。",
+                  ja: "シンプルに始め、速く立ち上げましょう。コアアイデアを迅速に検証するために、最小実行可能製品（MVP）の構築に集中してください。完璧主義は勢いを殺します。",
+                })}
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <p class="text-gray-600 mb-6">
+          {translate({
+            en: "Choose the right tools to build your website or application efficiently. Consider your technical skills and long-term goals.",
+            es: "Elige las herramientas adecuadas para construir tu sitio web o aplicación de manera eficiente. Considera tus habilidades técnicas y objetivos a largo plazo.",
+            ar: "اختر الأدوات المناسبة لبناء موقع الويب أو التطبيق الخاص بك بكفاءة. ضع في اعتبارك مهاراتك التقنية وأهدافك طويلة الأجل.",
+            pt: "Escolha as ferramentas certas para construir seu site ou aplicativo com eficiência. Considere suas habilidades técnicas e objetivos de longo prazo.",
+            fr: "Choisissez les bons outils pour construire votre site web ou application efficacement. Tenez compte de vos compétences techniques et de vos objectifs à long terme.",
+            ru: "Выберите правильные инструменты для эффективного создания вашего веб-сайта или приложения. Учитывайте свои технические навыки и долгосрочные цели.",
+            "zh-cn": "选择合适的工具高效地构建您的网站或应用程序。考虑您的技术技能和长期目标。",
+            ja: "ウェブサイトやアプリケーションを効率的に構築するための適切なツールを選択してください。技術スキルと長期的な目標を考慮しましょう。",
+          })}
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- No-Code Solutions -->
+          <div class="p-5 border border-gray-200 rounded-xl hover:bg-gray-50 transition-all duration-200 flex flex-col">
+            <div class="flex items-center gap-3 mb-3">
+              <Icon name="mdi:cursor-default-click-outline" class="w-6 h-6 text-green-600" />
+              <h4 class="text-lg font-semibold text-gray-800">
+                {translate({ en: "No-Code / Low-Code", es: "Sin Código / Bajo Código", ar: "بدون كود / قليل الكود", pt: "No-Code / Low-Code", fr: "No-Code / Low-Code", ru: "Без Кода / Низкий Код", "zh-cn": "无代码 / 低代码", ja: "ノーコード / ローコード" })}
+              </h4>
+            </div>
+            <p class="text-sm text-gray-600 mb-4 flex-grow">
+              {translate({
+                en: "Ideal for rapid prototyping, landing pages, and simpler applications without extensive coding.",
+                es: "Ideal para prototipado rápido, páginas de destino y aplicaciones más simples sin codificación extensa.",
+                ar: "مثالي للنماذج الأولية السريعة وصفحات الهبوط والتطبيقات الأبسط دون الحاجة إلى ترميز مكثف.",
+                pt: "Ideal para prototipagem rápida, landing pages e aplicações mais simples sem codificação extensiva.",
+                fr: "Idéal pour le prototypage rapide, les pages de destination et les applications plus simples sans codage approfondi.",
+                ru: "Идеально подходит для быстрого прототипирования, целевых страниц и более простых приложений без обширного кодирования.",
+                "zh-cn": "适用于快速原型设计、着陆页和无需大量编码的简单应用程序。",
+                ja: "広範なコーディングなしで、迅速なプロトタイピング、ランディングページ、およびよりシンプルなアプリケーションに最適です。",
+              })}
+            </p>
+            <div class="flex flex-wrap gap-2 mt-auto">
+              <a href="https://webflow.com/" target="_blank" rel="noopener noreferrer" class="tool-tag">Webflow</a>
+              <a href="https://bubble.io/" target="_blank" rel="noopener noreferrer" class="tool-tag">Bubble</a>
+              <a href="https://softr.io/" target="_blank" rel="noopener noreferrer" class="tool-tag">Softr</a>
+              <a href="https://carrd.co/" target="_blank" rel="noopener noreferrer" class="tool-tag">Carrd</a>
+              <a href="https://framer.com/" target="_blank" rel="noopener noreferrer" class="tool-tag">Framer</a>
+            </div>
+          </div>
+
+          <!-- Code-based Solutions -->
+          <div class="p-5 border border-gray-200 rounded-xl hover:bg-gray-50 transition-all duration-200 flex flex-col">
+            <div class="flex items-center gap-3 mb-3">
+              <Icon name="mdi:code-braces" class="w-6 h-6 text-indigo-600" />
+              <h4 class="text-lg font-semibold text-gray-800">
+                {translate({ en: "Code-Based Frameworks", es: "Frameworks Basados en Código", ar: "أطر العمل القائمة على الكود", pt: "Frameworks Baseados em Código", fr: "Frameworks Basés sur le Code", ru: "Фреймворки на Основе Кода", "zh-cn": "基于代码的框架", ja: "コードベースのフレームワーク" })}
+              </h4>
+            </div>
+            <p class="text-sm text-gray-600 mb-4 flex-grow">
+              {translate({
+                en: "For developers needing flexibility, performance, and scalability for complex applications.",
+                es: "Para desarrolladores que necesitan flexibilidad, rendimiento y escalabilidad para aplicaciones complejas.",
+                ar: "للمطورين الذين يحتاجون إلى المرونة والأداء وقابلية التوسع للتطبيقات المعقدة.",
+                pt: "Para desenvolvedores que precisam de flexibilidade, desempenho e escalabilidade para aplicações complexas.",
+                fr: "Pour les développeurs ayant besoin de flexibilité, de performance et d'évolutivité pour des applications complexes.",
+                ru: "Для разработчиков, нуждающихся в гибкости, производительности и масштабируемости для сложных приложений.",
+                "zh-cn": "适用于需要灵活性、性能和可扩展性的复杂应用程序的开发者。",
+                ja: "複雑なアプリケーションに柔軟性、パフォーマンス、スケーラビリティを必要とする開発者向け。",
+              })}
+            </p>
+            <div class="flex flex-wrap gap-2 mt-auto">
+               <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" class="tool-tag bg-orange-100 text-orange-800 hover:bg-orange-200">Astro</a>
+               <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" class="tool-tag">Next.js</a>
+               <a href="https://remix.run/" target="_blank" rel="noopener noreferrer" class="tool-tag">Remix</a>
+               <a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer" class="tool-tag">SvelteKit</a>
+               <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" class="tool-tag">Laravel (PHP)</a>
+               <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer" class="tool-tag">Rails (Ruby)</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 3: Validation & Launch Section -->
+      <section class="max-w-4xl mx-auto bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <div class="flex items-start md:items-center gap-4 mb-6">
+          <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-purple-400 to-pink-500 text-white shadow-md">
+            <Icon name="mdi:check-decagram-outline" class="w-7 h-7" />
+          </div>
+           <div>
+            <span class="text-sm font-semibold text-pink-600 tracking-wider uppercase">
+               {translate({ en: "Step 3", es: "Paso 3", ar: "الخطوة 3", pt: "Passo 3", fr: "Étape 3", ru: "Шаг 3", "zh-cn": "步骤 3", ja: "ステップ 3" })}
+            </span>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
+              {translate({
+                en: "Validate & Launch MVP",
+                es: "Validar y Lanzar MVP",
+                ar: "التحقق وإطلاق MVP",
+                pt: "Validar e Lançar MVP",
+                fr: "Valider et Lancer le MVP",
+                ru: "Проверка и Запуск MVP",
+                "zh-cn": "验证并启动 MVP",
+                ja: "MVPの検証とローンチ",
+              })}
+            </h2>
+          </div>
+        </div>
+
+        <div class="mb-6 p-4 bg-gradient-to-r from-pink-50 to-purple-50 border-l-4 border-pink-400 rounded-lg shadow-sm">
+          <div class="flex items-start gap-3">
+            <Icon name="mdi:account-voice" class="w-6 h-6 text-pink-600 mt-1 flex-shrink-0" />
+             <div>
+              <h4 class="font-semibold text-pink-900 mb-1">{translate({en:"Core Principle", es: "Principio Clave", ar: "المبدأ الأساسي", pt: "Princípio Fundamental", fr: "Principe Clé", ru: "Ключевой Принцип", "zh-cn": "核心原则", ja: "核心原則"})}</h4>
+              <p class="text-pink-800 text-sm leading-relaxed">
+                {translate({
+                  en: "Get your MVP in front of real users as soon as possible. Collect feedback, iterate based on usage, and confirm you're solving a real problem.",
+                  es: "Pon tu MVP frente a usuarios reales lo antes posible. Recopila comentarios, itera basándote en el uso y confirma que estás resolviendo un problema real.",
+                  ar: "ضع منتجك القابل للتطبيق بحد أدنى (MVP) أمام المستخدمين الحقيقيين في أقرب وقت ممكن. اجمع التعليقات، وكرر بناءً على الاستخدام، وتأكد من أنك تحل مشكلة حقيقية.",
+                  pt: "Coloque seu MVP na frente de usuários reais o mais rápido possível. Colete feedback, itere com base no uso e confirme que você está resolvendo um problema real.",
+                  fr: "Mettez votre MVP devant de vrais utilisateurs dès que possible. Recueillez des commentaires, itérez en fonction de l'utilisation et confirmez que vous résolvez un problème réel.",
+                  ru: "Представьте ваш MVP реальным пользователям как можно скорее. Собирайте отзывы, итерируйте на основе использования и убедитесь, что вы решаете реальную проблему.",
+                  "zh-cn": "尽快将您的 MVP 展示给真实用户。收集反馈，根据使用情况进行迭代，并确认您正在解决一个真正的问题。",
+                  ja: "できるだけ早く実際のユーザーにMVPを提示してください。フィードバックを収集し、使用状況に基づいて反復し、実際の問題を解決していることを確認します。",
+                })}
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <p class="text-gray-600 mb-6">
+          {translate({
+            en: "Launching an MVP isn't about having a perfect product; it's about starting the learning process with your target audience.",
+            es: "Lanzar un MVP no se trata de tener un producto perfecto; se trata de iniciar el proceso de aprendizaje con tu público objetivo.",
+            ar: "إطلاق منتج قابل للتطبيق بحد أدنى (MVP) لا يتعلق بامتلاك منتج مثالي؛ بل يتعلق ببدء عملية التعلم مع جمهورك المستهدف.",
+            pt: "Lançar um MVP não é sobre ter um produto perfeito; é sobre iniciar o processo de aprendizado com seu público-alvo.",
+            fr: "Lancer un MVP ne consiste pas à avoir un produit parfait ; il s'agit de démarrer le processus d'apprentissage avec votre public cible.",
+            ru: "Запуск MVP - это не создание идеального продукта; это начало процесса обучения с вашей целевой аудиторией.",
+            "zh-cn": "推出 MVP 并不是为了拥有完美的产品；而是为了与目标受众一起开始学习过程。",
+            ja: "MVPのローンチは完璧な製品を持つことではなく、ターゲットオーディエンスとの学習プロセスを開始することです。",
+          })}
+        </p>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-700">
+          {translate({ en: "Validation & Launch Strategies", es: "Estrategias de Validación y Lanzamiento", ar: "استراتيجيات التحقق والإطلاق", pt: "Estratégias de Validação e Lançamento", fr: "Stratégies de Validation et de Lancement", ru: "Стратегии Проверки и Запуска", "zh-cn": "验证与启动策略", ja: "検証とローンチ戦略" })}
+        </h3>
+
+        <div class="space-y-4">
+            <!-- Strategy: Landing Page Pre-launch -->
+            <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200">
+                <div class="flex items-center gap-3 mb-2">
+                    <Icon name="mdi:page-next-outline" class="w-5 h-5 text-purple-600" />
+                    <h4 class="font-medium text-gray-800">{translate({ en: "Pre-launch Landing Page", es: "Página de Destino Pre-lanzamiento", ar: "صفحة الهبوط قبل الإطلاق", pt: "Landing Page de Pré-lançamento", fr: "Page de Destination de Pré-lancement", ru: "Предзапусковая Целевая Страница", "zh-cn": "预发布着陆页", ja: "プレローンチランディングページ" })}</h4>
+                </div>
+                <p class="text-sm text-gray-600">{translate({ en: "Collect emails to gauge interest before building.", es: "Recopila correos electrónicos para medir el interés antes de construir.", ar: "اجمع رسائل البريد الإلكتروني لقياس الاهتمام قبل البناء.", pt: "Colete e-mails para avaliar o interesse antes de construir.", fr: "Collectez des e-mails pour évaluer l'intérêt avant de construire.", ru: "Собирайте email, чтобы оценить интерес перед разработкой.", "zh-cn": "在构建前收集电子邮件以衡量兴趣。", ja: "構築前にメールアドレスを収集して関心を測定します。" })}</p>
+            </div>
+            <!-- Strategy: Beta Programs -->
+            <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200">
+                <div class="flex items-center gap-3 mb-2">
+                    <Icon name="mdi:flask-outline" class="w-5 h-5 text-purple-600" />
+                    <h4 class="font-medium text-gray-800">{translate({ en: "Private/Public Beta", es: "Beta Privada/Pública", ar: "نسخة تجريبية خاصة/عامة", pt: "Beta Privado/Público", fr: "Bêta Privée/Publique", ru: "Частное/Публичное Бета-тестирование", "zh-cn": "内测/公测", ja: "プライベート/パブリックベータ" })}</h4>
+                </div>
+                <p class="text-sm text-gray-600">{translate({ en: "Invite select users to test the MVP and provide detailed feedback.", es: "Invita a usuarios seleccionados a probar el MVP y proporcionar comentarios detallados.", ar: "دعوة مستخدمين محددين لاختبار MVP وتقديم ملاحظات مفصلة.", pt: "Convide usuários selecionados para testar o MVP e fornecer feedback detalhado.", fr: "Invitez des utilisateurs sélectionnés à tester le MVP et à fournir des commentaires détaillés.", ru: "Пригласите избранных пользователей для тестирования MVP и получения подробных отзывов.", "zh-cn": "邀请特定用户测试 MVP 并提供详细反馈。", ja: "選ばれたユーザーを招待してMVPをテストし、詳細なフィードバックを提供してもらいます。" })}</p>
+            </div>
+             <!-- Strategy: Launch Platforms -->
+            <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200">
+                <div class="flex items-center gap-3 mb-2">
+                    <Icon name="mdi:rocket-outline" class="w-5 h-5 text-purple-600" />
+                    <h4 class="font-medium text-gray-800">{translate({ en: "Early Launch Platforms", es: "Plataformas de Lanzamiento Temprano", ar: "منصات الإطلاق المبكر", pt: "Plataformas de Lançamento Antecipado", fr: "Plateformes de Lancement Précoce", ru: "Платформы Раннего Запуска", "zh-cn": "早期发布平台", ja: "早期ローンチプラットフォーム" })}</h4>
+                </div>
+                <p class="text-sm text-gray-600 mb-2">{translate({ en: "Showcase your MVP on platforms frequented by early adopters.", es: "Muestra tu MVP en plataformas frecuentadas por los primeros adoptantes.", ar: "اعرض MVP الخاص بك على المنصات التي يرتادها المستخدمون الأوائل.", pt: "Apresente seu MVP em plataformas frequentadas por early adopters.", fr: "Présentez votre MVP sur des plateformes fréquentées par les premiers adopteurs.", ru: "Демонстрируйте свой MVP на платформах, посещаемых ранними последователями.", "zh-cn": "在早期采用者经常光顾的平台上展示您的 MVP。", ja: "アーリーアダプターが頻繁に訪れるプラットフォームでMVPを紹介します。" })}</p>
+                <div class="flex flex-wrap gap-2">
+                    <a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer" class="tool-tag-small">Product Hunt</a>
+                    <a href="https://betalist.com/" target="_blank" rel="noopener noreferrer" class="tool-tag-small">BetaList</a>
+                    <a href="https://IndieHackers.com/" target="_blank" rel="noopener noreferrer" class="tool-tag-small">Indie Hackers</a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+       <!-- Step 4: Marketing & Growth Section -->
+      <section class="max-w-4xl mx-auto bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <div class="flex items-start md:items-center gap-4 mb-6">
+          <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-red-400 to-orange-500 text-white shadow-md">
+            <Icon name="mdi:bullhorn-outline" class="w-7 h-7" />
+          </div>
+           <div>
+            <span class="text-sm font-semibold text-orange-600 tracking-wider uppercase">
+               {translate({ en: "Step 4", es: "Paso 4", ar: "الخطوة 4", pt: "Passo 4", fr: "Étape 4", ru: "Шаг 4", "zh-cn": "步骤 4", ja: "ステップ 4" })}
+            </span>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
+              {translate({
+                en: "Marketing & Early Growth",
+                es: "Marketing y Crecimiento Temprano",
+                ar: "التسويق والنمو المبكر",
+                pt: "Marketing e Crescimento Inicial",
+                fr: "Marketing et Croissance Précoce",
+                ru: "Маркетинг и Ранний Рост",
+                "zh-cn": "市场营销与早期增长",
+                ja: "マーケティングと初期成長",
+              })}
+            </h2>
+          </div>
+        </div>
+
+        <div class="mb-6 p-4 bg-gradient-to-r from-orange-50 to-red-50 border-l-4 border-orange-400 rounded-lg shadow-sm">
+          <div class="flex items-start gap-3">
+            <Icon name="mdi:compass-outline" class="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" />
+             <div>
+              <h4 class="font-semibold text-orange-900 mb-1">{translate({en:"Core Principle", es: "Principio Clave", ar: "المبدأ الأساسي", pt: "Princípio Fundamental", fr: "Principe Clé", ru: "Ключевой Принцип", "zh-cn": "核心原则", ja: "核心原則"})}</h4>
+              <p class="text-orange-800 text-sm leading-relaxed">
+                {translate({
+                  en: "Go where your target audience already congregates. Don't wait for users to find you; proactively reach them through relevant channels.",
+                  es: "Ve donde tu público objetivo ya se congrega. No esperes a que los usuarios te encuentren; contáctalos proactivamente a través de canales relevantes.",
+                  ar: "اذهب حيث يتجمع جمهورك المستهدف بالفعل. لا تنتظر حتى يجدك المستخدمون؛ تواصل معهم بشكل استباقي عبر القنوات ذات الصلة.",
+                  pt: "Vá onde seu público-alvo já se congrega. Não espere que os usuários o encontrem; alcance-os proativamente por meio de canais relevantes.",
+                  fr: "Allez là où votre public cible se rassemble déjà. N'attendez pas que les utilisateurs vous trouvent ; contactez-les de manière proactive via les canaux pertinents.",
+                  ru: "Идите туда, где уже собирается ваша целевая аудитория. Не ждите, пока пользователи найдут вас; активно обращайтесь к ним по соответствующим каналам.",
+                  "zh-cn": "去你的目标受众聚集的地方。不要等待用户找到你；通过相关渠道主动接触他们。",
+                  ja: "ターゲットオーディエンスが既に集まっている場所に行きましょう。ユーザーがあなたを見つけるのを待つのではなく、関連チャネルを通じて積極的にアプローチします。",
+                })}
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <p class="text-gray-600 mb-6">
+          {translate({
+            en: "Building a great product isn't enough. You need effective strategies to attract your first users and build initial traction.",
+            es: "Construir un gran producto no es suficiente. Necesitas estrategias efectivas para atraer a tus primeros usuarios y generar tracción inicial.",
+            ar: "بناء منتج رائع لا يكفي. أنت بحاجة إلى استراتيجيات فعالة لجذب المستخدمين الأوائل وتحقيق الزخم الأولي.",
+            pt: "Construir um ótimo produto não é suficiente. Você precisa de estratégias eficazes para atrair seus primeiros usuários e construir tração inicial.",
+            fr: "Construire un excellent produit ne suffit pas. Vous avez besoin de stratégies efficaces pour attirer vos premiers utilisateurs et créer une traction initiale.",
+            ru: "Создания отличного продукта недостаточно. Вам нужны эффективные стратегии для привлечения первых пользователей и создания начальной тяги.",
+            "zh-cn": "仅仅构建一个好产品是不够的。你需要有效的策略来吸引你的第一批用户并建立初步的牵引力。",
+            ja: "素晴らしい製品を構築するだけでは不十分です。最初のユーザーを引き付け、初期のトラクションを構築するための効果的な戦略が必要です。",
+          })}
+        </p>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-700">
+          {translate({ en: "Common Growth Channels", es: "Canales de Crecimiento Comunes", ar: "قنوات النمو الشائعة", pt: "Canais de Crescimento Comuns", fr: "Canaux de Croissance Courants", ru: "Общие Каналы Роста", "zh-cn": "常见增长渠道", ja: "一般的な成長チャネル" })}
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+           <!-- Channel: Community Engagement -->
+           <div class="growth-channel-card bg-red-50 border-red-200">
+             <Icon name="mdi:forum-outline" class="mx-auto w-6 h-6 text-red-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Community Engagement", es: "Participación Comunitaria", ar: "المشاركة المجتمعية", pt: "Engajamento Comunitário", fr: "Engagement Communautaire", ru: "Взаимодействие с Сообществом", "zh-cn": "社区参与", ja: "コミュニティエンゲージメント" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Engage genuinely in relevant Reddit, FB Groups, forums.", es: "Participa genuinamente en Reddit, grupos de FB, foros relevantes.", ar: "شارك بصدق في Reddit ومجموعات FB والمنتديات ذات الصلة.", pt: "Engaje-se genuinamente no Reddit, Grupos de FB, fóruns relevantes.", fr: "Engagez-vous sincèrement sur Reddit, les groupes FB, les forums pertinents.", ru: "Искренне участвуйте в релевантных Reddit, группах FB, форумах.", "zh-cn": "真诚地参与相关的 Reddit、FB 群组、论坛。", ja: "関連するReddit、FBグループ、フォーラムで真摯に関与します。" })}</p>
+           </div>
+           <!-- Channel: Content Marketing / SEO -->
+           <div class="growth-channel-card bg-orange-50 border-orange-200">
+             <Icon name="mdi:post-outline" class="mx-auto w-6 h-6 text-orange-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Content & SEO", es: "Contenido y SEO", ar: "المحتوى وتحسين محركات البحث", pt: "Conteúdo e SEO", fr: "Contenu et SEO", ru: "Контент и SEO", "zh-cn": "内容与 SEO", ja: "コンテンツとSEO" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Create valuable content addressing user problems.", es: "Crea contenido valioso que aborde los problemas de los usuarios.", ar: "أنشئ محتوى قيمًا يعالج مشاكل المستخدم.", pt: "Crie conteúdo valioso abordando problemas do usuário.", fr: "Créez du contenu précieux traitant des problèmes des utilisateurs.", ru: "Создавайте ценный контент, решающий проблемы пользователей.", "zh-cn": "创建有价值的内容来解决用户问题。", ja: "ユーザーの問題に対処する価値あるコンテンツを作成します。" })}</p>
+           </div>
+            <!-- Channel: Product Hunt Launch -->
+           <div class="growth-channel-card bg-pink-50 border-pink-200">
+             <Icon name="mdi:rocket-launch" class="mx-auto w-6 h-6 text-pink-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Product Hunt Launch", es: "Lanzamiento en Product Hunt", ar: "الإطلاق على Product Hunt", pt: "Lançamento no Product Hunt", fr: "Lancement sur Product Hunt", ru: "Запуск на Product Hunt", "zh-cn": "Product Hunt 发布", ja: "Product Hunt ローンチ" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Strategic launch to gain visibility among early adopters.", es: "Lanzamiento estratégico para ganar visibilidad entre los primeros adoptantes.", ar: "إطلاق استراتيجي لاكتساب الظهور بين المتبنين الأوائل.", pt: "Lançamento estratégico para ganhar visibilidade entre early adopters.", fr: "Lancement stratégique pour gagner en visibilité auprès des premiers adopteurs.", ru: "Стратегический запуск для получения видимости среди ранних последователей.", "zh-cn": "战略性发布以在早期采用者中获得曝光。", ja: "アーリーアダプターの間で認知度を得るための戦略的ローンチ。" })}</p>
+           </div>
+            <!-- Channel: Cold Outreach -->
+           <div class="growth-channel-card bg-blue-50 border-blue-200">
+             <Icon name="mdi:email-fast-outline" class="mx-auto w-6 h-6 text-blue-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Targeted Outreach", es: "Alcance Dirigido", ar: "التواصل المستهدف", pt: "Alcance Direcionado", fr: "Prospection Ciblée", ru: "Целевой Охват", "zh-cn": "定向拓展", ja: "ターゲットを絞ったアウトリーチ" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Personalized outreach to potential ideal customers (use cautiously).", es: "Alcance personalizado a clientes ideales potenciales (usar con precaución).", ar: "التواصل الشخصي مع العملاء المثاليين المحتملين (استخدم بحذر).", pt: "Alcance personalizado para potenciais clientes ideais (use com cautela).", fr: "Prospection personnalisée auprès de clients idéaux potentiels (à utiliser avec prudence).", ru: "Персонализированный охват потенциальных идеальных клиентов (использовать с осторожностью).", "zh-cn": "向潜在的理想客户进行个性化拓展（谨慎使用）。", ja: "潜在的な理想顧客へのパーソナライズされたアウトリーチ（慎重に使用）。" })}</p>
+           </div>
+            <!-- Channel: Social Media -->
+           <div class="growth-channel-card bg-indigo-50 border-indigo-200">
+             <Icon name="mdi:twitter" class="mx-auto w-6 h-6 text-indigo-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Social Media", es: "Redes Sociales", ar: "وسائل التواصل الاجتماعي", pt: "Mídias Sociais", fr: "Médias Sociaux", ru: "Социальные Сети", "zh-cn": "社交媒体", ja: "ソーシャルメディア" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Build in public, share progress, connect with audience.", es: "Construye en público, comparte progreso, conecta con la audiencia.", ar: "ابنِ في العلن، شارك التقدم، تواصل مع الجمهور.", pt: "Construa em público, compartilhe progresso, conecte-se com a audiência.", fr: "Construisez en public, partagez les progrès, connectez-vous avec le public.", ru: "Стройте публично, делитесь прогрессом, общайтесь с аудиторией.", "zh-cn": "公开构建，分享进展，与受众建立联系。", ja: "公の場で構築し、進捗を共有し、オーディエンスとつながります。" })}</p>
+           </div>
+            <!-- Channel: Paid Ads (Mentioned Cautiously) -->
+           <div class="growth-channel-card bg-gray-50 border-gray-200">
+             <Icon name="mdi:google-ads" class="mx-auto w-6 h-6 text-gray-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Paid Ads (Later Stage)", es: "Anuncios Pagados (Etapa Posterior)", ar: "الإعلانات المدفوعة (مرحلة لاحقة)", pt: "Anúncios Pagos (Fase Posterior)", fr: "Publicités Payantes (Stade Ultérieur)", ru: "Платная Реклама (Поздний Этап)", "zh-cn": "付费广告（后期阶段）", ja: "有料広告（後期段階）" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Consider once Product-Market Fit is clearer and scalable.", es: "Considerar una vez que el Ajuste Producto-Mercado sea más claro y escalable.", ar: "ضع في اعتبارك بمجرد أن يكون توافق المنتج مع السوق أكثر وضوحًا وقابلية للتوسع.", pt: "Considere quando o Product-Market Fit estiver mais claro e escalável.", fr: "À considérer une fois que l'adéquation produit-marché est plus claire et évolutive.", ru: "Рассмотрите, когда соответствие продукта рынку станет более ясным и масштабируемым.", "zh-cn": "在产品市场契合度更清晰且可扩展时考虑。", ja: "プロダクトマーケットフィットがより明確でスケーラブルになったら検討します。" })}</p>
+           </div>
+        </div>
+      </section>
+
+       <!-- Step 5: Monetization Section -->
+      <section class="max-w-4xl mx-auto bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <div class="flex items-start md:items-center gap-4 mb-6">
+          <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-lime-400 to-emerald-500 text-white shadow-md">
+            <Icon name="mdi:cash-multiple" class="w-7 h-7" />
+          </div>
+           <div>
+            <span class="text-sm font-semibold text-emerald-600 tracking-wider uppercase">
+               {translate({ en: "Step 5", es: "Paso 5", ar: "الخطوة 5", pt: "Passo 5", fr: "Étape 5", ru: "Шаг 5", "zh-cn": "步骤 5", ja: "ステップ 5" })}
+            </span>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
+              {translate({
+                en: "Monetization Strategies",
+                es: "Estrategias de Monetización",
+                ar: "استراتيجيات تحقيق الدخل",
+                pt: "Estratégias de Monetização",
+                fr: "Stratégies de Monétisation",
+                ru: "Стратегии Монетизации",
+                "zh-cn": "盈利策略",
+                ja: "収益化戦略",
+              })}
+            </h2>
+          </div>
+        </div>
+
+        <div class="mb-6 p-4 bg-gradient-to-r from-emerald-50 to-lime-50 border-l-4 border-emerald-400 rounded-lg shadow-sm">
+          <div class="flex items-start gap-3">
+            <Icon name="mdi:hand-coin-outline" class="w-6 h-6 text-emerald-600 mt-1 flex-shrink-0" />
+             <div>
+              <h4 class="font-semibold text-emerald-900 mb-1">{translate({en:"Core Principle", es: "Principio Clave", ar: "المبدأ الأساسي", pt: "Princípio Fundamental", fr: "Principe Clé", ru: "Ключевой Принцип", "zh-cn": "核心原则", ja: "核心原則"})}</h4>
+              <p class="text-emerald-800 text-sm leading-relaxed">
+                {translate({
+                  en: "Align your pricing with the value delivered. Clearly demonstrate how your product solves the user's problem and justifies the cost.",
+                  es: "Alinea tus precios con el valor entregado. Demuestra claramente cómo tu producto resuelve el problema del usuario y justifica el costo.",
+                  ar: "قم بمواءمة أسعارك مع القيمة المقدمة. أظهر بوضوح كيف يحل منتجك مشكلة المستخدم ويبرر التكلفة.",
+                  pt: "Alinhe seus preços com o valor entregue. Demonstre claramente como seu produto resolve o problema do usuário e justifica o custo.",
+                  fr: "Alignez vos prix sur la valeur fournie. Démontrez clairement comment votre produit résout le problème de l'utilisateur et justifie le coût.",
+                  ru: "Согласуйте цены с предоставляемой ценностью. Четко продемонстрируйте, как ваш продукт решает проблему пользователя и оправдывает стоимость.",
+                  "zh-cn": "将您的定价与所交付的价值保持一致。清楚地展示您的产品如何解决用户的问题并证明成本的合理性。",
+                  ja: "提供される価値と価格設定を一致させます。製品がユーザーの問題をどのように解決し、コストを正当化するかを明確に示します。",
+                })}
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <p class="text-gray-600 mb-6">
+          {translate({
+            en: "Choose a monetization model that fits your product, market, and long-term vision. Consider different approaches like subscriptions, one-time fees, or usage-based pricing.",
+            es: "Elige un modelo de monetización que se ajuste a tu producto, mercado y visión a largo plazo. Considera diferentes enfoques como suscripciones, pagos únicos o precios basados en el uso.",
+            ar: "اختر نموذج تحقيق دخل يناسب منتجك وسوقك ورؤيتك طويلة الأجل. ضع في اعتبارك مناهج مختلفة مثل الاشتراكات أو الرسوم لمرة واحدة أو التسعير على أساس الاستخدام.",
+            pt: "Escolha um modelo de monetização que se adapte ao seu produto, mercado e visão de longo prazo. Considere diferentes abordagens como assinaturas, taxas únicas ou preços baseados no uso.",
+            fr: "Choisissez un modèle de monétisation adapté à votre produit, votre marché et votre vision à long terme. Envisagez différentes approches telles que les abonnements, les frais uniques ou la tarification basée sur l'utilisation.",
+            ru: "Выберите модель монетизации, которая соответствует вашему продукту, рынку и долгосрочному видению. Рассмотрите различные подходы, такие как подписки, разовые платежи или ценообразование на основе использования.",
+            "zh-cn": "选择适合您的产品、市场和长期愿景的盈利模式。考虑不同的方法，例如订阅、一次性费用或基于使用量的定价。",
+            ja: "製品、市場、長期ビジョンに合った収益化モデルを選択してください。サブスクリプション、一回限りの料金、使用量ベースの価格設定など、さまざまなアプローチを検討します。",
+          })}
+        </p>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-700">
+          {translate({ en: "Popular Monetization Models", es: "Modelos de Monetización Populares", ar: "نماذج تحقيق الدخل الشائعة", pt: "Modelos Populares de Monetização", fr: "Modèles de Monétisation Populaires", ru: "Популярные Модели Монетизации", "zh-cn": "流行的盈利模式", ja: "人気の収益化モデル" })}
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Model: Subscription (SaaS) -->
+           <div class="monetization-card bg-emerald-50 border-emerald-200">
+             <Icon name="mdi:calendar-refresh-outline" class="mx-auto w-6 h-6 text-emerald-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Subscription (SaaS)", es: "Suscripción (SaaS)", ar: "الاشتراك (SaaS)", pt: "Assinatura (SaaS)", fr: "Abonnement (SaaS)", ru: "Подписка (SaaS)", "zh-cn": "订阅 (SaaS)", ja: "サブスクリプション (SaaS)" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Recurring revenue, predictable income stream.", es: "Ingresos recurrentes, flujo de ingresos predecible.", ar: "إيرادات متكررة، تدفق دخل يمكن التنبؤ به.", pt: "Receita recorrente, fluxo de renda previsível.", fr: "Revenus récurrents, flux de revenus prévisible.", ru: "Повторяющийся доход, предсказуемый поток дохода.", "zh-cn": "经常性收入，可预测的收入流。", ja: "経常収益、予測可能な収入源。" })}</p>
+           </div>
+            <!-- Model: One-Time Purchase -->
+           <div class="monetization-card bg-lime-50 border-lime-200">
+             <Icon name="mdi:credit-card-check-outline" class="mx-auto w-6 h-6 text-lime-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "One-Time Purchase", es: "Compra Única", ar: "شراء لمرة واحدة", pt: "Compra Única", fr: "Achat Unique", ru: "Разовая Покупка", "zh-cn": "一次性购买", ja: "一回限りの購入" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Simple model, often for tools or digital products.", es: "Modelo simple, a menudo para herramientas o productos digitales.", ar: "نموذج بسيط، غالبًا للأدوات أو المنتجات الرقمية.", pt: "Modelo simples, frequentemente para ferramentas ou produtos digitais.", fr: "Modèle simple, souvent pour des outils ou des produits numériques.", ru: "Простая модель, часто для инструментов или цифровых продуктов.", "zh-cn": "简单的模式，通常用于工具或数字产品。", ja: "シンプルなモデル、ツールやデジタル製品によく使われます。" })}</p>
+           </div>
+           <!-- Model: Freemium -->
+           <div class="monetization-card bg-teal-50 border-teal-200">
+             <Icon name="mdi:gift-outline" class="mx-auto w-6 h-6 text-teal-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Freemium", es: "Freemium", ar: "Freemium", pt: "Freemium", fr: "Freemium", ru: "Freemium", "zh-cn": "免费增值", ja: "フリーミアム" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Free basic tier, paid premium features. Good for user acquisition.", es: "Nivel básico gratuito, funciones premium de pago. Bueno para la adquisición de usuarios.", ar: "طبقة أساسية مجانية، ميزات متميزة مدفوعة. جيد لاكتساب المستخدمين.", pt: "Nível básico gratuito, recursos premium pagos. Bom para aquisição de usuários.", fr: "Niveau de base gratuit, fonctionnalités premium payantes. Bon pour l'acquisition d'utilisateurs.", ru: "Бесплатный базовый уровень, платные премиум-функции. Хорошо для привлечения пользователей.", "zh-cn": "免费基础版，付费高级功能。有利于用户获取。", ja: "無料の基本ティア、有料のプレミアム機能。ユーザー獲得に適しています。" })}</p>
+           </div>
+            <!-- Model: Usage-Based -->
+           <div class="monetization-card bg-cyan-50 border-cyan-200">
+             <Icon name="mdi:chart-line-variant" class="mx-auto w-6 h-6 text-cyan-600 mb-2" />
+             <h4 class="font-medium text-gray-800">{translate({ en: "Usage-Based", es: "Basado en el Uso", ar: "على أساس الاستخدام", pt: "Baseado no Uso", fr: "Basé sur l'Utilisation", ru: "На Основе Использования", "zh-cn": "基于使用量", ja: "使用量ベース" })}</h4>
+             <p class="text-xs text-gray-600">{translate({ en: "Pay for what you consume (e.g., API calls, storage).", es: "Paga por lo que consumes (ej., llamadas API, almacenamiento).", ar: "ادفع مقابل ما تستهلكه (مثل استدعاءات API، التخزين).", pt: "Pague pelo que consome (ex: chamadas de API, armazenamento).", fr: "Payez pour ce que vous consommez (ex: appels API, stockage).", ru: "Платите за то, что потребляете (например, вызовы API, хранилище).", "zh-cn": "按消耗量付费（例如，API 调用、存储）。", ja: "消費した分だけ支払います（例：APIコール、ストレージ）。" })}</p>
+           </div>
+            <!-- Payment Processors -->
+           <div class="sm:col-span-2 lg:col-span-3 p-4 border border-gray-200 rounded-lg mt-4">
+                <h4 class="font-medium text-gray-800 mb-2 text-sm">{translate({ en: "Payment Processing Tools", es: "Herramientas de Procesamiento de Pagos", ar: "أدوات معالجة الدفع", pt: "Ferramentas de Processamento de Pagamentos", fr: "Outils de Traitement des Paiements", ru: "Инструменты Обработки Платежей", "zh-cn": "支付处理工具", ja: "支払い処理ツール" })}</h4>
+                <div class="flex flex-wrap gap-2">
+                    <a href="https://stripe.com/" target="_blank" rel="noopener noreferrer" class="tool-tag-small bg-indigo-100 text-indigo-800 hover:bg-indigo-200">Stripe</a>
+                    <a href="https://paddle.com/" target="_blank" rel="noopener noreferrer" class="tool-tag-small bg-green-100 text-green-800 hover:bg-green-200">Paddle</a>
+                    <a href="https://lemonsqueezy.com/" target="_blank" rel="noopener noreferrer" class="tool-tag-small bg-yellow-100 text-yellow-800 hover:bg-yellow-200">Lemon Squeezy</a>
+                </div>
+           </div>
+        </div>
+      </section>
+
+      <!-- Conclusion -->
+       <div class="text-center pt-8 mt-12 border-t border-gray-200">
+         <h3 class="text-2xl font-bold text-gray-800 mb-4">
+            {translate({ en: "Ready to Start Building?", es: "¿Listo para Empezar a Construir?", ar: "هل أنت مستعد لبدء البناء؟", pt: "Pronto para Começar a Construir?", fr: "Prêt à Commencer à Construire?", ru: "Готовы Начать Строить?", "zh-cn": "准备好开始构建了吗？", ja: "構築を始める準備はできましたか？" })}
+         </h3>
+         <p class="text-gray-600 max-w-xl mx-auto mb-6">
+             {translate({
+                 en: "This toolkit provides a roadmap. Remember to iterate, learn from your users, and adapt as you grow. Good luck, hacker!",
+                 es: "Este kit de herramientas proporciona una hoja de ruta. Recuerda iterar, aprender de tus usuarios y adaptarte a medida que creces. ¡Buena suerte, hacker!",
+                 ar: "توفر مجموعة الأدوات هذه خارطة طريق. تذكر التكرار والتعلم من المستخدمين والتكيف مع نموك. حظا سعيدا أيها الهاكر!",
+                 pt: "Este kit de ferramentas fornece um roteiro. Lembre-se de iterar, aprender com seus usuários e adaptar-se à medida que cresce. Boa sorte, hacker!",
+                 fr: "Cette boîte à outils fournit une feuille de route. N'oubliez pas d'itérer, d'apprendre de vos utilisateurs et de vous adapter au fur et à mesure de votre croissance. Bonne chance, hacker !",
+                 ru: "Этот набор инструментов представляет собой дорожную карту. Помните об итерациях, учитесь у своих пользователей и адаптируйтесь по мере роста. Удачи, хакер!",
+                 "zh-cn": "这个工具包提供了一个路线图。请记住，要不断迭代，向用户学习，并在成长过程中不断适应。祝你好运，黑客！",
+                 ja: "このツールキットはロードマップを提供します。反復し、ユーザーから学び、成長に合わせて適応することを忘れないでください。幸運を祈ります、ハッカー！",
+             })}
+         </p>
+         <!-- Optional: Link to a more detailed guide or community -->
+         <!-- <a href="/guides" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+           {translate({en: "Explore Detailed Guides", ...})}
+         </a> -->
+       </div>
+
+    </div>
+  </div>
+</Layout>
+
+<style>
+
+</style>

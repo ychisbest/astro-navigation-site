@@ -1,0 +1,166 @@
+---
+import { SITE_TITLE } from '@/consts';
+import { useTranslations, type Lang, LOCALES } from '@/i18n';
+import Layout from '@/layouts/Base.astro';
+
+const lang = Astro.params.lang as Lang;
+const t = useTranslations(lang);
+
+export const getStaticPaths = () =>
+  Object.keys(LOCALES).map((lang) => ({
+    params: { lang },
+  }));
+
+---
+
+<Layout title={t({
+  en: "Privacy Policy",
+  es: "Política de Privacidad",
+  ar: "سياسة الخصوصية",
+  pt: "Política de Privacidade",
+  fr: "Politique de Confidentialité",
+  ru: "Политика конфиденциальности",
+  "zh-cn": "隐私政策",
+  ja: "プライバシーポリシー"
+})} >
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-8">{t({
+      en: "Privacy Policy",
+      es: "Política de Privacidad", 
+      ar: "سياسة الخصوصية",
+      pt: "Política de Privacidade",
+      fr: "Politique de Confidentialité",
+      ru: "Политика конфиденциальности",
+      "zh-cn": "隐私政策",
+      ja: "プライバシーポリシー"
+    })}</h1>
+
+    <div class="prose prose-slate max-w-none">
+      <p class="mb-6">{t({
+        en: "Last updated: March 8, 2025",
+        es: "Última actualización: 8 de marzo de 2025",
+        ar: "آخر تحديث: 8 مارس 2025",
+        pt: "Última atualização: 8 de março de 2025",
+        fr: "Dernière mise à jour: 8 mars 2025",
+        ru: "Последнее обновление: 8 марта 2025",
+        "zh-cn": "最后更新时间：2025年3月8日",
+        ja: "最終更新日：2025年3月8日"
+      })}</p>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-4">{t({
+          en: "Introduction",
+          es: "Introducción",
+          ar: "مقدمة",
+          pt: "Introdução",
+          fr: "Introduction",
+          ru: "Введение",
+          "zh-cn": "介绍",
+          ja: "はじめに"
+        })}</h2>
+        <p class="mb-4">{t({
+          en: `${SITE_TITLE} is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information.`,
+          es: `${SITE_TITLE} se compromete a proteger su privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información.`,
+          ar: `${SITE_TITLE} ملتزمة بحماية خصوصيتك. توضح سياسة الخصوصية هذه كيفية جمع معلوماتك واستخدامها وحمايتها.`,
+          pt: `${SITE_TITLE} está comprometida em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações.`,
+          fr: `${SITE_TITLE} s'engage à protéger votre vie privée. Cette Politique de Confidentialité explique comment nous collectons, utilisons et protégeons vos informations.`,
+          ru: `${SITE_TITLE} стремится защищать вашу конфиденциальность. В этой Политике конфиденциальности объясняется, как мы собираем, используем и защищаем вашу информацию.`,
+          "zh-cn": `${SITE_TITLE} 致力于保护您的隐私。本隐私政策解释了我们如何收集、使用和保护您的信息。`,
+          ja: `${SITE_TITLE} はお客様のプライバシーを保護することに努めています。本プライバシーポリシーでは、情報の収集、使用、保護方法について説明します。`
+        })}</p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-4">{t({
+          en: "Information We Collect",
+          es: "Información que Recopilamos",
+          ar: "المعلومات التي نجمعها",
+          pt: "Informações que Coletamos",
+          fr: "Informations que Nous Collectons",
+          ru: "Информация, которую мы собираем",
+          "zh-cn": "我们收集的信息",
+          ja: "収集する情報"
+        })}</h2>
+        <p class="mb-4">{t({
+          en: "We collect information you provide directly to us, such as when you create an account, subscribe to our newsletter, or contact us.",
+          es: "Recopilamos información que nos proporciona directamente, como cuando crea una cuenta, se suscribe a nuestro boletín o se pone en contacto con nosotros.",
+          ar: "نجمع المعلومات التي تقدمها لنا مباشرة، مثل عندما تنشئ حسابًا أو تشترك في نشرتنا الإخبارية أو تتصل بنا.",
+          pt: "Coletamos informações que você fornece diretamente para nós, como quando cria uma conta, assina nosso boletim informativo ou entra em contato conosco.",
+          fr: "Nous collectons les informations que vous nous fournissez directement, comme lorsque vous créez un compte, vous abonnez à notre newsletter ou nous contactez.",
+          ru: "Мы собираем информацию, которую вы предоставляете нам напрямую, например, когда вы создаете учетную запись, подписываетесь на нашу рассылку или связываетесь с нами.",
+          "zh-cn": "我们收集您直接提供给我们的信息，例如当您创建帐户、订阅我们的新闻通讯或联系我们时。",
+          ja: "アカウントを作成したり、ニュースレターを購読したり、お問い合わせいただいた際に直接提供される情報を収集します。"
+        })}</p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-4">{t({
+          en: "How We Use Your Information",
+          es: "Cómo Usamos su Información",
+          ar: "كيف نستخدم معلوماتك",
+          pt: "Como Usamos Suas Informações",
+          fr: "Comment Nous Utilisons Vos Informations",
+          ru: "Как мы используем вашу информацию",
+          "zh-cn": "我们如何使用您的信息",
+          ja: "情報の使用方法"
+        })}</h2>
+        <p class="mb-4">{t({
+          en: `We use your information to provide, maintain, and improve ${SITE_TITLE}, as well as to communicate with you about updates and offers.`,
+          es: `Usamos su información para proporcionar, mantener y mejorar ${SITE_TITLE}, así como para comunicarnos con usted sobre actualizaciones y ofertas.`,
+          ar: `نستخدم معلوماتك لتوفير وصيانة وتحسين ${SITE_TITLE}، وكذلك للتواصل معك بشأن التحديثات والعروض.`,
+          pt: `Usamos suas informações para fornecer, manter e melhorar ${SITE_TITLE}, bem como para nos comunicar com você sobre atualizações e ofertas.`,
+          fr: `Nous utilisons vos informations pour fournir, maintenir et améliorer ${SITE_TITLE}, ainsi que pour communiquer avec vous à propos des mises à jour et des offres.`,
+          ru: `Мы используем вашу информацию для предоставления, поддержки и улучшения ${SITE_TITLE}, а также для связи с вами по поводу обновлений и предложений.`,
+          "zh-cn": `我们使用您的信息来提供、维护和改进 ${SITE_TITLE}，以及与您沟通更新和优惠信息。`,
+          ja: `${SITE_TITLE} を提供、維持、改善するため、また更新やオファーについてご連絡するために情報を使用します。`
+        })}</p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-4">{t({
+          en: "Your Rights",
+          es: "Sus Derechos",
+          ar: "حقوقك",
+          pt: "Seus Direitos",
+          fr: "Vos Droits",
+          ru: "Ваши права",
+          "zh-cn": "您的权利",
+          ja: "お客様の権利"
+        })}</h2>
+        <p class="mb-4">{t({
+          en: "You have the right to access, update, or delete your personal information. Please contact us if you wish to exercise these rights.",
+          es: "Tiene derecho a acceder, actualizar o eliminar su información personal. Contáctenos si desea ejercer estos derechos.",
+          ar: "لديك الحق في الوصول إلى معلوماتك الشخصية أو تحديثها أو حذفها. يرجى الاتصال بنا إذا كنت ترغب في ممارسة هذه الحقوق.",
+          pt: "Você tem o direito de acessar, atualizar ou excluir suas informações pessoais. Entre em contato conosco se desejar exercer esses direitos.",
+          fr: "Vous avez le droit d'accéder, de mettre à jour ou de supprimer vos informations personnelles. Veuillez nous contacter si vous souhaitez exercer ces droits.",
+          ru: "Вы имеете право на доступ, обновление или удаление вашей личной информации. Пожалуйста, свяжитесь с нами, если вы хотите воспользоваться этими правами.",
+          "zh-cn": "您有权访问、更新或删除您的个人信息。如果您希望行使这些权利，请联系我们。",
+          ja: "個人情報へのアクセス、更新、削除する権利があります。これらの権利を行使したい場合はお問い合わせください。"
+        })}</p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold mb-4">{t({
+          en: "Contact Us",
+          es: "Contáctenos",
+          ar: "اتصل بنا",
+          pt: "Entre em Contato",
+          fr: "Contactez-nous",
+          ru: "Свяжитесь с нами",
+          "zh-cn": "联系我们",
+          ja: "お問い合わせ"
+        })}</h2>
+        <p>{t({
+          en: `If you have any questions about this Privacy Policy or ${SITE_TITLE}, please contact us.`,
+          es: `Si tiene alguna pregunta sobre esta Política de Privacidad o ${SITE_TITLE}, contáctenos.`,
+          ar: `إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه أو ${SITE_TITLE}، يرجى الاتصال بنا.`,
+          pt: `Se você tiver alguma dúvida sobre esta Política de Privacidade ou ${SITE_TITLE}, entre em contato conosco.`,
+          fr: `Si vous avez des questions concernant cette Politique de Confidentialité ou ${SITE_TITLE}, veuillez nous contacter.`,
+          ru: `Если у вас есть вопросы об этой Политике конфиденциальности или ${SITE_TITLE}, пожалуйста, свяжитесь с нами.`,
+          "zh-cn": `如果您对本隐私政策或 ${SITE_TITLE} 有任何问题，请联系我们。`,
+          ja: `このプライバシーポリシーまたは ${SITE_TITLE} についてご質問がある場合は、お問い合わせください。`
+        })}</p>
+      </section>
+    </div>
+  </main>
+</Layout>

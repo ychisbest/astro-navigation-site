@@ -1,0 +1,81 @@
+---
+import Base from "@/layouts/Base.astro";
+import { useTranslations, type Lang, LOCALES } from "@/i18n";
+import { Icon } from "astro-icon/components";
+
+const t = useTranslations(Astro.currentLocale as Lang);
+
+export const getStaticPaths = () =>
+  Object.keys(LOCALES).map((lang) => ({
+    params: { lang },
+  }));
+---
+
+<Base>
+  <main class="max-w-4xl mx-auto px-4 py-12">
+    <div class="space-y-8">
+      <!-- Header Section -->
+      <div class="text-center space-y-4">
+        <Icon name="mdi:information-outline" class="w-16 h-16 mx-auto text-blue-600" />
+        <h1 class="text-4xl font-bold tracking-tight">
+          FastToolHub
+        </h1>
+      </div>
+
+      <!-- Description Section -->
+      <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
+        <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+          {t({
+            en: "A collection of free and efficient tools to help indie hackers boost productivity and build their projects faster.",
+            es: "Una colección de herramientas gratuitas y eficientes para ayudar a los hackers independientes a aumentar la productividad y construir sus proyectos más rápido.",
+            ar: "مجموعة من الأدوات المجانية والفعالة لمساعدة المطورين المستقلين على تعزيز الإنتاجية وبناء مشاريعهم بشكل أسرع.",
+            pt: "Uma coleção de ferramentas gratuitas e eficientes para ajudar desenvolvedores independentes a aumentar a produtividade e construir seus projetos mais rapidamente.",
+            fr: "Une collection d'outils gratuits et efficaces pour aider les développeurs indépendants à augmenter leur productivité et à construire leurs projets plus rapidement.",
+            ru: "Коллекция бесплатных и эффективных инструментов, помогающих независимым разработчикам повысить продуктивность и быстрее создавать свои проекты.",
+            "zh-cn": "为独立开发者提供的免费高效工具集合，旨在帮助提升生产力并加速项目开发。这里汇集了各种实用工具，让您的创意更快地变为现实，节省宝贵的开发时间，专注于创造价值。",
+            ja: "独立系開発者の生産性を高め、プロジェクトをより速く構築するのに役立つ無料で効率的なツールのコレクション。"
+          })}
+        </p>
+      </div>
+
+      <!-- Features Section -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
+          <div class="flex items-center gap-3 mb-4">
+            <Icon name="mdi:rocket-launch" class="w-6 h-6 text-blue-600" />
+            <h3 class="text-xl font-semibold">
+              {t({
+                en: "Boost Productivity",
+                es: "Aumenta la Productividad",
+                ar: "تعزيز الإنتاجية",
+                pt: "Aumente a Produtividade",
+                fr: "Augmentez la Productivité",
+                ru: "Повысьте Продуктивность",
+                "zh-cn": "提升生产力",
+                ja: "生産性の向上"
+              })}
+            </h3>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
+          <div class="flex items-center gap-3 mb-4">
+            <Icon name="mdi:tools" class="w-6 h-6 text-blue-600" />
+            <h3 class="text-xl font-semibold">
+              {t({
+                en: "Free Tools",
+                es: "Herramientas Gratuitas",
+                ar: "أدوات مجانية",
+                pt: "Ferramentas Gratuitas",
+                fr: "Outils Gratuits",
+                ru: "Бесплатные Инструменты",
+                "zh-cn": "免费工具",
+                ja: "無料ツール"
+              })}
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</Base>
